@@ -5,7 +5,7 @@ author: Product Team
 excerpt: Master batch scanning with our comprehensive guide. Learn how to scan 50+ pages efficiently and organize them into professional PDFs.
 tags: [tutorial, productivity, scanning]
 readTime: 4 min read
-image: /blog-images/batch-scanning.jpg
+image: /blog-images/batch-scanning.svg
 ---
 
 **Batch scanning** is a game-changer for anyone dealing with multi-page documents. Whether you're digitizing a contract, archiving receipts, or processing forms, ScanDocPro's batch mode saves hours of work.

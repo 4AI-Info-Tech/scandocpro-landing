@@ -5,7 +5,7 @@ date: 2026-01-15
 author: 4AI Team
 tags: [announcement, product]
 readTime: 3 min read
-image: /blog-images/welcome.jpg
+image: /blog-images/welcome.svg
 ---
 
 We're thrilled to introduce **ScanDocPro**, the intelligent document scanner that puts professional-grade scanning capabilities right in your pocket.

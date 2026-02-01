@@ -5,7 +5,7 @@ date: 2026-01-25
 author: Security Team
 tags: [security, privacy, best-practices]
 readTime: 6 min read
-image: /blog-images/security.jpg
+image: /blog-images/security.svg
 ---
 
 In an era where mobile devices handle increasingly sensitive information, **document security** is more critical than ever. This guide covers essential practices for keeping your digital documents safe.

@@ -5,7 +5,7 @@ date: 2026-01-20
 author: Dr. Ahmet Yilmaz
 tags: [technology, OCR, AI]
 readTime: 5 min read
-image: /blog-images/ocr-technology.jpg
+image: /blog-images/ocr-technology.svg
 ---
 
 **Optical Character Recognition (OCR)** has revolutionized how we digitize documents. But how does it actually work? Let's explore the technology powering modern document scanners like ScanDocPro.
