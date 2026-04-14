@@ -7,6 +7,10 @@ const __dirname = path.dirname(__filename);
 
 const BASE_URL = 'https://scandocpro.com';
 const TODAY = new Date().toISOString().split('T')[0];
+const PROGRAMMATIC_HUBS_PATH = path.join(__dirname, '..', 'src', 'data', 'programmatic-hubs.json');
+const PROGRAMMATIC_DOCUMENTS_PATH = path.join(__dirname, '..', 'src', 'data', 'programmatic-documents.json');
+const PROGRAMMATIC_SOLUTIONS_PATH = path.join(__dirname, '..', 'src', 'data', 'programmatic-solutions.json');
+const PROGRAMMATIC_COMPARE_PATH = path.join(__dirname, '..', 'src', 'data', 'programmatic-compare.json');
 
 const staticRoutes = [
   { url: '/', priority: 1.0, changefreq: 'weekly' },
@@ -28,9 +32,52 @@ function getBlogPosts() {
   }));
 }
 
+function readJsonFile(filePath) {
+  if (!fs.existsSync(filePath)) {
+    return [];
+  }
+
+  return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+}
+
+function getProgrammaticRoutes() {
+  const hubs = readJsonFile(PROGRAMMATIC_HUBS_PATH);
+  const documents = readJsonFile(PROGRAMMATIC_DOCUMENTS_PATH);
+  const solutions = readJsonFile(PROGRAMMATIC_SOLUTIONS_PATH);
+  const comparisons = readJsonFile(PROGRAMMATIC_COMPARE_PATH);
+
+  return [
+    ...hubs.map((hub) => ({
+      url: hub.url,
+      priority: 0.85,
+      changefreq: 'weekly',
+      lastmod: TODAY,
+    })),
+    ...documents.map((page) => ({
+      url: `/documents/${page.slug}/`,
+      priority: 0.8,
+      changefreq: 'monthly',
+      lastmod: TODAY,
+    })),
+    ...solutions.map((page) => ({
+      url: `/solutions/${page.slug}/`,
+      priority: 0.8,
+      changefreq: 'monthly',
+      lastmod: TODAY,
+    })),
+    ...comparisons.map((page) => ({
+      url: `/compare/${page.slug}/`,
+      priority: 0.8,
+      changefreq: 'monthly',
+      lastmod: TODAY,
+    })),
+  ];
+}
+
 function generateSitemap() {
   const blogPosts = getBlogPosts();
-  const allRoutes = [...staticRoutes, ...blogPosts];
+  const programmaticRoutes = getProgrammaticRoutes();
+  const allRoutes = [...staticRoutes, ...blogPosts, ...programmaticRoutes];
   
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

@@ -3,10 +3,13 @@ import { StaticRouter } from 'react-router-dom/server';
 import AppShell from '@/App';
 import { PageDataProvider, type PageData } from '@/context/PageDataContext';
 import type { BlogPost, SEOProps } from '@/types';
+import { programmaticHubs, programmaticPages } from '@/data/programmaticPages';
 import {
   getBlogPostSEO,
   getBlogSEO,
   getHomeSEO,
+  getProgrammaticHubSEO,
+  getProgrammaticPageSEO,
   getPrivacySEO,
   getTermsSEO,
   renderSEOHead,
@@ -60,6 +63,22 @@ export function getPrerenderPages(posts: BlogPost[]): PrerenderPage[] {
       template: 'blog.html',
       seo: getBlogPostSEO(post),
       initialData: { blogPost: post },
+    });
+  });
+
+  programmaticHubs.forEach((hub) => {
+    pages.push({
+      path: hub.url,
+      template: 'index.html',
+      seo: getProgrammaticHubSEO(hub),
+    });
+  });
+
+  programmaticPages.forEach((page) => {
+    pages.push({
+      path: page.url,
+      template: 'index.html',
+      seo: getProgrammaticPageSEO(page),
     });
   });
 

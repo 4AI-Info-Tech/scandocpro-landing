@@ -3,6 +3,7 @@ import { createRoot, hydrateRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import AppShell from './App';
 import { PageDataProvider } from '@/context/PageDataContext';
+import { initAnalytics } from '@/utils/analytics';
 import './index.css';
 
 const container = document.getElementById('root')!;
@@ -21,3 +22,5 @@ if (container.hasChildNodes()) {
 } else {
   createRoot(container).render(app);
 }
+
+void initAnalytics();

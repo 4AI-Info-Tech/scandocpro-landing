@@ -1,14 +1,16 @@
 import { 
   Zap, Type, ScanLine, Layers, PenTool, Share2,
   Briefcase, BookOpen, Home as HomeIcon, Check, Shield,
-  FileText, Camera, Send
+  FileText, Camera, Send, Scale, ArrowRight
 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { SEO } from '@/components/SEO';
 import { GradientText } from '@/components/GradientText';
 import { PhoneMockup } from '@/components/PhoneMockup';
 import { AppBadge } from '@/components/AppBadge';
 import { FeatureCard } from '@/components/FeatureCard';
 import { StepCard } from '@/components/StepCard';
+import { programmaticHubs } from '@/data/programmaticPages';
 import { getHomeSEO } from '@/utils/seo';
 
 const features = [
@@ -32,6 +34,12 @@ const industries = [
   { icon: Send, label: 'Logistics' },
   { icon: BookOpen, label: 'Education' },
 ];
+
+const hubIcons = {
+  documents: FileText,
+  solutions: Briefcase,
+  compare: Scale,
+} as const;
 
 export function Home() {
   const seo = getHomeSEO();
@@ -161,6 +169,52 @@ export function Home() {
                 <p className="text-gray-600 dark:text-gray-400">{useCase.description}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Workflow Hubs */}
+      <section className="py-20 lg:py-32 bg-gray-50 dark:bg-gray-900/50 border-y border-gray-100 dark:border-gray-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+              Explore <GradientText>Search-Ready Workflows</GradientText>
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+              Browse ScanDocPro by document type, role, or competitor evaluation so you land on the workflow that matches the job at hand.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+            {programmaticHubs.map((hub) => {
+              const Icon = hubIcons[hub.family];
+
+              return (
+                <Link
+                  key={hub.family}
+                  to={hub.url}
+                  className="group rounded-3xl border border-gray-200 bg-white p-8 shadow-sm transition-all hover:-translate-y-1 hover:border-primary-300 hover:shadow-lg dark:border-gray-800 dark:bg-gray-900 dark:hover:border-primary-700"
+                >
+                  <div className="w-14 h-14 bg-gradient-to-br from-primary-500 to-accent-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                    <Icon className="w-7 h-7 text-white" />
+                  </div>
+                  <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">{hub.h1}</h3>
+                  <p className="text-gray-600 dark:text-gray-400 mb-6">{hub.metaDescription}</p>
+                  <div className="space-y-3 mb-6">
+                    {hub.heroBullets.slice(0, 2).map((bullet) => (
+                      <div key={bullet} className="flex items-start text-sm text-gray-600 dark:text-gray-400">
+                        <Check className="w-4 h-4 text-accent-500 mr-2 mt-0.5 flex-shrink-0" />
+                        <span>{bullet}</span>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="inline-flex items-center text-sm font-semibold text-primary-600 dark:text-primary-400">
+                    Explore hub
+                    <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>

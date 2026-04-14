@@ -3,14 +3,15 @@ import { Scan } from 'lucide-react';
 
 const footerLinks = {
   product: [
-    { label: 'Features', href: '/#features', external: false },
-    { label: 'Bundle', href: '/#bundle', external: false },
+    { label: 'Documents', href: '/documents/', external: false },
+    { label: 'Solutions', href: '/solutions/', external: false },
+    { label: 'Compare', href: '/compare/', external: false },
     { label: 'Blog', href: '/blog/', external: false },
   ],
   company: [
     { label: 'About', href: '/blog/about-scandocpro/', external: false },
-    { label: '4AI Teknoloji', href: 'https://4aiteknoloji.com', external: true },
     { label: 'SendFaxPro', href: 'https://sendfax.pro', external: true },
+    { label: '4AI Teknoloji', href: 'https://4aiteknoloji.com', external: true },
   ],
   legal: [
     { label: 'Privacy Policy', href: '/privacy/', external: false },

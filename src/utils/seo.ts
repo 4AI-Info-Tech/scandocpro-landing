@@ -1,5 +1,7 @@
 import type { SEOProps } from '@/types';
 import type { BlogPost } from '@/types';
+import type { ProgrammaticHub, ProgrammaticPage } from '@/types';
+import { getProgrammaticFamilyLabel } from '@/data/programmaticPages';
 
 const DEFAULT_SEO = {
   siteName: 'ScanDocPro',
@@ -133,6 +135,76 @@ function buildBlogPostSchema(post: BlogPost): Record<string, unknown> {
   };
 }
 
+function buildBreadcrumbSchema(items: Array<{ name: string; path: string }>): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      item: buildAbsoluteUrl(item.path),
+    })),
+  };
+}
+
+function buildFAQSchema(faq: ProgrammaticPage['faq'] | ProgrammaticHub['faq']): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.answer,
+      },
+    })),
+  };
+}
+
+function buildHowToSchema(page: ProgrammaticPage): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: page.title,
+    description: page.metaDescription,
+    step: page.workflowSteps.map((step, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      name: `Step ${index + 1}`,
+      text: step,
+    })),
+    totalTime: 'PT5M',
+    tool: page.recommendedFeatures.map((feature) => ({
+      '@type': 'HowToTool',
+      name: feature,
+    })),
+  };
+}
+
+function buildWebPageSchema(path: string, name: string, description: string): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name,
+    description,
+    url: buildAbsoluteUrl(path),
+    isPartOf: siteConfig.siteUrl,
+  };
+}
+
+function buildCollectionPageSchema(hub: ProgrammaticHub): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: hub.title,
+    description: hub.metaDescription,
+    url: buildAbsoluteUrl(hub.url),
+    isPartOf: siteConfig.siteUrl,
+  };
+}
+
 export function createPageSEO({
   path,
   title,
@@ -202,6 +274,64 @@ export function getBlogPostSEO(post: BlogPost): SEOProps {
     type: 'article',
     keywords: post.tags,
     schema: [buildBlogPostSchema(post)],
+  });
+}
+
+export function getProgrammaticHubSEO(hub: ProgrammaticHub): SEOProps {
+  const familyLabel = getProgrammaticFamilyLabel(hub.family);
+
+  return createPageSEO({
+    path: hub.url,
+    title: hub.title,
+    description: hub.metaDescription,
+    keywords: [
+      hub.targetKeyword,
+      `${familyLabel.toLowerCase()} scanner app`,
+      'document scanner app',
+      'ocr scanner app',
+      'mobile document workflow',
+    ],
+    schema: [
+      buildCollectionPageSchema(hub),
+      buildBreadcrumbSchema([
+        { name: 'Home', path: '/' },
+        { name: familyLabel, path: hub.url },
+      ]),
+      buildFAQSchema(hub.faq),
+    ],
+  });
+}
+
+export function getProgrammaticPageSEO(page: ProgrammaticPage): SEOProps {
+  const familyLabel = getProgrammaticFamilyLabel(page.family);
+  const schema: Array<Record<string, unknown>> = [
+    buildWebPageSchema(page.url, page.title, page.metaDescription),
+    buildBreadcrumbSchema([
+      { name: 'Home', path: '/' },
+      { name: familyLabel, path: `/${page.family}/` },
+      { name: page.title, path: page.url },
+    ]),
+  ];
+
+  if (page.schemaType === 'HowTo') {
+    schema.push(buildHowToSchema(page));
+  }
+
+  if (page.faq.length > 0) {
+    schema.push(buildFAQSchema(page.faq));
+  }
+
+  return createPageSEO({
+    path: page.url,
+    title: page.title,
+    description: page.metaDescription,
+    keywords: [
+      page.targetKeyword,
+      ...page.recommendedFeatures.map((feature) => feature.toLowerCase()),
+      'document scanner app',
+      'ocr scanner app',
+    ],
+    schema,
   });
 }
 

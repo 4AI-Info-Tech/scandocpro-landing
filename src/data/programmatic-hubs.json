@@ -1,0 +1,110 @@
+[
+  {
+    "family": "documents",
+    "url": "/documents/",
+    "title": "Document Scanning Workflows | ScanDocPro",
+    "metaDescription": "Explore practical guides for scanning receipts, contracts, IDs, tax paperwork, and other work-critical documents with OCR, AI cleanup, and send-ready exports.",
+    "h1": "Scan the Documents That Keep Work Moving",
+    "intro": "Document-heavy work falls apart when scans are crooked, unreadable, or hard to route. This hub collects the workflows people actually search for, from receipts and invoices to medical records and compliance documents.",
+    "targetKeyword": "scan documents on your phone",
+    "heroBullets": [
+      "Receipts, contracts, IDs, statements, and compliance paperwork",
+      "Guides tuned for OCR, AI cleanup, batching, and send-ready exports",
+      "Built to connect scanning workflows with SendFaxPro when delivery matters"
+    ],
+    "sectionTitle": "Popular document workflows",
+    "sectionDescription": "Each page focuses on one document type so the advice, export choices, and bundle CTA match the real workflow.",
+    "faq": [
+      {
+        "question": "Which document pages should launch first?",
+        "answer": "Start with the pages that match high-friction business workflows: receipts, invoices, contracts, tax documents, expense reports, IDs, and insurance forms."
+      },
+      {
+        "question": "Why organize by document type instead of one generic scanner page?",
+        "answer": "People searching for receipt scanning, ID scanning, or contract scanning have different intent, problems, and conversion paths. Separate pages let ScanDocPro answer those workflows directly."
+      }
+    ],
+    "featuredUrls": [
+      "/documents/receipts/",
+      "/documents/contracts/",
+      "/documents/tax-documents/",
+      "/documents/insurance-forms/"
+    ],
+    "relatedFamilies": [
+      "solutions",
+      "compare"
+    ]
+  },
+  {
+    "family": "solutions",
+    "url": "/solutions/",
+    "title": "Scanner App by Role and Workflow | ScanDocPro",
+    "metaDescription": "See how ScanDocPro fits students, accountants, lawyers, real estate teams, consultants, and other document-heavy roles that need fast OCR and secure delivery workflows.",
+    "h1": "Scanner App Workflows for Real Teams",
+    "intro": "Different roles create different document bottlenecks. Students care about notes, accountants care about reimbursement packets, and legal teams care about readability, signatures, and delivery. This hub groups ScanDocPro by role so the message matches the work.",
+    "targetKeyword": "best scanner app for work",
+    "heroBullets": [
+      "Role-specific scanning pages for students, freelancers, accountants, lawyers, and more",
+      "Guidance matched to the document mix each team handles every week",
+      "A stronger bundle story for teams that scan and then send with SendFaxPro"
+    ],
+    "sectionTitle": "Role-based scanner pages",
+    "sectionDescription": "These pages focus on the mix of documents, approvals, and turnaround speed each audience cares about most.",
+    "faq": [
+      {
+        "question": "Why create persona pages for a scanner app?",
+        "answer": "Role-based pages help ScanDocPro rank for 'scanner app for [audience]' queries while giving each audience concrete reasons to trust the workflow."
+      },
+      {
+        "question": "What makes these pages different from the document pages?",
+        "answer": "Document pages solve one item at a time. Solution pages bundle together the recurring documents, pain points, and sharing patterns for a specific role."
+      }
+    ],
+    "featuredUrls": [
+      "/solutions/students/",
+      "/solutions/accountants/",
+      "/solutions/real-estate-agents/",
+      "/solutions/lawyers/"
+    ],
+    "relatedFamilies": [
+      "documents",
+      "compare"
+    ]
+  },
+  {
+    "family": "compare",
+    "url": "/compare/",
+    "title": "Scanner App Alternatives and Comparisons | ScanDocPro",
+    "metaDescription": "Compare ScanDocPro against popular scanner apps with a balanced view of OCR, cleanup, batch scanning, privacy, and send-ready document workflows.",
+    "h1": "Compare ScanDocPro Against Popular Scanner Apps",
+    "intro": "Comparison pages work when they are credible, specific, and useful. This hub helps searchers understand where ScanDocPro is a better fit for OCR-heavy, batch-heavy, or send-critical workflows and where another app may still make sense.",
+    "targetKeyword": "scanner app alternatives",
+    "heroBullets": [
+      "Balanced alternative pages for well-known scanner apps",
+      "Focused on OCR, cleanup, batching, privacy, and document delivery flow",
+      "Designed to convert searchers who are already evaluating options"
+    ],
+    "sectionTitle": "Alternative pages",
+    "sectionDescription": "Each comparison highlights where ScanDocPro fits best and where a competing app may still suit a lighter workflow.",
+    "faq": [
+      {
+        "question": "How should comparison pages stay credible?",
+        "answer": "Keep them descriptive, avoid unsourced pricing claims, and include situations where the competing app may still be the better fit."
+      },
+      {
+        "question": "Why launch comparison pages in phase one?",
+        "answer": "Alternative searches signal strong product evaluation intent. They are often easier to convert than broad awareness queries because the searcher already knows scanner apps exist."
+      }
+    ],
+    "featuredUrls": [
+      "/compare/adobe-scan-alternative/",
+      "/compare/camscanner-alternative/",
+      "/compare/microsoft-lens-alternative/",
+      "/compare/tiny-scanner-alternative/"
+    ],
+    "relatedFamilies": [
+      "documents",
+      "solutions"
+    ]
+  }
+]

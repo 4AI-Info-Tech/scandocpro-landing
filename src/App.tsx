@@ -6,6 +6,8 @@ import { Home } from '@/pages/Home';
 import { Blog } from '@/pages/Blog';
 import { BlogPost } from '@/pages/BlogPost';
 import { Privacy } from '@/pages/Privacy';
+import { ProgrammaticHub } from '@/pages/ProgrammaticHub';
+import { ProgrammaticPage } from '@/pages/ProgrammaticPage';
 import { Terms } from '@/pages/Terms';
 
 export function AppShell() {
@@ -18,6 +20,12 @@ export function AppShell() {
             <Route path="/" element={<Home />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
+            <Route path="/documents" element={<ProgrammaticHub family="documents" />} />
+            <Route path="/documents/:slug" element={<ProgrammaticPage family="documents" />} />
+            <Route path="/solutions" element={<ProgrammaticHub family="solutions" />} />
+            <Route path="/solutions/:slug" element={<ProgrammaticPage family="solutions" />} />
+            <Route path="/compare" element={<ProgrammaticHub family="compare" />} />
+            <Route path="/compare/:slug" element={<ProgrammaticPage family="compare" />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
           </Routes>

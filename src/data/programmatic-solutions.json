@@ -1,0 +1,562 @@
+[
+  {
+    "slug": "students",
+    "name": "Students",
+    "targetKeyword": "best scanner app for students",
+    "intro": "Give students a faster way to turn lecture notes, handouts, whiteboards, and forms into organized study PDFs from a phone.",
+    "heroBullets": [
+      "Batch lecture notes after class",
+      "Clean up handouts, notebook pages, and whiteboards",
+      "Build a study archive without living in the camera roll"
+    ],
+    "keyProblems": [
+      "Class material is scattered across notebooks, handouts, and whiteboards",
+      "Students need quick capture before notes are lost or erased",
+      "Exam review gets harder when study material is disorganized"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "AI-Enhanced Scanning",
+      "Instant OCR"
+    ],
+    "workflowSteps": [
+      "Capture notes, handouts, and whiteboards after class",
+      "Enhance pages so handwriting and printed text are easier to read",
+      "Export organized PDFs by course, topic, or week"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Support fast capture after class",
+        "body": "Student pages work when they match the real moment of need: capturing notes quickly before the next class starts or the whiteboard is erased."
+      },
+      {
+        "heading": "Build better study packs",
+        "body": "A student-focused scanner page should emphasize organized review, not just scanning for its own sake. Searchers want a reusable study archive."
+      },
+      {
+        "heading": "Keep sharing lightweight",
+        "body": "Students often swap notes and handouts with classmates. A clean PDF pack is easier to share and revisit than a folder of random photos."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why target students with a dedicated page?",
+        "answer": "Because students search for a scanner app that fits notes, study packs, and whiteboard capture, not a generic office workflow."
+      },
+      {
+        "question": "Which supporting pages should this page link to?",
+        "answer": "Lecture notes, handwritten notes, and whiteboards are the strongest related pages for student intent."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/lecture-notes/",
+      "/documents/handwritten-notes/",
+      "/documents/whiteboards/"
+    ],
+    "schemaType": "FAQPage"
+  },
+  {
+    "slug": "freelancers",
+    "name": "Freelancers",
+    "targetKeyword": "best scanner app for freelancers",
+    "intro": "Help freelancers digitize contracts, invoices, receipts, and project paperwork without building an admin backlog on their phone.",
+    "heroBullets": [
+      "Scan client contracts and signed paperwork quickly",
+      "Organize invoices and receipts for billing and taxes",
+      "Use the SendFaxPro bundle when a client or office still expects fax delivery"
+    ],
+    "keyProblems": [
+      "Freelancers handle legal, billing, and expense paperwork alone",
+      "Client admin tasks compete with billable work",
+      "Important documents need to move fast without looking improvised"
+    ],
+    "recommendedFeatures": [
+      "Instant OCR",
+      "Batch Mode",
+      "Ecosystem Integration"
+    ],
+    "workflowSteps": [
+      "Capture contracts, invoices, and receipts as they come in",
+      "Group related documents into client or project packets",
+      "Export polished PDFs for billing, record-keeping, or delivery"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Reduce solo admin overhead",
+        "body": "Freelancer intent centers on time. The page should show that ScanDocPro reduces document admin so more time stays available for paid work."
+      },
+      {
+        "heading": "Support client-facing professionalism",
+        "body": "Independent professionals often need to send paperwork directly to clients. A clean scan matters because the document reflects on the sender."
+      },
+      {
+        "heading": "Bundle the full workflow",
+        "body": "Freelancers benefit from a tool chain that does not end at capture. The SendFaxPro angle makes sense when the paperwork still needs formal delivery."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why does a freelancer page matter?",
+        "answer": "Because freelancers manage a mix of contracts, invoices, receipts, and approvals that is different from student or enterprise-specific scanning intent."
+      },
+      {
+        "question": "What related pages help this audience most?",
+        "answer": "Contracts, invoices, expense reports, and receipts are the strongest internal links for freelancer-focused searchers."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/contracts/",
+      "/documents/invoices/",
+      "/documents/expense-reports/"
+    ],
+    "schemaType": "FAQPage"
+  },
+  {
+    "slug": "accountants",
+    "name": "Accountants",
+    "targetKeyword": "best scanner app for accountants",
+    "intro": "Show accounting teams a faster way to organize receipts, tax documents, bank statements, and reimbursement packets from mobile workflows.",
+    "heroBullets": [
+      "Scan financial paperwork into readable, ordered packets",
+      "Use OCR to find totals, dates, and document identifiers faster",
+      "Support clients and back offices that still work through fax-heavy channels"
+    ],
+    "keyProblems": [
+      "Accounting teams receive mixed paper quality from many sources",
+      "Unreadable financial scans slow review and reconciliation",
+      "Month-end and tax-season pressure amplifies every document bottleneck"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "Instant OCR",
+      "AI-Enhanced Scanning"
+    ],
+    "workflowSteps": [
+      "Capture receipts, statements, and tax documents in grouped batches",
+      "Enhance pages so totals and dates remain readable",
+      "Export organized packets for review, filing, or secure delivery"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Match the accounting document mix",
+        "body": "This page works when it reflects the actual financial packet accountants manage: statements, receipts, expense reports, and tax documentation together."
+      },
+      {
+        "heading": "Prioritize review speed",
+        "body": "Accountants care about whether they can verify details quickly, not whether the app uses fashionable language. Legibility and order should dominate the messaging."
+      },
+      {
+        "heading": "Support client handoff",
+        "body": "Accounting pages should make it easy to imagine sharing paperwork back to a client, preparer, or legacy office after scanning is complete."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why is an accountant page high priority?",
+        "answer": "Because accounting intent is document-heavy, commercially valuable, and aligned with ScanDocPro's OCR, cleanup, and packet-building strengths."
+      },
+      {
+        "question": "Which document pages should support it?",
+        "answer": "Receipts, tax documents, bank statements, and expense reports are the core supporting pages for accountant-related intent."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/receipts/",
+      "/documents/tax-documents/",
+      "/documents/bank-statements/"
+    ],
+    "schemaType": "FAQPage"
+  },
+  {
+    "slug": "real-estate-agents",
+    "name": "Real Estate Agents",
+    "targetKeyword": "best scanner app for real estate agents",
+    "intro": "Help real estate teams capture leases, IDs, signed disclosures, and supporting paperwork fast enough to keep transactions moving.",
+    "heroBullets": [
+      "Scan lease packets, IDs, and signed pages on the go",
+      "Keep transaction paperwork readable and ordered",
+      "Use the SendFaxPro bundle when a lender, office, or partner still asks for fax delivery"
+    ],
+    "keyProblems": [
+      "Real estate teams work in motion, not at a desk",
+      "Transactions involve many signed pages and identity documents",
+      "Delays happen when paperwork is readable only after a rescan"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "E-Sign & Annotate",
+      "Smart Edge Detection"
+    ],
+    "workflowSteps": [
+      "Capture lease packets, IDs, and forms as the transaction progresses",
+      "Review signature pages and identity documents for clarity",
+      "Export clean PDFs for tenants, owners, lenders, or office staff"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Support mobile transaction work",
+        "body": "Real estate pages should acknowledge that paperwork is often scanned between showings, meetings, and property visits rather than from a stable office setup."
+      },
+      {
+        "heading": "Keep signatures and IDs usable",
+        "body": "This audience depends on readable signatures, initials, and ID copies. Those details matter more than broad app language on a role page."
+      },
+      {
+        "heading": "Fit deal-closing workflows",
+        "body": "The bundle story is strong here because scanning is rarely the end. The document usually has to go to another party quickly and cleanly."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why target real estate agents early?",
+        "answer": "Because they handle high-friction, time-sensitive paperwork with strong overlap across document pages like leases and IDs."
+      },
+      {
+        "question": "Which related pages matter most?",
+        "answer": "Leases, IDs, insurance forms, and contract-style pages are the best supporting routes for this audience."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/leases/",
+      "/documents/ids/",
+      "/documents/insurance-forms/"
+    ],
+    "schemaType": "FAQPage"
+  },
+  {
+    "slug": "lawyers",
+    "name": "Lawyers",
+    "targetKeyword": "best scanner app for lawyers",
+    "intro": "Show legal teams a mobile scanning workflow built for signed documents, evidence packets, exhibits, and fast client-facing delivery.",
+    "heroBullets": [
+      "Capture contracts, exhibits, and signed pages with clean readability",
+      "Batch long document packets without losing order",
+      "Support fax-heavy legal and compliance workflows through the bundle"
+    ],
+    "keyProblems": [
+      "Legal teams work with long, detail-heavy document sets",
+      "Signatures, initials, and clause text must remain readable",
+      "Clients and counterparties still use a mix of modern and legacy delivery channels"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "Instant OCR",
+      "E-Sign & Annotate"
+    ],
+    "workflowSteps": [
+      "Capture the full packet in one ordered batch",
+      "Review signature and exhibit pages for clarity",
+      "Export a clean legal packet for archive, sharing, or fax delivery"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Treat readability as risk reduction",
+        "body": "Legal users care about whether a clause, signature, or exhibit reference will still be readable later. The page should present clarity as operational discipline."
+      },
+      {
+        "heading": "Handle packet scale cleanly",
+        "body": "Long legal sets make batching and page order a stronger value proposition than on most consumer scanning queries."
+      },
+      {
+        "heading": "Respect mixed delivery channels",
+        "body": "Law firms and legal operations often bridge digital and legacy processes. The ScanDocPro plus SendFaxPro workflow feels practical rather than promotional here."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why is a lawyer-focused page credible for ScanDocPro?",
+        "answer": "Because legal work is document-heavy and values the exact features ScanDocPro highlights: readability, order, searchable text, and formal delivery options."
+      },
+      {
+        "question": "Which document pages best support it?",
+        "answer": "Contracts, leases, certificates, and identity-related pages are the strongest supporting links for this audience."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/contracts/",
+      "/documents/leases/",
+      "/documents/certificates/"
+    ],
+    "schemaType": "FAQPage"
+  },
+  {
+    "slug": "educators",
+    "name": "Educators",
+    "targetKeyword": "best scanner app for educators",
+    "intro": "Help educators digitize handouts, whiteboards, lesson notes, and administrative paperwork into clean PDFs they can reuse and share.",
+    "heroBullets": [
+      "Capture classroom whiteboards and lesson notes quickly",
+      "Organize handouts and printed materials by unit or term",
+      "Share polished PDF packets with students or staff"
+    ],
+    "keyProblems": [
+      "Educators manage both teaching material and admin paperwork",
+      "Whiteboards and handouts disappear or get scattered quickly",
+      "Materials need to be reusable across classes, terms, and colleagues"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Batch Mode",
+      "Ecosystem Integration"
+    ],
+    "workflowSteps": [
+      "Capture board notes, handouts, and worksheets during or after class",
+      "Enhance scans so text and diagrams stay readable",
+      "Export organized PDFs for students, staff, or archive"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Bridge classroom and admin work",
+        "body": "Educator pages need to recognize that teachers and trainers switch constantly between teaching materials and administrative documents."
+      },
+      {
+        "heading": "Preserve reusable teaching assets",
+        "body": "A good educator page frames scanning as a way to build a reusable library of class materials, not just save one worksheet once."
+      },
+      {
+        "heading": "Support quick sharing",
+        "body": "Teachers often need to send something right after class. A polished PDF package is easier to circulate than a rushed group of photos."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why group educators separately from students?",
+        "answer": "Because educator intent includes recurring lesson materials, whiteboards, handouts, and staff workflows that differ from student study use cases."
+      },
+      {
+        "question": "What related pages should this route connect to?",
+        "answer": "Whiteboards, lecture notes, handwritten notes, and certificate pages all reinforce educator workflows well."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/whiteboards/",
+      "/documents/lecture-notes/",
+      "/documents/certificates/"
+    ],
+    "schemaType": "FAQPage"
+  },
+  {
+    "slug": "field-sales",
+    "name": "Field Sales",
+    "targetKeyword": "best scanner app for field sales",
+    "intro": "Give field sales teams a faster way to scan signed quotes, order forms, business cards, and customer paperwork while they are still in motion.",
+    "heroBullets": [
+      "Capture signed forms and order paperwork on the go",
+      "Batch cards, notes, and supporting documents after meetings",
+      "Send urgent paperwork through the bundle when a back office still uses fax"
+    ],
+    "keyProblems": [
+      "Field reps do admin work away from desks and scanners",
+      "Customer paperwork needs to move quickly after meetings",
+      "Loose notes and business cards get lost between visits"
+    ],
+    "recommendedFeatures": [
+      "Smart Edge Detection",
+      "Batch Mode",
+      "Ecosystem Integration"
+    ],
+    "workflowSteps": [
+      "Scan the signed or collected paperwork right after the meeting",
+      "Group related forms, cards, and notes into one packet",
+      "Export or deliver the PDF to the right office or teammate"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Match in-the-field reality",
+        "body": "Sales pages convert when they acknowledge motion, pressure, and the fact that documentation happens between customer interactions rather than in a calm office setup."
+      },
+      {
+        "heading": "Reduce post-meeting admin",
+        "body": "The real promise is helping reps leave a meeting with the paperwork already digitized so follow-up can happen faster."
+      },
+      {
+        "heading": "Preserve relationship details",
+        "body": "Business cards, notes, and signed forms all support revenue follow-up. A page for field sales should connect those threads instead of treating them as isolated scans."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why does field sales deserve its own page?",
+        "answer": "Because it combines mobility, speed, signed paperwork, and follow-up pressure in a way that differs from static office scanning use cases."
+      },
+      {
+        "question": "Which supporting pages matter most?",
+        "answer": "Business cards, invoices, and contract-style pages best reinforce the value proposition for field sales teams."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/business-cards/",
+      "/documents/invoices/",
+      "/documents/contracts/"
+    ],
+    "schemaType": "FAQPage"
+  },
+  {
+    "slug": "consultants",
+    "name": "Consultants",
+    "targetKeyword": "best scanner app for consultants",
+    "intro": "Show consultants how to keep proposals, workshop notes, receipts, and client paperwork organized without slowing down delivery work.",
+    "heroBullets": [
+      "Scan workshop notes, whiteboards, and client paperwork quickly",
+      "Organize receipts and proposals for project administration",
+      "Share polished PDFs with clients and internal teams"
+    ],
+    "keyProblems": [
+      "Consultants switch between strategy work and document admin constantly",
+      "Client-facing deliverables need to look professional",
+      "Receipts, notes, and signed paperwork span many projects at once"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Batch Mode",
+      "Ecosystem Integration"
+    ],
+    "workflowSteps": [
+      "Capture client paperwork, notes, and receipts as projects progress",
+      "Group scans by engagement or deliverable",
+      "Export polished PDFs for clients, finance, or archive"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Keep client work looking deliberate",
+        "body": "Consultant pages should focus on turning rough, in-the-moment material into something polished enough to share with a client without apology."
+      },
+      {
+        "heading": "Connect work product and admin",
+        "body": "Consultants often deal with whiteboards, notes, expense proof, and signatures in the same week. The page should reflect that blended workflow."
+      },
+      {
+        "heading": "Support fast follow-up",
+        "body": "A clean scan is most useful when it feeds the next action quickly, whether that is sending a recap, storing expense proof, or routing formal paperwork."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why target consultants in phase one?",
+        "answer": "Because consultants work across notes, admin, and client-facing documents, which aligns well with several of the strongest programmatic page families."
+      },
+      {
+        "question": "Which document pages best support this audience?",
+        "answer": "Whiteboards, receipts, passports, and contract-style pages are strong supporting links for consultants."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/whiteboards/",
+      "/documents/receipts/",
+      "/documents/passports/"
+    ],
+    "schemaType": "FAQPage"
+  },
+  {
+    "slug": "logistics-teams",
+    "name": "Logistics Teams",
+    "targetKeyword": "best scanner app for logistics teams",
+    "intro": "Help logistics teams digitize labels, purchase orders, proof documents, and exception paperwork fast enough to keep shipments moving.",
+    "heroBullets": [
+      "Capture shipping labels and paperwork on warehouse timelines",
+      "Keep tracking numbers, line items, and proof readable",
+      "Use the SendFaxPro bundle when suppliers or partners still depend on fax delivery"
+    ],
+    "keyProblems": [
+      "Logistics teams handle small-print paperwork under time pressure",
+      "Proof documents often need to be shared quickly across teams",
+      "Mixed vendor and carrier workflows still rely on different delivery channels"
+    ],
+    "recommendedFeatures": [
+      "Smart Edge Detection",
+      "AI-Enhanced Scanning",
+      "Batch Mode"
+    ],
+    "workflowSteps": [
+      "Capture labels, purchase orders, and supporting paperwork in sequence",
+      "Enhance for readability so tracking details and line items stay clear",
+      "Export the packet for operations review or delivery"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Prioritize operational proof",
+        "body": "This page should treat document scanning as operational evidence capture, not generic productivity. That is what logistics teams are actually trying to solve."
+      },
+      {
+        "heading": "Support high-speed admin",
+        "body": "Logistics users are unlikely to tolerate friction. The page should emphasize clean, fast document capture that works in busy environments."
+      },
+      {
+        "heading": "Reflect supplier and carrier realities",
+        "body": "Because logistics still touches legacy paperwork, the bundle story can credibly support edge cases where documents need formal delivery after capture."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why is logistics a strong persona page?",
+        "answer": "Because the workflow has distinct documents, urgency, and operational proof requirements that justify a dedicated route."
+      },
+      {
+        "question": "What document pages should support it?",
+        "answer": "Shipping labels, purchase orders, and invoice-style paperwork are the strongest linked workflows for logistics teams."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/shipping-labels/",
+      "/documents/purchase-orders/",
+      "/documents/invoices/"
+    ],
+    "schemaType": "FAQPage"
+  },
+  {
+    "slug": "small-business-owners",
+    "name": "Small Business Owners",
+    "targetKeyword": "best scanner app for small business owners",
+    "intro": "Give small business owners one mobile scanning workflow for receipts, invoices, tax paperwork, forms, and customer-ready documents.",
+    "heroBullets": [
+      "Handle admin paperwork without a dedicated office scanner",
+      "Keep receipts, invoices, and tax documents organized from the phone",
+      "Use the bundle when paperwork needs formal send-ready delivery"
+    ],
+    "keyProblems": [
+      "Owners handle finance, operations, and customer paperwork themselves",
+      "Documents come from many channels and pile up quickly",
+      "Admin time competes directly with revenue-generating work"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "Instant OCR",
+      "Ecosystem Integration"
+    ],
+    "workflowSteps": [
+      "Capture receipts, invoices, and forms as soon as they arrive",
+      "Group paperwork by job, vendor, or reporting cycle",
+      "Export polished PDFs for accounting, compliance, or customer delivery"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Replace scattered admin habits",
+        "body": "Small-business-owner intent usually comes from trying to regain control over messy paper workflows without adding more software complexity."
+      },
+      {
+        "heading": "Support mixed paperwork",
+        "body": "Owners do not scan only one document class. The page should acknowledge the mix of invoices, receipts, tax forms, and verification paperwork they handle."
+      },
+      {
+        "heading": "Keep the workflow commercial",
+        "body": "The page should connect scanning quality to cash flow, compliance, and responsiveness, not just file storage."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why target small business owners in phase one?",
+        "answer": "Because they have strong commercial intent and overlap with several high-value document workflows that ScanDocPro already speaks to well."
+      },
+      {
+        "question": "Which pages best support this route?",
+        "answer": "Invoices, receipts, tax documents, and insurance-form pages are the most natural related links."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/invoices/",
+      "/documents/receipts/",
+      "/documents/tax-documents/"
+    ],
+    "schemaType": "FAQPage"
+  }
+]

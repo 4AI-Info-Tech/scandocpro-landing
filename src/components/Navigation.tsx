@@ -6,9 +6,10 @@ import { useTheme } from '@/hooks/useTheme';
 
 const navLinks = [
   { href: '/', label: 'Home' },
+  { href: '/documents/', label: 'Documents' },
+  { href: '/solutions/', label: 'Solutions' },
+  { href: '/compare/', label: 'Compare' },
   { href: '/blog/', label: 'Blog' },
-  { href: '/#features', label: 'Features' },
-  { href: '/#bundle', label: 'Bundle' },
 ];
 
 // External link with security attributes

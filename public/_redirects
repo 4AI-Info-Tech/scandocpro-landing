@@ -2,4 +2,10 @@
 /blog         /blog/         301
 /privacy      /privacy/      301
 /terms        /terms/        301
+/documents    /documents/    301
+/solutions    /solutions/    301
+/compare      /compare/      301
 /blog/:slug   /blog/:slug/   301
+/documents/:slug /documents/:slug/ 301
+/solutions/:slug /solutions/:slug/ 301
+/compare/:slug /compare/:slug/ 301

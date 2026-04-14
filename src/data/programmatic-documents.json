@@ -1,0 +1,1010 @@
+[
+  {
+    "slug": "receipts",
+    "name": "Receipts",
+    "targetKeyword": "scan receipts into PDF",
+    "intro": "Turn loose paper receipts into searchable PDFs before faded print and crumpled paper slow down reimbursements.",
+    "heroBullets": [
+      "Capture vendor, date, and amount details with OCR",
+      "Batch multiple receipts into one reimbursement packet",
+      "Route missing paperwork to SendFaxPro when a vendor or office still needs fax delivery"
+    ],
+    "keyProblems": [
+      "Thermal paper fades quickly and becomes unreadable",
+      "Expense teams need clean totals, dates, and vendor names",
+      "Travel receipts pile up long before reporting catches up"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Instant OCR",
+      "Batch Mode"
+    ],
+    "workflowSteps": [
+      "Capture each receipt in one batch so nothing is missed",
+      "Use enhancement to clean shadows and faint thermal paper",
+      "Export a single PDF for reimbursement, accounting, or archive"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Preserve fading print early",
+        "body": "Receipt searches usually come from people trying to avoid losing deductible or reimbursable expenses. ScanDocPro helps convert fragile paper into a durable digital copy while the ink is still readable."
+      },
+      {
+        "heading": "Build expense-ready packets",
+        "body": "Batch mode matters here because most people are not scanning one receipt. They are scanning a week, a trip, or a month of proof and need one organized PDF at the end."
+      },
+      {
+        "heading": "Keep follow-up simple",
+        "body": "When a reimbursement form, vendor record, or accounting office still expects fax delivery, the ScanDocPro to SendFaxPro handoff keeps the workflow moving without rescanning."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can a receipt scanner help with reimbursements?",
+        "answer": "Yes. The main value is making tiny, fragile receipts readable, searchable, and easy to submit as a single PDF instead of a pile of photos."
+      },
+      {
+        "question": "What should a receipt scanning page emphasize?",
+        "answer": "Legibility, batching, OCR for key fields, and a clean export path for finance or reimbursement workflows."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/expense-reports/",
+      "/documents/tax-documents/",
+      "/solutions/accountants/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "invoices",
+    "name": "Invoices",
+    "targetKeyword": "scan invoices on your phone",
+    "intro": "Create clean invoice PDFs with readable totals, terms, and line items so accounting and clients can review them without friction.",
+    "heroBullets": [
+      "Clean up shadows on folded or desk-shot invoices",
+      "Use OCR to make invoice numbers and totals easier to find",
+      "Share polished PDFs to clients, finance teams, or SendFaxPro workflows"
+    ],
+    "keyProblems": [
+      "Paper invoices are often folded, wrinkled, or partially shadowed",
+      "Approvers need quick access to invoice numbers and totals",
+      "Manual re-scanning slows down payment and filing workflows"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Instant OCR",
+      "Ecosystem Integration"
+    ],
+    "workflowSteps": [
+      "Capture the invoice in flat light with edge detection enabled",
+      "Run enhancement so tables and totals stay readable",
+      "Export the PDF to the right client, cloud folder, or send workflow"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Keep tables readable",
+        "body": "Invoice pages perform best when they reassure users that tables, totals, and due dates will stay legible after cleanup. That is the difference between a useful invoice copy and a decorative photo."
+      },
+      {
+        "heading": "Reduce accounts payable back-and-forth",
+        "body": "A polished invoice PDF cuts out the common follow-up cycle where finance asks for a cleaner copy, a visible invoice number, or a better shot of the terms section."
+      },
+      {
+        "heading": "Fit the rest of the workflow",
+        "body": "Invoice scanning often ends in cloud filing, email delivery, or fax fallback. The page should make that handoff obvious instead of pretending the scan is the final step."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why scan invoices instead of keeping phone photos?",
+        "answer": "A proper scan is flatter, cleaner, easier to search, and more acceptable to finance teams than a casual camera photo."
+      },
+      {
+        "question": "What matters most on an invoice scanning page?",
+        "answer": "Readable totals, visible invoice identifiers, clean tables, and a clear delivery path after the scan is finished."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/purchase-orders/",
+      "/documents/contracts/",
+      "/solutions/small-business-owners/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "contracts",
+    "name": "Contracts",
+    "targetKeyword": "scan contracts into PDF",
+    "intro": "Capture signed contracts as readable, send-ready PDFs that preserve signatures, clause text, and page order.",
+    "heroBullets": [
+      "Keep signatures and initials sharp",
+      "Batch long contracts into one ordered PDF",
+      "Route signed copies into SendFaxPro when counterparties still work by fax"
+    ],
+    "keyProblems": [
+      "Signed pages need to stay clear enough for review",
+      "Multi-page agreements lose value when pages are out of order",
+      "Important clauses are harder to reference without OCR"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "Instant OCR",
+      "E-Sign & Annotate"
+    ],
+    "workflowSteps": [
+      "Capture all pages in one session to preserve sequence",
+      "Review the signature pages and enhance weak contrast areas",
+      "Export a single PDF for storage, sharing, or fax delivery"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Protect signed detail",
+        "body": "Searchers care less about generic scanning and more about whether the signed pages will still look acceptable to a client, manager, or legal reviewer. The page should speak to that directly."
+      },
+      {
+        "heading": "Handle long agreements without chaos",
+        "body": "Contract scanning is naturally multi-page. Batch capture and simple page ordering matter more here than on a one-page note or ID workflow."
+      },
+      {
+        "heading": "Make delivery part of the story",
+        "body": "A contract scan is often headed somewhere next: email, archive, or fax. Showing the bundle path to SendFaxPro makes the page more commercially useful."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What should a contract scanner emphasize?",
+        "answer": "Sharp signatures, reliable page order, searchable text, and a trusted delivery path once the contract is digitized."
+      },
+      {
+        "question": "Why is batch mode important for contracts?",
+        "answer": "Most agreements span multiple pages, so users need one clean PDF rather than a loose set of separate images."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/leases/",
+      "/documents/certificates/",
+      "/solutions/lawyers/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "tax-documents",
+    "name": "Tax Documents",
+    "targetKeyword": "scan tax documents",
+    "intro": "Organize tax paperwork into clear digital packets so filings, prep, and audits are easier to manage from your phone.",
+    "heroBullets": [
+      "Capture multi-page tax paperwork without losing order",
+      "Make totals, names, and dates easier to search with OCR",
+      "Prepare send-ready PDFs for accountants, preparers, or fax-heavy back offices"
+    ],
+    "keyProblems": [
+      "Tax paperwork arrives in mixed sizes and formats",
+      "Year-end packets become hard to sort under deadline pressure",
+      "Unreadable scans slow down filing and audit response"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "Instant OCR",
+      "AI-Enhanced Scanning"
+    ],
+    "workflowSteps": [
+      "Group forms by year or filing task before scanning",
+      "Batch scan the full set and enhance low-contrast pages",
+      "Export organized PDFs for filing, prep, or retention"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Reduce deadline friction",
+        "body": "Tax searches usually peak when time pressure is already high. The page should show that ScanDocPro helps people convert scattered paper into one organized packet quickly."
+      },
+      {
+        "heading": "Keep audit copies readable",
+        "body": "A tax document workflow is not just about filing once. It is also about having a readable digital backup when someone needs the same records months later."
+      },
+      {
+        "heading": "Support accountant handoff",
+        "body": "Tax paperwork almost always moves to another person. The page should make sharing and send-ready exports a core part of the promise, not a footnote."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What makes tax document scanning different?",
+        "answer": "Tax workflows usually involve multiple forms, deadlines, and downstream review by an accountant or preparer, so organization and readability matter more than a one-off scan."
+      },
+      {
+        "question": "Which features matter most for tax paperwork?",
+        "answer": "Batch capture, OCR, and cleanup are the most important because tax packets are long, detail-heavy, and often handled under time pressure."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/receipts/",
+      "/documents/bank-statements/",
+      "/solutions/accountants/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "expense-reports",
+    "name": "Expense Reports",
+    "targetKeyword": "scan expense reports",
+    "intro": "Turn receipts, cover sheets, and reimbursement paperwork into one clean expense report packet from your phone.",
+    "heroBullets": [
+      "Batch receipts and summary pages into one PDF",
+      "Keep totals and approver details readable with OCR and cleanup",
+      "Send incomplete or legacy paperwork through SendFaxPro when needed"
+    ],
+    "keyProblems": [
+      "Expense reports combine different page sizes and paper quality",
+      "Approvers want one organized packet instead of separate photos",
+      "Loose receipts make reimbursement review slower"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "AI-Enhanced Scanning",
+      "Instant OCR"
+    ],
+    "workflowSteps": [
+      "Scan cover sheets, receipts, and attachments in one batch",
+      "Reorder pages so the report reads cleanly from summary to proof",
+      "Export one reimbursement-ready PDF for review or archive"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Combine proof and summary",
+        "body": "Expense-report users are not just digitizing paper. They are assembling a story that finance can approve quickly, and that means one packet with the right sequence."
+      },
+      {
+        "heading": "Cut approver friction",
+        "body": "Readable totals, visible dates, and clean receipt images reduce the usual back-and-forth that happens when a manager cannot verify the paperwork at a glance."
+      },
+      {
+        "heading": "Stay flexible on delivery",
+        "body": "Most expense reports will be emailed or uploaded, but some departments still rely on legacy fax or hybrid workflows. The page should keep the bundle handoff visible for those cases."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why build a separate page for expense reports?",
+        "answer": "Expense reports have distinct intent from simple receipt scanning because the user usually needs one approver-friendly packet, not a folder of loose images."
+      },
+      {
+        "question": "What should an expense report scanning page show?",
+        "answer": "Batching, ordering, clear totals, and how the final PDF fits a reimbursement workflow."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/receipts/",
+      "/documents/invoices/",
+      "/solutions/freelancers/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "ids",
+    "name": "IDs",
+    "targetKeyword": "scan IDs on your phone",
+    "intro": "Create clean front-and-back ID copies that are readable, well-cropped, and easier to submit when paperwork asks for identity proof.",
+    "heroBullets": [
+      "Capture both sides cleanly without harsh shadows",
+      "Keep numbers and names readable with edge-aware cleanup",
+      "Share or fax identity proof without retaking photos multiple times"
+    ],
+    "keyProblems": [
+      "Glossy cards create glare and dark corners",
+      "Poor crops can cut off critical identity details",
+      "Users need a neat copy quickly for onboarding or verification"
+    ],
+    "recommendedFeatures": [
+      "Smart Edge Detection",
+      "AI-Enhanced Scanning",
+      "E-Sign & Annotate"
+    ],
+    "workflowSteps": [
+      "Place the ID on a dark, flat background",
+      "Scan the front and back with edge detection enabled",
+      "Export a neat PDF for application, verification, or send-ready delivery"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Prioritize full-edge capture",
+        "body": "ID workflows break down when a corner is clipped or glare covers a number. The page should reassure searchers that the resulting copy will look deliberate, not improvised."
+      },
+      {
+        "heading": "Keep copies submission-ready",
+        "body": "The intent behind ID scanning is usually administrative speed. People want a clear file they can attach once and move on from, not another back-and-forth request."
+      },
+      {
+        "heading": "Respect sensitivity",
+        "body": "Identity documents are sensitive. The page should reinforce privacy-minded handling and careful sharing instead of sounding like a generic scanner tool page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What makes ID scanning harder than a normal document scan?",
+        "answer": "IDs are small, reflective, and sensitive, so clean cropping, readable text, and glare control matter more than they do on plain paper."
+      },
+      {
+        "question": "When would someone fax a scanned ID?",
+        "answer": "Some insurance, finance, and administrative workflows still request faxed identity proof, which is why the SendFaxPro handoff belongs on this page."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/passports/",
+      "/documents/insurance-forms/",
+      "/solutions/real-estate-agents/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "passports",
+    "name": "Passports",
+    "targetKeyword": "scan passport on your phone",
+    "intro": "Capture clear passport copies for travel admin, onboarding, and verification workflows without relying on low-quality camera photos.",
+    "heroBullets": [
+      "Flatten the identity page into a cleaner digital copy",
+      "Keep printed details readable for forms and admin follow-up",
+      "Share securely or route required copies into fax workflows"
+    ],
+    "keyProblems": [
+      "Passport pages reflect light and curve near the spine",
+      "Travel and admin forms often reject casual camera photos",
+      "Users need a readable copy without exposing poor crops or blur"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Smart Edge Detection",
+      "Ecosystem Integration"
+    ],
+    "workflowSteps": [
+      "Open to the identity page and reduce glare before capture",
+      "Enhance the scan so text and borders stay readable",
+      "Export the PDF for travel admin, onboarding, or secure sharing"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Handle curved pages better",
+        "body": "Passport scans are harder than flat paper because the page shape itself works against a clean capture. The page should acknowledge that instead of sounding generic."
+      },
+      {
+        "heading": "Aim for administrative acceptance",
+        "body": "This search intent usually comes from someone trying to satisfy a requirement quickly. The value proposition is not creativity, it is a professional-looking copy that gets accepted."
+      },
+      {
+        "heading": "Support sensitive delivery",
+        "body": "Passport copies often move through regulated or older workflows. The bundle story matters because delivery is frequently just as important as the scan quality."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why create a passport page separate from IDs?",
+        "answer": "Passport scanning has different practical issues, especially glare, page curvature, and travel-related submission requirements."
+      },
+      {
+        "question": "What should this page promise?",
+        "answer": "A cleaner, more acceptable passport copy for admin workflows, with emphasis on readability and secure sharing."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/ids/",
+      "/documents/certificates/",
+      "/solutions/consultants/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "business-cards",
+    "name": "Business Cards",
+    "targetKeyword": "scan business cards",
+    "intro": "Capture stacks of business cards as readable digital references so follow-up details do not get lost after events, meetings, and travel.",
+    "heroBullets": [
+      "Clean up glossy cards and tiny print",
+      "Batch stacks of cards after meetings or conferences",
+      "Share organized card scans with teammates or archive folders"
+    ],
+    "keyProblems": [
+      "Business cards use small text and reflective stock",
+      "Conference follow-up gets messy when cards stay in pockets or bags",
+      "One-off phone photos make details harder to review later"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "Instant OCR",
+      "AI-Enhanced Scanning"
+    ],
+    "workflowSteps": [
+      "Lay cards flat in even light and capture them in sequence",
+      "Use OCR-ready cleanup to preserve names, roles, and contact details",
+      "Export grouped PDFs for team follow-up or archive"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Turn event clutter into a usable record",
+        "body": "The value of this page is helping users go from a pile of cards to something searchable and shareable before momentum from the meeting is lost."
+      },
+      {
+        "heading": "Improve tiny text readability",
+        "body": "Business-card searches are less about paperwork and more about preserving details that are easy to miss in a hurried camera roll snapshot."
+      },
+      {
+        "heading": "Support team handoff",
+        "body": "Sales, partnerships, and event teams often need to send card collections internally. A clean PDF is more useful than loose images when people are working quickly."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why is a card-scanning page worth having?",
+        "answer": "Because the intent is distinct: people want to preserve contact details from many small printed items, not just create a generic scan."
+      },
+      {
+        "question": "What should the page focus on?",
+        "answer": "Tiny text readability, batching, and turning a stack of cards into an organized digital reference."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/whiteboards/",
+      "/solutions/field-sales/",
+      "/solutions/consultants/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "handwritten-notes",
+    "name": "Handwritten Notes",
+    "targetKeyword": "scan handwritten notes",
+    "intro": "Create clearer digital copies of handwritten pages so notebooks, meeting notes, and rough drafts stay accessible after the paper disappears.",
+    "heroBullets": [
+      "Clean up notebook shadows and page curl",
+      "Preserve readable handwriting for archive and review",
+      "Share notes as a polished PDF instead of a rushed camera photo"
+    ],
+    "keyProblems": [
+      "Notebook pages curve and shadow near the binding",
+      "Pen or pencil contrast varies page to page",
+      "Phone photos of notes are hard to revisit later"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Smart Edge Detection",
+      "Batch Mode"
+    ],
+    "workflowSteps": [
+      "Capture the notes flat with margins fully visible",
+      "Enhance contrast so handwriting stands out more clearly",
+      "Export a PDF for archive, collaboration, or follow-up"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Archive notes before they disappear",
+        "body": "This page should speak to the common problem of notes living in one notebook, one desk, or one meeting pad with no clean backup anywhere else."
+      },
+      {
+        "heading": "Improve review, not perfection",
+        "body": "People searching for handwritten-note scanning do not expect magic. They want a more legible, easier-to-share version of their existing notes."
+      },
+      {
+        "heading": "Make collaboration easier",
+        "body": "A clean PDF turns private notes into something that can be sent to a classmate, teammate, or client without apologizing for the quality first."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Should handwritten-note pages promise perfect OCR?",
+        "answer": "No. They should focus on cleaner capture, improved readability, and OCR support where handwriting is clear enough, not overpromise full transcription."
+      },
+      {
+        "question": "What makes this workflow useful?",
+        "answer": "People want to preserve rough thinking, study notes, and meeting notes in a format they can revisit and share more easily."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/lecture-notes/",
+      "/documents/whiteboards/",
+      "/solutions/students/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "lecture-notes",
+    "name": "Lecture Notes",
+    "targetKeyword": "scan lecture notes",
+    "intro": "Digitize lecture notes into organized study PDFs so class material stays searchable, shareable, and easier to review later.",
+    "heroBullets": [
+      "Batch entire note sets after class",
+      "Clean up notebook shadows and mixed lighting",
+      "Share study packs with classmates or archive them by course"
+    ],
+    "keyProblems": [
+      "Lecture notes are often captured in a rush after class",
+      "Many courses involve dozens of pages over a term",
+      "Students need one place to review notes before exams"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "AI-Enhanced Scanning",
+      "Instant OCR"
+    ],
+    "workflowSteps": [
+      "Scan the full lecture set while pages are already open",
+      "Enhance contrast so mixed pen colors and paper textures stay readable",
+      "Export one PDF per class, topic, or week"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Create a better study archive",
+        "body": "Lecture-note searchers are trying to avoid scattered study material. The page should present ScanDocPro as the fastest path from paper notes to a usable revision library."
+      },
+      {
+        "heading": "Handle scale across the semester",
+        "body": "One lecture is easy. The real need is preserving weeks of notes without a messy camera roll or dozens of disconnected image files."
+      },
+      {
+        "heading": "Keep collaboration lightweight",
+        "body": "Study groups often need to share notes quickly. A clean PDF package is easier to pass around than raw images from different phones."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why treat lecture notes separately from handwritten notes?",
+        "answer": "Lecture-note intent is tied to courses, review, and scale across a term, which is different from a one-off handwritten page search."
+      },
+      {
+        "question": "What features matter most for students here?",
+        "answer": "Batch capture, cleanup, and easy export so students can build organized study packs with minimal effort."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/handwritten-notes/",
+      "/documents/whiteboards/",
+      "/solutions/students/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "whiteboards",
+    "name": "Whiteboards",
+    "targetKeyword": "scan whiteboard notes",
+    "intro": "Turn whiteboard photos into cleaner recap PDFs so ideas from meetings, classes, and workshops do not disappear after the room is reset.",
+    "heroBullets": [
+      "Correct perspective on angled board photos",
+      "Improve marker contrast in uneven lighting",
+      "Share a fast recap with your team, class, or client"
+    ],
+    "keyProblems": [
+      "Whiteboards are photographed from awkward angles",
+      "Glare and low marker contrast hide key points",
+      "Meeting or class notes disappear once the board is cleared"
+    ],
+    "recommendedFeatures": [
+      "Smart Edge Detection",
+      "AI-Enhanced Scanning",
+      "Ecosystem Integration"
+    ],
+    "workflowSteps": [
+      "Capture the full board while edges remain visible",
+      "Use enhancement to lift marker contrast and reduce glare",
+      "Export a recap PDF for distribution or archive"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Rescue content from bad angles",
+        "body": "Whiteboard searches are usually urgent because the content is temporary. The page should center on fast cleanup of perspective and contrast, not generic scanning language."
+      },
+      {
+        "heading": "Make meeting notes reusable",
+        "body": "A cleaned whiteboard scan gives teams something they can actually circulate, attach to project notes, or use for follow-up without rewriting everything first."
+      },
+      {
+        "heading": "Support hybrid work habits",
+        "body": "Whiteboards often move from a room into a digital workflow immediately. That makes cloud export and quick sharing a bigger part of the value proposition."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why does whiteboard scanning deserve its own page?",
+        "answer": "Because glare, perspective, and temporary content create a distinct user need that is very different from flat-page document scanning."
+      },
+      {
+        "question": "What should this page emphasize?",
+        "answer": "Fast capture, perspective cleanup, marker readability, and fast recap sharing."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/lecture-notes/",
+      "/documents/handwritten-notes/",
+      "/solutions/educators/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "leases",
+    "name": "Leases",
+    "targetKeyword": "scan lease agreements",
+    "intro": "Digitize lease agreements into clean, shareable PDFs that preserve signatures, initials, and clause readability for move-in and compliance workflows.",
+    "heroBullets": [
+      "Batch long lease packets into one ordered file",
+      "Keep signatures and initials readable",
+      "Send copies to tenants, owners, or fax-based partners without rescanning"
+    ],
+    "keyProblems": [
+      "Lease packets are long and often signed in multiple places",
+      "Real estate workflows move quickly and need clean copies fast",
+      "Unreadable scans create avoidable delays with tenants or owners"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "E-Sign & Annotate",
+      "Instant OCR"
+    ],
+    "workflowSteps": [
+      "Capture the full lease in sequence so nothing is skipped",
+      "Review signature pages and enhance low-contrast sections",
+      "Export one PDF for storage, review, or delivery"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Move-in workflows depend on speed",
+        "body": "Lease-related intent is commercial and time-sensitive. The page should emphasize how quickly ScanDocPro can turn a signed packet into something ready to share."
+      },
+      {
+        "heading": "Keep terms easy to revisit",
+        "body": "Leases are not just filed once. Teams revisit rent terms, clauses, dates, and signatures, so readable digital copies create value after the initial scan."
+      },
+      {
+        "heading": "Support real-estate delivery habits",
+        "body": "Some brokers, landlords, and back offices still rely on older delivery patterns. The SendFaxPro angle helps this page feel grounded in real operations."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why launch a lease page in phase one?",
+        "answer": "Because lease paperwork is long, signed, time-sensitive, and commercially useful for both real-estate and legal-adjacent audiences."
+      },
+      {
+        "question": "What should a lease scanning page promise?",
+        "answer": "Readable pages, preserved signatures, correct order, and a fast path to sending or storing the final PDF."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/contracts/",
+      "/documents/ids/",
+      "/solutions/real-estate-agents/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "insurance-forms",
+    "name": "Insurance Forms",
+    "targetKeyword": "scan insurance forms",
+    "intro": "Prepare clean insurance-form PDFs with readable fields, supporting attachments, and a send-ready path for claim and compliance workflows.",
+    "heroBullets": [
+      "Capture form fields and handwritten sections more clearly",
+      "Combine forms, IDs, receipts, and supporting pages into one packet",
+      "Send claim paperwork through fax workflows when insurers still require it"
+    ],
+    "keyProblems": [
+      "Insurance paperwork mixes typed forms with handwritten entries",
+      "Claims often require multiple supporting documents",
+      "Legacy insurer workflows still depend on fax delivery"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "AI-Enhanced Scanning",
+      "Ecosystem Integration"
+    ],
+    "workflowSteps": [
+      "Scan the main form and every supporting page together",
+      "Enhance pages so filled fields and small print stay readable",
+      "Export one claim-ready PDF for upload, sharing, or fax delivery"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Combine supporting evidence cleanly",
+        "body": "Insurance intent is rarely about one page. It is usually a packet that includes forms, IDs, receipts, and supplemental proof, which makes batching core to the message."
+      },
+      {
+        "heading": "Reduce claims friction",
+        "body": "Unreadable forms and missing attachments create delays fast. The page should make clarity and completeness the central promise."
+      },
+      {
+        "heading": "Meet legacy submission requirements",
+        "body": "Insurance is one of the clearest places where the ScanDocPro and SendFaxPro bundle story feels real instead of forced."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why should insurance forms get a dedicated page?",
+        "answer": "Because claim workflows often involve mixed paperwork, sensitive information, and older submission requirements that generic scanner pages do not address well."
+      },
+      {
+        "question": "What should users expect from this page?",
+        "answer": "Help creating clearer claim packets that are easier to submit, review, and resend when an insurer requests supporting documents."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/ids/",
+      "/documents/receipts/",
+      "/solutions/real-estate-agents/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "medical-records",
+    "name": "Medical Records",
+    "targetKeyword": "scan medical records",
+    "intro": "Digitize medical records into readable, portable PDFs that are easier to organize, reference, and share when healthcare paperwork moves between providers.",
+    "heroBullets": [
+      "Capture dense printouts, lab pages, and record packets more clearly",
+      "Keep sensitive records organized by visit, provider, or request",
+      "Send supporting paperwork through the channel a clinic still requires"
+    ],
+    "keyProblems": [
+      "Medical records often arrive as mixed printouts from different providers",
+      "Sensitive information needs careful handling and neat organization",
+      "People usually need the same records again for another request later"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "AI-Enhanced Scanning",
+      "Instant OCR"
+    ],
+    "workflowSteps": [
+      "Group the record pages by visit or provider before capture",
+      "Enhance contrast on faint printouts and preserve order",
+      "Export organized PDFs for personal archive or provider handoff"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Handle dense healthcare paperwork",
+        "body": "Medical-record searches tend to come from people dealing with volume, stress, and mixed paper quality. The page should sound calm, practical, and reliable."
+      },
+      {
+        "heading": "Support repeat access",
+        "body": "This workflow is not a one-time novelty. Records are requested again and again, so creating a portable, readable archive is a real long-term benefit."
+      },
+      {
+        "heading": "Respect privacy expectations",
+        "body": "Healthcare-related pages should emphasize careful handling and clarity without pretending to replace secure medical systems."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why are medical records a useful pSEO page?",
+        "answer": "Because the need is specific, document-heavy, and tied to real administrative pain where a mobile scanner can save time immediately."
+      },
+      {
+        "question": "What should the page avoid?",
+        "answer": "Avoid broad medical claims. Focus on readability, organization, and practical sharing when people are moving records between parties."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/insurance-forms/",
+      "/documents/certificates/",
+      "/solutions/small-business-owners/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "bank-statements",
+    "name": "Bank Statements",
+    "targetKeyword": "scan bank statements",
+    "intro": "Create readable bank-statement PDFs for underwriting, accounting, and record-keeping workflows where clean tables and dates matter.",
+    "heroBullets": [
+      "Preserve rows, totals, and dates more clearly",
+      "Keep monthly statements grouped in order",
+      "Share or fax supporting financial paperwork when another party requests it"
+    ],
+    "keyProblems": [
+      "Statements contain dense tables that blur in casual photos",
+      "People often need several months together in one sequence",
+      "Financial reviews stall when scans look incomplete or unclear"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Batch Mode",
+      "Instant OCR"
+    ],
+    "workflowSteps": [
+      "Capture each statement page in order with good lighting",
+      "Enhance for legibility so tables and dates remain clear",
+      "Export one organized PDF packet for accounting, underwriting, or archive"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Preserve table readability",
+        "body": "Statement-related searches depend on whether rows, totals, and dates survive the scan. The page should make that promise concrete instead of abstract."
+      },
+      {
+        "heading": "Support multi-month reviews",
+        "body": "These users often need a range of statements together. Batch scanning and order preservation are more relevant than flashy design language here."
+      },
+      {
+        "heading": "Fit finance workflows",
+        "body": "Bank statements usually move into underwriting, accounting, or verification flows. A clean handoff after the scan is part of the outcome users care about."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What makes statement scanning different?",
+        "answer": "Statements are dense, table-heavy documents where legibility and sequence matter more than on many simpler scan tasks."
+      },
+      {
+        "question": "Why connect this page to other financial document pages?",
+        "answer": "Because bank-statement searches often overlap with tax, expense, and accounting tasks, which makes internal linking especially useful."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/tax-documents/",
+      "/documents/purchase-orders/",
+      "/solutions/accountants/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "shipping-labels",
+    "name": "Shipping Labels",
+    "targetKeyword": "scan shipping labels",
+    "intro": "Capture shipping labels and tracking details into cleaner digital references for warehouse, returns, and proof-of-shipment workflows.",
+    "heroBullets": [
+      "Keep tracking numbers and addresses readable",
+      "Batch labels and supporting pages during busy warehouse days",
+      "Share or fax supporting shipping paperwork when a partner needs legacy delivery"
+    ],
+    "keyProblems": [
+      "Labels are small, reflective, and often attached under plastic",
+      "Operations teams work quickly and need clear proof without delays",
+      "One blurred tracking number can derail a follow-up"
+    ],
+    "recommendedFeatures": [
+      "Smart Edge Detection",
+      "AI-Enhanced Scanning",
+      "Batch Mode"
+    ],
+    "workflowSteps": [
+      "Capture the label straight on with the full border visible",
+      "Enhance so tracking and address fields remain legible",
+      "Export the PDF or packet for claims, returns, or handoff"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Treat tiny print as the priority",
+        "body": "Shipping-label searches are about proof and precision. The page should focus on readable labels and clean evidence, not generic document scanning benefits."
+      },
+      {
+        "heading": "Support operations follow-up",
+        "body": "This workflow often sits inside a larger returns or shipping investigation. Clean scans help operations teams move faster when details are challenged."
+      },
+      {
+        "heading": "Fit logistics documentation",
+        "body": "Shipping labels rarely live alone. They pair naturally with purchase orders, invoices, and delivery paperwork, which makes related-page linking valuable."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why add a shipping-label page?",
+        "answer": "Because label scanning has distinct operational intent around tracking, proof, and legibility that general scanner pages do not capture well."
+      },
+      {
+        "question": "What makes this page convert?",
+        "answer": "A clear message around readable tracking details, quick evidence capture, and a practical next step for logistics workflows."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/purchase-orders/",
+      "/documents/invoices/",
+      "/solutions/logistics-teams/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "purchase-orders",
+    "name": "Purchase Orders",
+    "targetKeyword": "scan purchase orders",
+    "intro": "Create cleaner purchase-order PDFs so vendor approvals, line items, and internal routing stay easier to review and deliver.",
+    "heroBullets": [
+      "Keep order numbers, line items, and approval sections readable",
+      "Capture signed or annotated purchase orders in one polished file",
+      "Share or fax vendor-ready copies when procurement workflows still require it"
+    ],
+    "keyProblems": [
+      "Purchase orders are table-heavy and easy to capture poorly",
+      "Approvals and notes need to remain visible to suppliers",
+      "Teams often need to send the same order through multiple channels"
+    ],
+    "recommendedFeatures": [
+      "Instant OCR",
+      "E-Sign & Annotate",
+      "AI-Enhanced Scanning"
+    ],
+    "workflowSteps": [
+      "Scan the purchase order with all approval marks visible",
+      "Enhance the page so tables and order identifiers stay clear",
+      "Export a supplier-ready PDF for email, storage, or fax"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Preserve procurement detail",
+        "body": "PO intent is not broad awareness. It is a specific need to keep line items and order identifiers readable enough for internal and external review."
+      },
+      {
+        "heading": "Support approval workflows",
+        "body": "Signed or annotated purchase orders have more value when marks, initials, and notes remain obvious in the final PDF."
+      },
+      {
+        "heading": "Handle vendor delivery realities",
+        "body": "Procurement still touches older delivery channels more often than many teams expect. The bundle CTA keeps the page tied to that operational reality."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why is a purchase-order page useful?",
+        "answer": "Because procurement users search for a specific document workflow where clean tables, approvals, and supplier delivery matter."
+      },
+      {
+        "question": "Which features matter most here?",
+        "answer": "Readable tables, annotation support, and a send-ready export path after the scan is complete."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/invoices/",
+      "/documents/shipping-labels/",
+      "/solutions/logistics-teams/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "certificates",
+    "name": "Certificates",
+    "targetKeyword": "scan certificates",
+    "intro": "Digitize certificates into clean, professional-looking copies that preserve borders, seals, and names for onboarding and compliance workflows.",
+    "heroBullets": [
+      "Capture borders, signatures, and seals cleanly",
+      "Organize multiple certificates into one credentials packet",
+      "Share or fax proof of qualification when paperwork requires it"
+    ],
+    "keyProblems": [
+      "Certificates often include decorative borders and seals that crop poorly",
+      "People need clean proof for onboarding, licensing, and compliance",
+      "Multiple credentials are easier to manage as one digital packet"
+    ],
+    "recommendedFeatures": [
+      "Smart Edge Detection",
+      "Batch Mode",
+      "AI-Enhanced Scanning"
+    ],
+    "workflowSteps": [
+      "Place the certificate flat so the full border is visible",
+      "Enhance the scan to preserve text and visual details",
+      "Export one polished PDF or credentials packet"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Protect visual credibility",
+        "body": "Certificate scans are often judged by how professional they look at a glance. That makes border preservation, crop quality, and clarity a central promise."
+      },
+      {
+        "heading": "Support credential packets",
+        "body": "People rarely stop at one document. They often need to assemble several proofs of training, licensing, or achievement into one shareable file."
+      },
+      {
+        "heading": "Fit onboarding and compliance work",
+        "body": "This page should connect the scan to real use cases like onboarding, verification, and compliance submission, not just generic digitization."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why create a certificate page?",
+        "answer": "Because the scan quality expectations are different from ordinary paperwork. Users want a polished copy that still looks official."
+      },
+      {
+        "question": "What should the page emphasize?",
+        "answer": "Full-edge capture, clean detail preservation, and easy packaging of multiple credentials."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/passports/",
+      "/documents/contracts/",
+      "/solutions/educators/"
+    ],
+    "schemaType": "HowTo"
+  }
+]
