@@ -3,9 +3,11 @@ import { SEO } from '@/components/SEO';
 import { BlogCard } from '@/components/BlogCard';
 import { GradientText } from '@/components/GradientText';
 import { LoadingSpinner } from '@/components/LoadingSpinner';
+import { getBlogSEO } from '@/utils/seo';
 
 export function Blog() {
   const { posts, loading, error } = useBlogPosts();
+  const seo = getBlogSEO();
 
   if (loading) {
     return (
@@ -31,11 +33,7 @@ export function Blog() {
 
   return (
     <>
-      <SEO
-        title="Blog"
-        description="Tips, tutorials, and insights about document scanning, OCR technology, and mobile productivity."
-        keywords={['document scanning', 'OCR', 'mobile productivity', 'PDF scanning tips']}
-      />
+      <SEO {...seo} />
 
       {/* Hero */}
       <section className="pt-32 pb-12">

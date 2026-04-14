@@ -18,6 +18,7 @@ export interface SEOProps {
   type?: string;
   keywords?: string[];
   noindex?: boolean;
+  schema?: Array<Record<string, unknown>>;
 }
 
 export interface Feature {

@@ -4,6 +4,24 @@ const path = require('path');
 const blogDir = path.join(__dirname, '..', 'blog');
 const outputDir = path.join(__dirname, '..', 'public', 'blog-data');
 
+function parseFrontMatterValue(value) {
+  const trimmed = value.trim();
+
+  if (trimmed.startsWith('[') && trimmed.endsWith(']')) {
+    return trimmed
+      .slice(1, -1)
+      .split(',')
+      .map((item) => item.trim().replace(/^['"]|['"]$/g, ''))
+      .filter(Boolean);
+  }
+
+  if ((trimmed.startsWith('"') && trimmed.endsWith('"')) || (trimmed.startsWith("'") && trimmed.endsWith("'"))) {
+    return trimmed.slice(1, -1);
+  }
+
+  return trimmed;
+}
+
 function parseMarkdown(content) {
   const lines = content.split('\n');
   const metadata = {};
@@ -25,7 +43,7 @@ function parseMarkdown(content) {
     if (inFrontMatter && !frontMatterEnded) {
       const match = line.match(/^(.+?):\s*(.+)$/);
       if (match) {
-        metadata[match[1].trim()] = match[2].trim();
+        metadata[match[1].trim()] = parseFrontMatterValue(match[2]);
       }
     } else if (frontMatterEnded) {
       contentLines.push(line);
@@ -60,6 +78,7 @@ function buildBlog() {
       const post = {
         slug,
         ...parsed.metadata,
+        tags: Array.isArray(parsed.metadata.tags) ? parsed.metadata.tags : [],
         content: parsed.content,
       };
       

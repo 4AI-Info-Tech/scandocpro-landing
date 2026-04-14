@@ -4,6 +4,7 @@ import { useBlogPost } from '@/hooks/useBlogPosts';
 import { SEO } from '@/components/SEO';
 import { LoadingSpinner } from '@/components/LoadingSpinner';
 import { MarkdownContent } from '@/components/MarkdownContent';
+import { getBlogPostSEO } from '@/utils/seo';
 
 export function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
@@ -21,20 +22,17 @@ export function BlogPost() {
     return <Navigate to="/blog" replace />;
   }
 
+  const seo = getBlogPostSEO(post);
+
   return (
     <>
-      <SEO
-        title={post.title}
-        description={post.excerpt}
-        keywords={post.tags}
-        type="article"
-      />
+      <SEO {...seo} />
 
       <article className="pt-24 pb-20">
         {/* Back Link */}
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
           <Link
-            to="/blog"
+            to="/blog/"
             className="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />

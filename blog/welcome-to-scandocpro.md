@@ -30,6 +30,6 @@ ScanDocPro is part of the **4AI Utility Bundle**, alongside our flagship product
 
 ## What's Coming
 
-We're launching on iOS and Android in the coming weeks. Sign up for our newsletter to be notified when we go live.
+We're preparing our iOS and Android rollout now. Product updates and launch milestones will be published here on the ScanDocPro blog.
 
 Thank you for joining us on this journey!

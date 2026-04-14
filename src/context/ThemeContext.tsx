@@ -1,33 +1,35 @@
-import { createContext, useContext, useEffect, useState, useCallback } from 'react';
-
-type Theme = 'light' | 'dark';
-
-interface ThemeContextType {
-  theme: Theme;
-  toggleTheme: () => void;
-}
-
-const ThemeContext = createContext<ThemeContextType | null>(null);
+import { useEffect, useState, useCallback } from 'react';
+import { ThemeContext, type Theme } from '@/context/ThemeStore';
 
 const STORAGE_KEY = 'theme';
 const DARK_QUERY = '(prefers-color-scheme: dark)';
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<Theme>(() => {
-    if (typeof window === 'undefined') return 'light';
-    
-    const saved = localStorage.getItem(STORAGE_KEY) as Theme | null;
-    if (saved) return saved;
-    
-    return window.matchMedia(DARK_QUERY).matches ? 'dark' : 'light';
-  });
+  const [theme, setTheme] = useState<Theme>('light');
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    const saved = localStorage.getItem(STORAGE_KEY) as Theme | null;
+    const resolvedTheme = saved ?? (window.matchMedia(DARK_QUERY).matches ? 'dark' : 'light');
+
+    setTheme(resolvedTheme);
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!mounted) {
+      return;
+    }
+
     const root = document.documentElement;
     root.classList.remove('light', 'dark');
     root.classList.add(theme);
     localStorage.setItem(STORAGE_KEY, theme);
-  }, [theme]);
+  }, [mounted, theme]);
 
   const toggleTheme = useCallback(() => {
     setTheme(prev => prev === 'light' ? 'dark' : 'light');
@@ -38,10 +40,4 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
       {children}
     </ThemeContext.Provider>
   );
-}
-
-export function useTheme() {
-  const ctx = useContext(ThemeContext);
-  if (!ctx) throw new Error('useTheme must be used within ThemeProvider');
-  return ctx;
 }

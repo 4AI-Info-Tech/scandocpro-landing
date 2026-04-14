@@ -1,5 +1,6 @@
 import { SEO } from '@/components/SEO';
 import { FileText, Scale, AlertCircle, Ban, Gavel } from 'lucide-react';
+import { getTermsSEO } from '@/utils/seo';
 
 const sections = [
   {
@@ -62,13 +63,11 @@ This limitation applies regardless of the legal theory asserted.`,
 ];
 
 export function Terms() {
+  const seo = getTermsSEO();
+
   return (
     <>
-      <SEO
-        title="Terms of Service"
-        description="Terms and conditions for using ScanDocPro. Please read carefully before using our services."
-        noindex
-      />
+      <SEO {...seo} />
 
       <div className="pt-32 pb-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

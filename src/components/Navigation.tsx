@@ -1,12 +1,12 @@
 import { useState, useCallback } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Sun, Moon, Scan, FileText } from 'lucide-react';
-import { useTheme } from '@/context/ThemeContext';
 import { useScrollPosition } from '@/hooks/useScrollPosition';
+import { useTheme } from '@/hooks/useTheme';
 
 const navLinks = [
   { href: '/', label: 'Home' },
-  { href: '/blog', label: 'Blog' },
+  { href: '/blog/', label: 'Blog' },
   { href: '/#features', label: 'Features' },
   { href: '/#bundle', label: 'Bundle' },
 ];

@@ -1,0 +1,35 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0F172A"/>
+  <rect x="48" y="48" width="1104" height="534" rx="36" fill="url(#paint0_linear)"/>
+  <rect x="736" y="118" width="240" height="394" rx="40" fill="#111827"/>
+  <rect x="752" y="136" width="208" height="358" rx="28" fill="#F8FAFC"/>
+  <rect x="786" y="194" width="140" height="196" rx="16" fill="#E2E8F0" stroke="#14B8A6" stroke-width="6"/>
+  <path d="M800 210H840V250" stroke="#0F766E" stroke-width="10" stroke-linecap="round"/>
+  <path d="M912 210H872V250" stroke="#0F766E" stroke-width="10" stroke-linecap="round"/>
+  <path d="M800 374H840V334" stroke="#0F766E" stroke-width="10" stroke-linecap="round"/>
+  <path d="M912 374H872V334" stroke="#0F766E" stroke-width="10" stroke-linecap="round"/>
+  <rect x="810" y="240" width="92" height="18" rx="9" fill="#CBD5E1"/>
+  <rect x="810" y="270" width="110" height="14" rx="7" fill="#CBD5E1"/>
+  <rect x="810" y="296" width="84" height="14" rx="7" fill="#CBD5E1"/>
+  <circle cx="104" cy="104" r="104" transform="matrix(1 0 0 -1 0 314)" fill="#312E81" fill-opacity="0.45"/>
+  <circle cx="1060" cy="510" r="116" fill="#0F766E" fill-opacity="0.3"/>
+  <text x="112" y="218" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="600">
+    AI-powered mobile scanner
+  </text>
+  <text x="112" y="298" fill="white" font-family="Inter, Arial, sans-serif" font-size="84" font-weight="800">
+    ScanDocPro
+  </text>
+  <text x="112" y="360" fill="#A5F3FC" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="600">
+    OCR, enhancement, and export-ready PDFs
+  </text>
+  <text x="112" y="440" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500">
+    Privacy-first document scanning for iOS and Android teams
+  </text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="48" y1="48" x2="1152" y2="582" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E1B4B"/>
+      <stop offset="0.52" stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+  </defs>
+</svg>

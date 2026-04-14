@@ -1,7 +1,7 @@
 import { 
   Zap, Type, ScanLine, Layers, PenTool, Share2,
   Briefcase, BookOpen, Home as HomeIcon, Check, Shield,
-  FileText, Camera, Sparkles, Send
+  FileText, Camera, Send
 } from 'lucide-react';
 import { SEO } from '@/components/SEO';
 import { GradientText } from '@/components/GradientText';
@@ -9,7 +9,7 @@ import { PhoneMockup } from '@/components/PhoneMockup';
 import { AppBadge } from '@/components/AppBadge';
 import { FeatureCard } from '@/components/FeatureCard';
 import { StepCard } from '@/components/StepCard';
-import { defaultKeywords } from '@/utils/seo';
+import { getHomeSEO } from '@/utils/seo';
 
 const features = [
   { icon: Zap, title: 'AI‑Enhanced Scanning', description: 'Automatically removes shadows, corrects perspective, and sharpens text for HD results.', variant: 'primary' as const },
@@ -34,13 +34,11 @@ const industries = [
 ];
 
 export function Home() {
+  const seo = getHomeSEO();
+
   return (
     <>
-      <SEO
-        title="ScanDocPro – AI Document Scanner"
-        description="Transform paper into professional PDFs instantly. AI-powered scanning, OCR, and document enhancement—redefined for mobile."
-        keywords={defaultKeywords}
-      />
+      <SEO {...seo} />
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 lg:pt-40 lg:pb-32 overflow-hidden">
@@ -301,7 +299,7 @@ export function Home() {
             <GradientText>Work Faster.</GradientText>
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-8">
-            ScanDocPro is launching soon. Be the first to experience the future of mobile document scanning.
+            ScanDocPro helps teams turn paper into searchable, shareable PDFs with privacy-first mobile scanning.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -310,7 +308,7 @@ export function Home() {
           </div>
           
           <p className="mt-6 text-sm text-gray-500 dark:text-gray-400">
-            Available on iOS and Android. No credit card required.
+            Built for iOS and Android workflows. App availability updates will be announced on the blog.
           </p>
         </div>
       </section>

@@ -1,5 +1,6 @@
 import { SEO } from '@/components/SEO';
 import { Shield, Lock, Eye, Server, Globe } from 'lucide-react';
+import { getPrivacySEO } from '@/utils/seo';
 
 const sections = [
   {
@@ -64,13 +65,11 @@ Our servers are located in ISO 27001 certified data centers.`,
 ];
 
 export function Privacy() {
+  const seo = getPrivacySEO();
+
   return (
     <>
-      <SEO
-        title="Privacy Policy"
-        description="Learn how ScanDocPro protects your privacy and handles your data with industry-leading security practices."
-        noindex
-      />
+      <SEO {...seo} />
 
       <div className="pt-32 pb-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
