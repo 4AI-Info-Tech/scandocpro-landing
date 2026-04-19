@@ -18,7 +18,7 @@ const PRIMARY_CTA = {
 };
 
 function buildSecondaryHref(subject: string): string {
-  return `mailto:business@scandocpro.com?subject=${encodeURIComponent(subject)}`;
+  return `mailto:business@scandoc.pro?subject=${encodeURIComponent(subject)}`;
 }
 
 const FAMILY_LABELS: Record<ProgrammaticFamily, string> = {

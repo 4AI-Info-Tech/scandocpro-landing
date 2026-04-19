@@ -152,8 +152,8 @@ export function Terms() {
             </h2>
             <p className="text-gray-600 dark:text-gray-400">
               For questions about these Terms, contact us at:{' '}
-              <a href="mailto:legal@scandocpro.com" className="text-primary-600 dark:text-primary-400 hover:underline">
-                legal@scandocpro.com
+              <a href="mailto:legal@scandoc.pro" className="text-primary-600 dark:text-primary-400 hover:underline">
+                legal@scandoc.pro
               </a>
             </p>
           </div>

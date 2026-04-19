@@ -10,6 +10,9 @@ const blogIndexPath = path.join(distDir, 'blog-data', 'index.json');
 
 function stripSeoHead(html) {
   return html
+    .replace(/<meta[^>]*data-seo-managed="true"[^>]*>/gi, '')
+    .replace(/<link[^>]*data-seo-managed="true"[^>]*>/gi, '')
+    .replace(/<script[^>]*data-seo-managed="true"[\s\S]*?<\/script>/gi, '')
     .replace(/<title>[\s\S]*?<\/title>/i, '')
     .replace(/<meta\s+name="description"[\s\S]*?>/gi, '')
     .replace(/<meta\s+name="robots"[\s\S]*?>/gi, '')
@@ -63,10 +66,19 @@ async function prerender() {
   const posts = JSON.parse(fs.readFileSync(blogIndexPath, 'utf-8'));
   const { getPrerenderPages, renderApp, renderSEOHead } = await import(pathToFileURL(serverEntryPath).href);
   const pages = getPrerenderPages(posts);
+  const templateCache = new Map();
 
   pages.forEach((page) => {
+    if (templateCache.has(page.template)) {
+      return;
+    }
+
     const templatePath = path.join(distDir, page.template);
-    const template = fs.readFileSync(templatePath, 'utf-8');
+    templateCache.set(page.template, fs.readFileSync(templatePath, 'utf-8'));
+  });
+
+  pages.forEach((page) => {
+    const template = templateCache.get(page.template);
     const appHtml = renderApp(page.path, page.initialData);
     const seoHead = renderSEOHead(page.seo);
     const outputPath = getOutputPath(page.path);

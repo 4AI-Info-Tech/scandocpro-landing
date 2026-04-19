@@ -47,8 +47,8 @@ Together, they form the **4AI Utility Bundle**—a complete solution for documen
 
 We'd love to hear from you:
 
-- **Support**: support@scandocpro.com
-- **Business**: business@scandocpro.com
-- **Press**: press@scandocpro.com
+- **Support**: support@scandoc.pro
+- **Business**: business@scandoc.pro
+- **Press**: press@scandoc.pro
 
 Made with ❤️ in Ankara

@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const BASE_URL = 'https://scandocpro.com';
+const BASE_URL = 'https://scandoc.pro';
 const TODAY = new Date().toISOString().split('T')[0];
 const PROGRAMMATIC_HUBS_PATH = path.join(__dirname, '..', 'src', 'data', 'programmatic-hubs.json');
 const PROGRAMMATIC_DOCUMENTS_PATH = path.join(__dirname, '..', 'src', 'data', 'programmatic-documents.json');

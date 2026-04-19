@@ -36,7 +36,7 @@ We implement the same security standards used by SendFaxPro, trusted by thousand
 • **Portability**: Export your data in standard formats.
 • **Opt-out**: Disable analytics collection in app settings.
 
-To exercise these rights, contact us at privacy@scandocpro.com`,
+To exercise these rights, contact us at privacy@scandoc.pro`,
   },
   {
     icon: Server,
@@ -124,7 +124,7 @@ export function Privacy() {
               If you have any questions about this Privacy Policy, please contact us:
             </p>
             <ul className="text-gray-600 dark:text-gray-400 space-y-2">
-              <li>Email: privacy@scandocpro.com</li>
+              <li>Email: privacy@scandoc.pro</li>
               <li>Address: 4AI Info Tech, Ankara, Turkey</li>
             </ul>
           </div>

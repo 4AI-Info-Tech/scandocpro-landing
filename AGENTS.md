@@ -9,7 +9,7 @@ This document provides essential information for AI coding agents working on the
 **ScanDocPro Landing Page** is a modern, enterprise-grade marketing website for ScanDocPro - an AI-powered mobile document scanner app. The site is built as a static single-page application (SPA) with client-side routing.
 
 - **Repository**: `scandocpro-landing`
-- **Domain**: https://scandocpro.com
+- **Domain**: https://scandoc.pro
 - **Company**: 4AI Info Tech
 - **Language**: English (all code and content)
 
@@ -207,7 +207,7 @@ export function ComponentName() { }
 
 ### Build Output
 - Static files generated in `dist/` directory
-- Base URL: https://scandocpro.com
+- Base URL: https://scandoc.pro
 
 ### Recommended Platforms
 1. **Cloudflare Pages** (current recommendation)

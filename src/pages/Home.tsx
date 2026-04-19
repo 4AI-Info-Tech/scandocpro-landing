@@ -35,6 +35,45 @@ const industries = [
   { icon: BookOpen, label: 'Education' },
 ];
 
+const popularWorkflows = [
+  {
+    icon: FileText,
+    title: 'Scan Receipts to PDF',
+    href: '/documents/receipts/',
+    description: 'Capture faded receipts, extract totals with OCR, and bundle reimbursement-ready PDFs.',
+  },
+  {
+    icon: Briefcase,
+    title: 'Scan Contracts on Your Phone',
+    href: '/documents/contracts/',
+    description: 'Keep signatures, exhibits, and page order readable when agreements move fast.',
+  },
+  {
+    icon: HomeIcon,
+    title: 'Scan IDs and Forms',
+    href: '/documents/ids/',
+    description: 'Create cleaner copies of IDs, insurance forms, and supporting paperwork on the go.',
+  },
+  {
+    icon: Send,
+    title: 'Scan Invoices for Finance',
+    href: '/documents/invoices/',
+    description: 'Turn invoices into searchable PDFs with totals, dates, and vendor details intact.',
+  },
+  {
+    icon: BookOpen,
+    title: 'Scanner App for Students',
+    href: '/solutions/students/',
+    description: 'Digitize lecture notes, handouts, and whiteboards before they disappear.',
+  },
+  {
+    icon: Scale,
+    title: 'Compare Scanner Apps',
+    href: '/compare/camscanner-alternative/',
+    description: 'See where ScanDocPro fits when teams need OCR, cleanup, batching, and send-ready exports.',
+  },
+];
+
 const hubIcons = {
   documents: FileText,
   solutions: Briefcase,
@@ -56,16 +95,16 @@ export function Home() {
             <div className="text-center lg:text-left animate-slide-up">
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary-50 dark:bg-primary-900/30 border border-primary-100 dark:border-primary-800 mb-6">
                 <span className="w-2 h-2 bg-accent-500 rounded-full mr-2 animate-pulse"></span>
-                <span className="text-sm font-medium text-primary-700 dark:text-primary-300">From the creators of SendFaxPro</span>
+                <span className="text-sm font-medium text-primary-700 dark:text-primary-300">Document scanner app with OCR from the creators of SendFaxPro</span>
               </div>
               
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white leading-tight mb-6">
-                The Intelligent<br />
-                <GradientText>Scanner in Your Pocket</GradientText>
+                Scan Receipts, Contracts, and IDs<br />
+                <GradientText>Into Searchable PDFs</GradientText>
               </h1>
               
               <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-xl mx-auto lg:mx-0">
-                Transform paper into professional PDFs instantly. AI-powered scanning, OCR, and document enhancement—redefined for mobile.
+                ScanDocPro helps teams capture paperwork cleanly with OCR, AI cleanup, batch scanning, and export tools built for receipts, invoices, forms, contracts, and mobile PDF workflows.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -75,7 +114,7 @@ export function Home() {
               
               <div className="mt-8 flex items-center justify-center lg:justify-start text-sm text-gray-500 dark:text-gray-400">
                 <Shield className="w-5 h-5 text-accent-500 mr-2" />
-                Trusted by 50,000+ professionals worldwide
+                Built for document-heavy teams that need readable PDFs, not camera-roll clutter
               </div>
             </div>
             
@@ -113,10 +152,10 @@ export function Home() {
             What is <GradientText>ScanDocPro</GradientText>?
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-6">
-            ScanDocPro is a professional mobile document scanner built for people who demand clarity, speed, and reliability.
+            ScanDocPro is a mobile document scanner app for teams that need OCR-ready PDFs from receipts, invoices, IDs, contracts, and forms.
           </p>
           <p className="text-gray-500 dark:text-gray-500">
-            Unlike basic camera apps, ScanDocPro uses intelligent algorithms to flatten pages, remove shadows, and produce office-grade scans—right from your phone.
+            Unlike basic camera apps, ScanDocPro uses intelligent cleanup to flatten pages, remove shadows, preserve small text, and keep paperwork ready for finance, compliance, and client-facing workflows.
           </p>
         </div>
       </section>
@@ -219,6 +258,40 @@ export function Home() {
         </div>
       </section>
 
+      {/* Popular Workflow Links */}
+      <section className="py-20 lg:py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+              Start with the <GradientText>Workflow You Need</GradientText>
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+              These are the scanner app jobs people search for most often. Jump straight to the page that matches your paperwork instead of starting from a generic feature list.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
+            {popularWorkflows.map((workflow) => (
+              <Link
+                key={workflow.href}
+                to={workflow.href}
+                className="group rounded-3xl border border-gray-200 bg-white p-8 shadow-sm transition-all hover:-translate-y-1 hover:border-primary-300 hover:shadow-lg dark:border-gray-800 dark:bg-gray-900/70 dark:hover:border-primary-700"
+              >
+                <div className="w-14 h-14 bg-gradient-to-br from-primary-500 to-accent-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                  <workflow.icon className="w-7 h-7 text-white" />
+                </div>
+                <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">{workflow.title}</h3>
+                <p className="text-gray-600 dark:text-gray-400 mb-6">{workflow.description}</p>
+                <div className="inline-flex items-center text-sm font-semibold text-primary-600 dark:text-primary-400">
+                  Open workflow
+                  <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Bundle Section */}
       <section id="bundle" className="py-20 lg:py-32 bg-gray-900 dark:bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -230,7 +303,7 @@ export function Home() {
               Complete Your <span className="text-accent-400">Mobile Office</span>
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              Scan with precision. Fax with confidence. The complete document workflow solution.
+              Scan with OCR, package clean PDFs, and hand off delivery when a workflow still ends in fax, compliance, or legacy office systems.
             </p>
           </div>
           
@@ -292,7 +365,7 @@ export function Home() {
               How It <GradientText>Works</GradientText>
             </h2>
             <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Get professional-quality scans in three simple steps.
+              Move from raw paper to searchable, shareable PDFs without losing readability.
             </p>
           </div>
           
@@ -300,17 +373,17 @@ export function Home() {
             <StepCard
               number={1}
               title="Scan"
-              description="Point your camera at any document. Our AI instantly detects edges and captures the perfect shot."
+              description="Capture receipts, contracts, invoices, or IDs with automatic edge detection tuned for document-heavy mobile work."
             />
             <StepCard
               number={2}
               title="Enhance"
-              description="Apply AI enhancement, run OCR for text recognition, or add your signature with a tap."
+              description="Clean shadows, sharpen text, and run OCR so totals, signatures, dates, and small print stay readable."
             />
             <StepCard
               number={3}
               title="Share"
-              description="Export as PDF, send via SendFaxPro, or share to your favorite cloud storage instantly."
+              description="Export a clean PDF, send through SendFaxPro, or move the file to cloud storage and downstream operations."
             />
           </div>
         </div>
@@ -349,11 +422,11 @@ export function Home() {
       <section className="py-20 lg:py-32">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            Scan Smarter.<br />
-            <GradientText>Work Faster.</GradientText>
+            Turn Paper Into PDFs<br />
+            <GradientText>That Still Read Clearly</GradientText>
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-8">
-            ScanDocPro helps teams turn paper into searchable, shareable PDFs with privacy-first mobile scanning.
+            Use ScanDocPro when the job is more than taking a photo: OCR, cleanup, batching, and document workflows that need to stay professional after capture.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

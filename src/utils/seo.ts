@@ -5,9 +5,9 @@ import { getProgrammaticFamilyLabel } from '@/data/programmaticPages';
 
 const DEFAULT_SEO = {
   siteName: 'ScanDocPro',
-  siteUrl: 'https://scandocpro.com',
+  siteUrl: 'https://scandoc.pro',
   twitterHandle: '@scandocpro',
-  defaultImage: 'https://scandocpro.com/og-image.svg',
+  defaultImage: 'https://scandoc.pro/og-image.svg',
 };
 
 const SEO_MANAGED_ATTR = 'data-seo-managed';
@@ -84,7 +84,7 @@ function buildSoftwareApplicationSchema(): Record<string, unknown> {
     name: siteConfig.siteName,
     applicationCategory: 'BusinessApplication',
     operatingSystem: 'iOS, Android',
-    description: 'AI-powered mobile document scanner with OCR, smart enhancement, and PDF export.',
+    description: 'Mobile document scanner app with OCR, AI cleanup, batch scanning, and PDF export for receipts, contracts, invoices, and IDs.',
     offers: {
       '@type': 'Offer',
       price: '0',
@@ -230,8 +230,8 @@ export function createPageSEO({
 export function getHomeSEO(): SEOProps {
   return createPageSEO({
     path: '/',
-    title: 'ScanDocPro - AI Document Scanner',
-    description: 'Transform paper into professional PDFs instantly. AI-powered scanning, OCR, and document enhancement for mobile teams.',
+    title: 'Document Scanner App with OCR for PDF Workflows | ScanDocPro',
+    description: 'Scan receipts, contracts, invoices, IDs, and forms into searchable PDFs with OCR, AI cleanup, batch scanning, and mobile-ready export.',
     keywords: defaultKeywords,
     schema: [buildOrganizationSchema(), buildSoftwareApplicationSchema()],
   });
@@ -420,6 +420,10 @@ export const defaultKeywords = [
   'pdf scanner mobile',
   'ocr scanner app',
   'receipt scanner',
+  'invoice scanner app',
+  'contract scanner',
+  'id scanner app',
+  'scan forms to pdf',
   'scan documents iphone',
   'scan documents android',
   'mobile scanner',

@@ -9,3 +9,15 @@
 /documents/:slug /documents/:slug/ 301
 /solutions/:slug /solutions/:slug/ 301
 /compare/:slug /compare/:slug/ 301
+
+# Serve prerendered route HTML instead of falling back to the homepage shell
+/blog/                /blog/index.html                200
+/blog/:slug/          /blog/:slug/index.html          200
+/documents/           /documents/index.html           200
+/documents/:slug/     /documents/:slug/index.html     200
+/solutions/           /solutions/index.html           200
+/solutions/:slug/     /solutions/:slug/index.html     200
+/compare/             /compare/index.html             200
+/compare/:slug/       /compare/:slug/index.html       200
+/privacy/             /privacy/index.html             200
+/terms/               /terms/index.html               200
