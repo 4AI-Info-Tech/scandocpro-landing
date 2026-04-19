@@ -5,6 +5,7 @@ const footerLinks = {
   product: [
     { label: 'Documents', href: '/documents/', external: false },
     { label: 'Solutions', href: '/solutions/', external: false },
+    { label: 'Integrations', href: '/integrations/', external: false },
     { label: 'Compare', href: '/compare/', external: false },
     { label: 'Blog', href: '/blog/', external: false },
   ],

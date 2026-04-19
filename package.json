@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run build-blog && vite build && vite build --ssr src/entry-server.tsx --outDir dist/server && node scripts/prerender.mjs && npm run generate-sitemap",
+    "build": "npm run build-blog && npm run build-programmatic && vite build && vite build --ssr src/entry-server.tsx --outDir dist/server && node scripts/prerender.mjs && npm run generate-sitemap",
+    "build-programmatic": "node scripts/build-programmatic.mjs && node scripts/validate-programmatic.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "generate-sitemap": "node scripts/generate-sitemap.js",

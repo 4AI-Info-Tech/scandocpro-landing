@@ -31,6 +31,7 @@
       "/documents/insurance-forms/"
     ],
     "relatedFamilies": [
+      "integrations",
       "solutions",
       "compare"
     ]
@@ -68,6 +69,7 @@
     ],
     "relatedFamilies": [
       "documents",
+      "integrations",
       "compare"
     ]
   },
@@ -104,7 +106,45 @@
     ],
     "relatedFamilies": [
       "documents",
-      "solutions"
+      "solutions",
+      "integrations"
+    ]
+  },
+  {
+    "family": "integrations",
+    "url": "/integrations/",
+    "title": "Document Scanner Integrations and Delivery Workflows | ScanDocPro",
+    "metaDescription": "See how ScanDocPro routes receipts, invoices, contracts, certificates, and forms into Google Drive, Dropbox, email, and SendFaxPro workflows.",
+    "h1": "Route Scans Into the Systems That Keep Work Moving",
+    "intro": "Scanning only solves the first half of the job. This hub covers the cloud, email, and fax delivery routes people actually search for after they capture paperwork on mobile.",
+    "targetKeyword": "scan documents to google drive",
+    "heroBullets": [
+      "Guides for Google Drive, Dropbox, email, and SendFaxPro workflows",
+      "Built around OCR-ready PDFs for receipts, invoices, contracts, certificates, and forms",
+      "Designed to connect mobile capture with real delivery and archive systems"
+    ],
+    "sectionTitle": "Integration and destination workflows",
+    "sectionDescription": "These pages focus on where the scan should go next and how to keep the exported PDF readable enough for shared folders, inboxes, and formal delivery.",
+    "faq": [
+      {
+        "question": "Why add integration pages to a scanner app site?",
+        "answer": "Because many high-intent searches are really about the handoff after the scan. People want to know how to get a readable PDF into Google Drive, Dropbox, email, or fax delivery without extra steps."
+      },
+      {
+        "question": "What makes these pages different from the document pages?",
+        "answer": "Document pages explain how to capture one type of paperwork. Integration pages explain where the finished scan should land next and what a good export flow looks like for that destination."
+      }
+    ],
+    "featuredUrls": [
+      "/integrations/google-drive/",
+      "/integrations/dropbox/",
+      "/integrations/email/",
+      "/integrations/sendfaxpro-contracts/"
+    ],
+    "relatedFamilies": [
+      "documents",
+      "solutions",
+      "compare"
     ]
   }
 ]

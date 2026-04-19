@@ -4,10 +4,12 @@
 /terms        /terms/        301
 /documents    /documents/    301
 /solutions    /solutions/    301
+/integrations /integrations/ 301
 /compare      /compare/      301
 /blog/:slug   /blog/:slug/   301
 /documents/:slug /documents/:slug/ 301
 /solutions/:slug /solutions/:slug/ 301
+/integrations/:slug /integrations/:slug/ 301
 /compare/:slug /compare/:slug/ 301
 
 # Serve prerendered route HTML instead of falling back to the homepage shell
@@ -17,6 +19,8 @@
 /documents/:slug/     /documents/:slug/index.html     200
 /solutions/           /solutions/index.html           200
 /solutions/:slug/     /solutions/:slug/index.html     200
+/integrations/        /integrations/index.html        200
+/integrations/:slug/  /integrations/:slug/index.html  200
 /compare/             /compare/index.html             200
 /compare/:slug/       /compare/:slug/index.html       200
 /privacy/             /privacy/index.html             200

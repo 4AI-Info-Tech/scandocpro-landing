@@ -163,7 +163,8 @@
     "relatedUrls": [
       "/documents/receipts/",
       "/documents/tax-documents/",
-      "/documents/bank-statements/"
+      "/documents/bank-statements/",
+      "/integrations/google-drive-invoices/"
     ],
     "schemaType": "FAQPage"
   },
@@ -275,7 +276,8 @@
     "relatedUrls": [
       "/documents/contracts/",
       "/documents/leases/",
-      "/documents/certificates/"
+      "/documents/certificates/",
+      "/integrations/sendfaxpro-contracts/"
     ],
     "schemaType": "FAQPage"
   },
@@ -555,7 +557,120 @@
     "relatedUrls": [
       "/documents/invoices/",
       "/documents/receipts/",
-      "/documents/tax-documents/"
+      "/documents/tax-documents/",
+      "/integrations/email-invoices/"
+    ],
+    "schemaType": "FAQPage"
+  },
+  {
+    "slug": "insurance-agents",
+    "name": "Insurance Agents",
+    "targetKeyword": "best scanner app for insurance agents",
+    "intro": "Show insurance agents a mobile scanning workflow built for claim packets, proof documents, signed forms, and fast follow-up with carriers and clients.",
+    "heroBullets": [
+      "Capture insurance forms, IDs, receipts, and supporting pages in one packet",
+      "Keep fields, signatures, and claim details readable under deadline pressure",
+      "Support fax-heavy insurer workflows without breaking the mobile flow"
+    ],
+    "keyProblems": [
+      "Insurance teams handle mixed paperwork, not one simple document type",
+      "Claims and policy work stall quickly when forms or supporting evidence are unclear",
+      "Carriers and offices still use a mix of modern uploads and legacy delivery channels"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "AI-Enhanced Scanning",
+      "Ecosystem Integration"
+    ],
+    "workflowSteps": [
+      "Capture the form and every supporting page together as one packet",
+      "Enhance scans so fields, IDs, and signatures are easier to review",
+      "Export a clean PDF for the carrier, office, or SendFaxPro handoff"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Match the claim packet reality",
+        "body": "Insurance-agent intent depends on mixed paperwork and time pressure. The page should sound like it understands forms, evidence, signatures, and resend requests as one workflow."
+      },
+      {
+        "heading": "Reduce submission friction",
+        "body": "Unreadable forms and missing support documents slow everything down. This page should connect scan quality to faster claim or policy handling."
+      },
+      {
+        "heading": "Use delivery as part of the value",
+        "body": "Insurance workflows still touch fax and other formal channels often enough that the ScanDocPro plus SendFaxPro path feels operational, not decorative."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why is an insurance-agent page worth launching?",
+        "answer": "Because the workflow is document-heavy, commercially useful, and closely aligned with ScanDocPro's strengths in packet building, readability, and downstream delivery."
+      },
+      {
+        "question": "Which pages should support this persona?",
+        "answer": "Insurance forms, proof-of-address pages, ID-related documents, and the SendFaxPro insurance workflow are the strongest supporting links."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/insurance-forms/",
+      "/documents/proof-of-address/",
+      "/integrations/sendfaxpro-insurance-forms/"
+    ],
+    "schemaType": "FAQPage"
+  },
+  {
+    "slug": "healthcare-admins",
+    "name": "Healthcare Admins",
+    "targetKeyword": "best scanner app for healthcare admins",
+    "intro": "Help healthcare admin teams organize medical records, intake forms, certificates, and supporting paperwork into cleaner mobile-friendly PDFs.",
+    "heroBullets": [
+      "Capture record packets, intake paperwork, and credential documents in order",
+      "Keep names, dates, and provider details more readable",
+      "Create cleaner archives and handoff files for internal or external requests"
+    ],
+    "keyProblems": [
+      "Healthcare admin work mixes long record packets with urgent administrative requests",
+      "Unreadable dates, names, and supporting details create avoidable follow-up",
+      "Teams need organization and repeat access, not just one quick photo"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "AI-Enhanced Scanning",
+      "Instant OCR"
+    ],
+    "workflowSteps": [
+      "Group records, forms, or credentials by request before scanning",
+      "Enhance pages so dates, names, and small print stay easier to review",
+      "Export an organized PDF for archive, internal routing, or external requests"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Support administrative repetition",
+        "body": "Healthcare-admin pages should acknowledge that the same packets get requested again and again. A strong scan creates a reusable file instead of repeated manual work."
+      },
+      {
+        "heading": "Keep records organized under pressure",
+        "body": "This audience cares about packet order, readability, and getting paperwork back out quickly when another office, provider, or patient request arrives."
+      },
+      {
+        "heading": "Stay practical about systems",
+        "body": "The page should focus on helping admins create cleaner portable PDFs and should not pretend a mobile scanner replaces healthcare record systems."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why add a healthcare-admin persona page?",
+        "answer": "Because healthcare administration has specific document intensity and repeat-request patterns that are different from general small-business or office workflows."
+      },
+      {
+        "question": "What supporting pages fit best?",
+        "answer": "Medical records, certificates, proof-oriented paperwork, and the Dropbox medical-records workflow are strong supporting routes."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/medical-records/",
+      "/documents/certificates/",
+      "/integrations/dropbox-medical-records/"
     ],
     "schemaType": "FAQPage"
   }

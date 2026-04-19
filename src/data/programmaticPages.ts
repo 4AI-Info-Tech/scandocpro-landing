@@ -2,6 +2,7 @@ import hubSource from '@/data/programmatic-hubs.json';
 import documentSource from '@/data/programmatic-documents.json';
 import solutionSource from '@/data/programmatic-solutions.json';
 import compareSource from '@/data/programmatic-compare.json';
+import integrationSource from '@/data/programmatic-integrations.json';
 import type {
   ProgrammaticComparisonDetails,
   ProgrammaticFamily,
@@ -25,18 +26,21 @@ const FAMILY_LABELS: Record<ProgrammaticFamily, string> = {
   documents: 'Documents',
   solutions: 'Solutions',
   compare: 'Compare',
+  integrations: 'Integrations',
 };
 
 const FAMILY_INTENTS: Record<ProgrammaticFamily, ProgrammaticPage['searchIntent']> = {
   documents: 'workflow',
   solutions: 'role-based',
   compare: 'comparison',
+  integrations: 'integration',
 };
 
 const hubs = hubSource as ProgrammaticHubSource[];
 const documents = documentSource as ProgrammaticPageSource[];
 const solutions = solutionSource as ProgrammaticPageSource[];
 const comparisons = compareSource as ProgrammaticPageSource[];
+const integrations = integrationSource as ProgrammaticPageSource[];
 
 function normalizeComparison(source: ProgrammaticPageSource): ProgrammaticComparisonDetails | undefined {
   if (!source.comparison || !source.competitorName || !source.competitorCategory) {
@@ -52,6 +56,10 @@ function normalizeComparison(source: ProgrammaticPageSource): ProgrammaticCompar
 }
 
 function buildPageTitle(family: ProgrammaticFamily, source: ProgrammaticPageSource): string {
+  if (source.pageTitle) {
+    return source.pageTitle;
+  }
+
   if (family === 'documents') {
     return `How to Scan ${source.name} on Your Phone`;
   }
@@ -60,10 +68,18 @@ function buildPageTitle(family: ProgrammaticFamily, source: ProgrammaticPageSour
     return `Best Scanner App for ${source.name}`;
   }
 
+  if (family === 'integrations') {
+    return `Scan Documents to ${source.name}`;
+  }
+
   return `${source.competitorName ?? source.name} Alternative for OCR and Batch Scanning`;
 }
 
 function buildMetaDescription(family: ProgrammaticFamily, source: ProgrammaticPageSource): string {
+  if (source.pageMetaDescription) {
+    return source.pageMetaDescription;
+  }
+
   if (family === 'documents') {
     return `Scan ${source.name.toLowerCase()} into readable PDFs with OCR, AI cleanup, batching, and send-ready delivery workflows from ScanDocPro.`;
   }
@@ -72,16 +88,28 @@ function buildMetaDescription(family: ProgrammaticFamily, source: ProgrammaticPa
     return `See why ScanDocPro works for ${source.name.toLowerCase()} with OCR, AI cleanup, batch scanning, and send-ready document workflows.`;
   }
 
+  if (family === 'integrations') {
+    return `Scan documents into clean PDFs and route them to ${source.name} with OCR, cleanup, batching, and workflow-friendly mobile export.`;
+  }
+
   return `Compare ScanDocPro with ${source.competitorName} for OCR, cleanup, batch scanning, and send-ready document workflows.`;
 }
 
 function buildH1(family: ProgrammaticFamily, source: ProgrammaticPageSource): string {
+  if (source.pageH1) {
+    return source.pageH1;
+  }
+
   if (family === 'documents') {
     return `How to Scan ${source.name} on Your Phone`;
   }
 
   if (family === 'solutions') {
     return `Best Scanner App for ${source.name}`;
+  }
+
+  if (family === 'integrations') {
+    return `Scan Documents to ${source.name}`;
   }
 
   return `${source.competitorName} Alternative for OCR and Batch Scanning`;
@@ -136,6 +164,7 @@ export const programmaticPages = [
   ...documents.map((entry) => normalizePage('documents', entry)),
   ...solutions.map((entry) => normalizePage('solutions', entry)),
   ...comparisons.map((entry) => normalizePage('compare', entry)),
+  ...integrations.map((entry) => normalizePage('integrations', entry)),
 ];
 
 const hubMap = new Map(programmaticHubs.map((hub) => [hub.family, hub]));

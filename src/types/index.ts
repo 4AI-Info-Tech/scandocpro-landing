@@ -33,9 +33,9 @@ export interface UseCase {
   description: string;
 }
 
-export type ProgrammaticFamily = 'documents' | 'solutions' | 'compare';
+export type ProgrammaticFamily = 'documents' | 'solutions' | 'compare' | 'integrations';
 
-export type ProgrammaticSearchIntent = 'workflow' | 'role-based' | 'comparison';
+export type ProgrammaticSearchIntent = 'workflow' | 'role-based' | 'comparison' | 'integration';
 
 export type ProgrammaticSchemaType = 'FAQPage' | 'HowTo' | 'WebPage';
 
@@ -70,6 +70,9 @@ export interface ProgrammaticPageSource {
   slug: string;
   name: string;
   targetKeyword: string;
+  pageTitle?: string;
+  pageMetaDescription?: string;
+  pageH1?: string;
   intro: string;
   heroBullets: string[];
   keyProblems: string[];

@@ -51,7 +51,8 @@
     "relatedUrls": [
       "/documents/expense-reports/",
       "/documents/tax-documents/",
-      "/solutions/accountants/"
+      "/solutions/accountants/",
+      "/integrations/google-drive-receipts/"
     ],
     "schemaType": "HowTo"
   },
@@ -107,7 +108,8 @@
     "relatedUrls": [
       "/documents/purchase-orders/",
       "/documents/contracts/",
-      "/solutions/small-business-owners/"
+      "/solutions/small-business-owners/",
+      "/integrations/email-invoices/"
     ],
     "schemaType": "HowTo"
   },
@@ -163,7 +165,8 @@
     "relatedUrls": [
       "/documents/leases/",
       "/documents/certificates/",
-      "/solutions/lawyers/"
+      "/solutions/lawyers/",
+      "/integrations/sendfaxpro-contracts/"
     ],
     "schemaType": "HowTo"
   },
@@ -723,7 +726,8 @@
     "relatedUrls": [
       "/documents/ids/",
       "/documents/receipts/",
-      "/solutions/real-estate-agents/"
+      "/solutions/real-estate-agents/",
+      "/integrations/sendfaxpro-insurance-forms/"
     ],
     "schemaType": "HowTo"
   },
@@ -779,7 +783,8 @@
     "relatedUrls": [
       "/documents/insurance-forms/",
       "/documents/certificates/",
-      "/solutions/small-business-owners/"
+      "/solutions/small-business-owners/",
+      "/integrations/dropbox-medical-records/"
     ],
     "schemaType": "HowTo"
   },
@@ -1003,7 +1008,232 @@
     "relatedUrls": [
       "/documents/passports/",
       "/documents/contracts/",
-      "/solutions/educators/"
+      "/solutions/educators/",
+      "/integrations/email-certificates/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "utility-bills",
+    "name": "Utility Bills",
+    "targetKeyword": "scan utility bills",
+    "intro": "Turn utility bills into readable PDFs for onboarding, proof-of-address checks, reimbursement, and account setup workflows that still start on paper.",
+    "heroBullets": [
+      "Preserve account numbers, service addresses, and statement dates",
+      "Create cleaner PDFs for landlord, lender, school, or office requests",
+      "Bundle current and prior bills into one proof packet when needed"
+    ],
+    "keyProblems": [
+      "Utility bills are often scanned only when another party suddenly asks for proof",
+      "Addresses and account details become hard to read in weak phone photos",
+      "People often need more than one bill to complete the request"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Instant OCR",
+      "Batch Mode"
+    ],
+    "workflowSteps": [
+      "Place the bill flat so the service address and statement date are fully visible",
+      "Enhance the page to keep account details and small text readable",
+      "Export one polished PDF for onboarding, verification, or archive"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Make proof requests less annoying",
+        "body": "Utility-bill searches usually happen when a landlord, bank, school, or HR team asks for proof quickly. The page should focus on producing a readable PDF fast, not on generic scanning advice."
+      },
+      {
+        "heading": "Protect address detail",
+        "body": "This workflow depends on whether the service address, account name, and dates survive the scan. The page should make those details central to the promise."
+      },
+      {
+        "heading": "Support address packets",
+        "body": "Some requests need more than one bill. Batch capture and one organized export make the page more useful than a simple one-page scan pitch."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why publish a utility-bill scanning page?",
+        "answer": "Because proof-of-address and verification workflows are common, specific, and document-heavy enough to deserve a page that speaks to the exact use case."
+      },
+      {
+        "question": "What should a utility-bill page emphasize?",
+        "answer": "Readable address details, visible dates, and the ability to package one or more bills into a clean PDF for the requesting party."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/proof-of-address/",
+      "/documents/bank-statements/",
+      "/solutions/real-estate-agents/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "checks",
+    "name": "Checks",
+    "targetKeyword": "scan checks on your phone",
+    "intro": "Capture checks into readable PDFs when you need a clean copy for bookkeeping, approval, dispute resolution, or payment documentation workflows.",
+    "heroBullets": [
+      "Preserve payee names, dates, and handwritten amounts",
+      "Keep front and back copies organized in one packet",
+      "Create cleaner records for finance, operations, or compliance review"
+    ],
+    "keyProblems": [
+      "Checks mix printed details with handwriting and signatures",
+      "Front-and-back copies are easy to lose track of when captured casually",
+      "Finance teams need a cleaner record than an unstructured phone photo"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Batch Mode",
+      "Instant OCR"
+    ],
+    "workflowSteps": [
+      "Capture the front and back of each check in order",
+      "Enhance the images so handwritten amounts and printed fields stay readable",
+      "Export one organized PDF for accounting, records, or review"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Respect handwriting and signatures",
+        "body": "Check workflows depend on preserving both printed and handwritten information. The page should signal that ScanDocPro can handle more than a simple typed form."
+      },
+      {
+        "heading": "Keep both sides together",
+        "body": "A check page should acknowledge the need to capture front and back copies in sequence because that is often what finance or operations wants later."
+      },
+      {
+        "heading": "Fit bookkeeping follow-up",
+        "body": "Searchers here are usually trying to create a cleaner payment record. The page should connect the scan to bookkeeping and review work instead of treating the image as the end product."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why create a check-scanning page if mobile deposit exists elsewhere?",
+        "answer": "Because this page is about creating a readable PDF record for bookkeeping, approvals, and documentation, not replacing a bank deposit flow."
+      },
+      {
+        "question": "What should a check page promise?",
+        "answer": "Readable handwritten fields, preserved signatures, and an organized PDF that keeps front and back copies together."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/bank-statements/",
+      "/documents/invoices/",
+      "/solutions/accountants/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "w9-forms",
+    "name": "W-9 Forms",
+    "targetKeyword": "scan W-9 forms",
+    "intro": "Turn W-9 paperwork into clean PDFs for vendor onboarding, tax prep, and compliance workflows where names, addresses, and tax details must stay readable.",
+    "heroBullets": [
+      "Preserve business names, addresses, and tax-identification fields",
+      "Create cleaner vendor-onboarding packets from mobile",
+      "Keep signed tax forms ready for finance, compliance, or resend requests"
+    ],
+    "keyProblems": [
+      "W-9 forms are detail-heavy and often signed under deadline pressure",
+      "Vendors and finance teams need a cleaner copy than an uneven phone photo",
+      "The same form often needs to be resent later when onboarding stalls"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Instant OCR",
+      "E-Sign & Annotate"
+    ],
+    "workflowSteps": [
+      "Capture the full form with edges and signatures visible",
+      "Enhance the scan so tax fields and addresses stay legible",
+      "Export one polished PDF for onboarding, filing, or archive"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Support vendor onboarding",
+        "body": "W-9 intent is tied to a concrete business workflow. The page should explain how ScanDocPro helps people create a cleaner onboarding file without going back to a desk scanner."
+      },
+      {
+        "heading": "Keep sensitive fields readable",
+        "body": "A W-9 page should focus on preserving names, addresses, and tax-related fields because that is what makes the document useful after it is scanned."
+      },
+      {
+        "heading": "Reduce resend friction",
+        "body": "These forms get requested again. Building a polished digital copy once is more valuable than taking a one-off snapshot every time someone asks."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why add a W-9 page to the document family?",
+        "answer": "Because vendor and tax onboarding searches are specific, commercially relevant, and aligned with ScanDocPro's strengths in readability and clean mobile export."
+      },
+      {
+        "question": "What should the page emphasize most?",
+        "answer": "Readable tax fields, visible signatures, and a polished PDF that is ready for finance or compliance workflows."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/tax-documents/",
+      "/documents/invoices/",
+      "/solutions/small-business-owners/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "proof-of-address",
+    "name": "Proof of Address",
+    "targetKeyword": "scan proof of address",
+    "intro": "Build clean proof-of-address PDFs for tenant screening, onboarding, account setup, and compliance requests that need readable names, addresses, and dates.",
+    "heroBullets": [
+      "Package bills, statements, and ID-supporting pages into one proof set",
+      "Keep addresses, names, and issue dates readable",
+      "Send a cleaner verification packet without rebuilding it from scratch"
+    ],
+    "keyProblems": [
+      "Proof-of-address requests often arrive with short deadlines",
+      "The workflow usually requires more than one supporting document",
+      "A low-quality scan creates unnecessary back-and-forth with the requester"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "AI-Enhanced Scanning",
+      "Instant OCR"
+    ],
+    "workflowSteps": [
+      "Collect the bill, statement, or supporting pages the requester accepts",
+      "Batch scan them so names, addresses, and dates stay easy to review",
+      "Export one organized PDF for screening, onboarding, or compliance"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Build a verification packet",
+        "body": "This page should frame proof-of-address as a small packet-building job, not a single random scan. That makes ScanDocPro's batch and cleanup story more useful."
+      },
+      {
+        "heading": "Prioritize the fields people check",
+        "body": "Names, addresses, and recent dates are the real point of the workflow. The page should keep attention on whether those details are clear enough to approve quickly."
+      },
+      {
+        "heading": "Reduce request-round trips",
+        "body": "A strong proof-of-address page should promise fewer resend cycles because the first PDF is already neat, readable, and complete."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why separate proof-of-address from utility-bill scanning?",
+        "answer": "Because the search intent is broader. People are usually trying to satisfy a verification request and may need several supporting documents together."
+      },
+      {
+        "question": "What should this page help users do?",
+        "answer": "It should help them build one clean PDF packet with readable names, addresses, and dates that a landlord, lender, school, or office can review easily."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/utility-bills/",
+      "/documents/ids/",
+      "/solutions/insurance-agents/"
     ],
     "schemaType": "HowTo"
   }

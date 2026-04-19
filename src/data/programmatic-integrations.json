@@ -1,0 +1,887 @@
+[
+  {
+    "slug": "google-drive",
+    "name": "Google Drive",
+    "targetKeyword": "scan documents to Google Drive",
+    "pageTitle": "Scan Documents to Google Drive on Your Phone",
+    "pageMetaDescription": "Capture receipts, contracts, invoices, and forms into clean PDFs, then route them to Google Drive with OCR, cleanup, and mobile-friendly export.",
+    "pageH1": "Scan Documents to Google Drive on Your Phone",
+    "intro": "Use ScanDocPro to capture paperwork cleanly and move it straight into Google Drive so teams, clients, or archives get readable PDFs instead of loose phone photos.",
+    "heroBullets": [
+      "Turn mobile scans into searchable PDFs before they land in shared Google Drive folders",
+      "Keep page order, cleanup, and readability intact across multi-page packets",
+      "Give the next person a file that is ready to review, store, or forward"
+    ],
+    "keyProblems": [
+      "Scans often stay stuck in personal camera rolls instead of team folders",
+      "Shared Drive workflows break down when uploaded files are unreadable or poorly named",
+      "Teams lose time when a document has to be rescanned before it can be filed"
+    ],
+    "recommendedFeatures": [
+      "Ecosystem Integration",
+      "Instant OCR",
+      "Batch Mode"
+    ],
+    "workflowSteps": [
+      "Capture the full document set on mobile instead of saving scattered images",
+      "Run cleanup and OCR so important names, totals, signatures, or dates stay searchable",
+      "Export one polished PDF into shared Google Drive folders"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Keep shared folders usable",
+        "body": "Google Drive is where many teams expect the final PDF to live, not the starting point. This page should show how ScanDocPro helps mobile scans arrive as readable documents instead of random photos."
+      },
+      {
+        "heading": "Make OCR part of the handoff",
+        "body": "Drive becomes more useful when invoices, contracts, and forms are searchable after upload. The workflow should connect scanning quality to retrieval speed, not just storage."
+      },
+      {
+        "heading": "Support multi-document packets",
+        "body": "People rarely upload one page at a time. Batch capture plus a clean export path makes Google Drive a better archive for expense packets, agreements, and admin paperwork."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I scan documents to Google Drive from my phone?",
+        "answer": "Yes. The workflow is to capture the document cleanly, run OCR and cleanup, then export a readable PDF into Google Drive instead of sending raw camera images."
+      },
+      {
+        "question": "What should a Google Drive scanning page emphasize?",
+        "answer": "It should emphasize scan quality, searchable text, page order, and a handoff that matches the destination system instead of stopping at generic mobile capture."
+      }
+    ],
+    "relatedUrls": [
+      "/integrations/google-drive-receipts/",
+      "/integrations/google-drive-invoices/",
+      "/documents/invoices/"
+    ],
+    "schemaType": "WebPage"
+  },
+  {
+    "slug": "dropbox",
+    "name": "Dropbox",
+    "targetKeyword": "scan documents to Dropbox",
+    "pageTitle": "Scan Documents to Dropbox on Your Phone",
+    "pageMetaDescription": "Capture receipts, contracts, invoices, and forms into clean PDFs, then route them to Dropbox with OCR, cleanup, and mobile-friendly export.",
+    "pageH1": "Scan Documents to Dropbox on Your Phone",
+    "intro": "Use ScanDocPro to capture paperwork cleanly and move it straight into Dropbox so teams, clients, or archives get readable PDFs instead of loose phone photos.",
+    "heroBullets": [
+      "Turn mobile scans into searchable PDFs before they land in Dropbox folders and shared client workspaces",
+      "Keep page order, cleanup, and readability intact across multi-page packets",
+      "Give the next person a file that is ready to review, store, or forward"
+    ],
+    "keyProblems": [
+      "Dropbox folders fill up quickly with inconsistent scan quality from mobile teams",
+      "Client-facing files need to look cleaner than casual phone photos",
+      "Version confusion grows when paperwork is rescanned instead of captured well the first time"
+    ],
+    "recommendedFeatures": [
+      "Ecosystem Integration",
+      "AI-Enhanced Scanning",
+      "Batch Mode"
+    ],
+    "workflowSteps": [
+      "Capture the full document set on mobile instead of saving scattered images",
+      "Run cleanup and OCR so important names, totals, signatures, or dates stay searchable",
+      "Export one polished PDF into Dropbox folders and shared client workspaces"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Deliver cleaner client files",
+        "body": "Dropbox workflows often support client delivery, property records, or distributed teams. The page should emphasize sending polished PDFs into shared folders without a second cleanup pass."
+      },
+      {
+        "heading": "Reduce file-quality drift",
+        "body": "Teams using Dropbox usually care about consistency across people and locations. That makes edge cleanup, legibility, and page order part of the destination story."
+      },
+      {
+        "heading": "Keep archives ready for reuse",
+        "body": "A better Dropbox workflow is not just about uploading once. It is about making sure the stored file still works when someone revisits it during review, compliance, or client service."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I scan documents to Dropbox from my phone?",
+        "answer": "Yes. The workflow is to capture the document cleanly, run OCR and cleanup, then export a readable PDF into Dropbox instead of sending raw camera images."
+      },
+      {
+        "question": "What should a Dropbox scanning page emphasize?",
+        "answer": "It should emphasize scan quality, searchable text, page order, and a handoff that matches the destination system instead of stopping at generic mobile capture."
+      }
+    ],
+    "relatedUrls": [
+      "/integrations/dropbox-receipts/",
+      "/integrations/dropbox-medical-records/",
+      "/documents/medical-records/"
+    ],
+    "schemaType": "WebPage"
+  },
+  {
+    "slug": "email",
+    "name": "Email",
+    "targetKeyword": "scan documents to email",
+    "pageTitle": "Scan Documents to Email on Your Phone",
+    "pageMetaDescription": "Capture receipts, contracts, invoices, and forms into clean PDFs, then route them to email with OCR, cleanup, and mobile-friendly export.",
+    "pageH1": "Scan Documents to Email on Your Phone",
+    "intro": "Use ScanDocPro to capture paperwork cleanly and move it straight into email so teams, clients, or archives get readable PDFs instead of loose phone photos.",
+    "heroBullets": [
+      "Turn mobile scans into searchable PDFs before they land in an email-ready PDF attachment",
+      "Keep page order, cleanup, and readability intact across multi-page packets",
+      "Give the next person a file that is ready to review, store, or forward"
+    ],
+    "keyProblems": [
+      "Email recipients judge the document immediately, so sloppy scans create friction fast",
+      "Large attachments become harder to manage when pages are not bundled cleanly",
+      "People often need a send-ready PDF now, not after a desktop cleanup step"
+    ],
+    "recommendedFeatures": [
+      "Ecosystem Integration",
+      "Instant OCR",
+      "AI-Enhanced Scanning"
+    ],
+    "workflowSteps": [
+      "Capture the full document set on mobile instead of saving scattered images",
+      "Run cleanup and OCR so important names, totals, signatures, or dates stay searchable",
+      "Export one polished PDF into an email-ready PDF attachment"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Treat email as delivery, not storage",
+        "body": "Email workflows usually happen under time pressure. The page should explain how ScanDocPro turns mobile capture into a clean attachment that can be sent without apology."
+      },
+      {
+        "heading": "Keep recipients out of the camera roll",
+        "body": "People searching for this workflow are trying to avoid sending tilted snapshots. OCR and cleanup matter because inbox recipients expect a readable PDF, not a raw image."
+      },
+      {
+        "heading": "Bundle related pages before sending",
+        "body": "Invoices, certificates, and business cards are often sent with supporting pages. The workflow should emphasize one polished PDF instead of a thread full of scattered attachments."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I scan documents to email from my phone?",
+        "answer": "Yes. The workflow is to capture the document cleanly, run OCR and cleanup, then export a readable PDF into email instead of sending raw camera images."
+      },
+      {
+        "question": "What should an email scanning page emphasize?",
+        "answer": "It should emphasize scan quality, searchable text, page order, and a handoff that matches the destination system instead of stopping at generic mobile capture."
+      }
+    ],
+    "relatedUrls": [
+      "/integrations/email-invoices/",
+      "/integrations/email-certificates/",
+      "/solutions/small-business-owners/"
+    ],
+    "schemaType": "WebPage"
+  },
+  {
+    "slug": "sendfaxpro",
+    "name": "SendFaxPro",
+    "targetKeyword": "scan documents to SendFaxPro",
+    "pageTitle": "Scan Documents to SendFaxPro on Your Phone",
+    "pageMetaDescription": "Capture receipts, contracts, invoices, and forms into clean PDFs, then route them to SendFaxPro with OCR, cleanup, and mobile-friendly export.",
+    "pageH1": "Scan Documents to SendFaxPro on Your Phone",
+    "intro": "Use ScanDocPro to capture paperwork cleanly and move it straight into SendFaxPro so teams, clients, or archives get readable PDFs instead of loose phone photos.",
+    "heroBullets": [
+      "Turn mobile scans into searchable PDFs before they land in a SendFaxPro delivery workflow",
+      "Keep page order, cleanup, and readability intact across multi-page packets",
+      "Give the next person a file that is ready to review, store, or forward"
+    ],
+    "keyProblems": [
+      "Legacy offices still require fax delivery even after the scan is captured",
+      "Formal submission workflows fail when packets are incomplete or signatures are hard to read",
+      "People waste time moving documents between scanning and delivery tools by hand"
+    ],
+    "recommendedFeatures": [
+      "Ecosystem Integration",
+      "Batch Mode",
+      "E-Sign & Annotate"
+    ],
+    "workflowSteps": [
+      "Capture the full document set on mobile instead of saving scattered images",
+      "Run cleanup and OCR so important names, totals, signatures, or dates stay searchable",
+      "Export one polished PDF into a SendFaxPro delivery workflow"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Close the scan-to-fax gap",
+        "body": "SendFaxPro pages should show a practical bundle story: capture on mobile with ScanDocPro, then move straight into formal fax delivery when the workflow still depends on it."
+      },
+      {
+        "heading": "Keep packet quality high",
+        "body": "Fax-oriented workflows are unforgiving when the original scan is weak. Batch capture, page order, and readable signatures all need to be part of the promise."
+      },
+      {
+        "heading": "Support regulated paperwork",
+        "body": "Contracts, insurance forms, and other operational documents often still move by fax. The page should connect ScanDocPro quality with downstream delivery confidence."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I scan documents to SendFaxPro from my phone?",
+        "answer": "Yes. The workflow is to capture the document cleanly, run OCR and cleanup, then export a readable PDF into SendFaxPro instead of sending raw camera images."
+      },
+      {
+        "question": "What should a SendFaxPro scanning page emphasize?",
+        "answer": "It should emphasize scan quality, searchable text, page order, and a handoff that matches the destination system instead of stopping at generic mobile capture."
+      }
+    ],
+    "relatedUrls": [
+      "/integrations/sendfaxpro-contracts/",
+      "/integrations/sendfaxpro-insurance-forms/",
+      "/documents/contracts/"
+    ],
+    "schemaType": "WebPage"
+  },
+  {
+    "slug": "google-drive-receipts",
+    "name": "Receipts to Google Drive",
+    "targetKeyword": "scan receipts to Google Drive",
+    "pageTitle": "How to Scan Receipts to Google Drive",
+    "pageMetaDescription": "Scan receipts to Google Drive with OCR, cleanup, and mobile PDF export so vendor names, totals, and dates stay readable in the next workflow.",
+    "pageH1": "How to Scan Receipts to Google Drive",
+    "intro": "Capture receipts into searchable PDFs and route them into Google Drive so vendor names, totals, and dates stay readable when the file leaves your phone.",
+    "heroBullets": [
+      "Preserve vendor names, totals, and dates before the PDF reaches Google Drive",
+      "Use one clean export path instead of juggling photos, rescans, and manual uploads",
+      "Keep receipts ready for the next reviewer, archive, or delivery step"
+    ],
+    "keyProblems": [
+      "Faded print becomes harder to review after upload or delivery",
+      "Scans often stay stuck in personal camera rolls instead of team folders",
+      "Finance teams need searchable PDFs instead of photo clutter"
+    ],
+    "recommendedFeatures": [
+      "Ecosystem Integration",
+      "Instant OCR",
+      "AI-Enhanced Scanning"
+    ],
+    "workflowSteps": [
+      "Capture the full receipts set in one pass so nothing is missed",
+      "Enhance the scan and use OCR so vendor names, totals, and dates remain easy to find",
+      "Export the finished PDF into shared Google Drive folders without a second cleanup step"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Preserve expense proof",
+        "body": "Receipt workflows depend on capturing small print before it fades and then bundling multiple slips into one usable PDF."
+      },
+      {
+        "heading": "Why Google Drive fits this handoff",
+        "body": "This workflow matters because the scan is not the finish line. Google Drive is where the file gets reviewed, stored, or delivered next, so the exported PDF needs to arrive clean and complete."
+      },
+      {
+        "heading": "Avoid the rescan loop",
+        "body": "People searching for this page are usually trying to avoid a second pass. A better receipts workflow means capturing once, exporting once, and letting Google Drive handle the next step."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I scan receipts to Google Drive on my phone?",
+        "answer": "Yes. ScanDocPro can capture the pages, clean them up, and export a readable PDF that is easier to move into Google Drive than a stack of raw photos."
+      },
+      {
+        "question": "What matters most when scanning receipts to Google Drive?",
+        "answer": "The important part is preserving vendor names, totals, and dates, keeping the packet organized, and making sure the exported PDF is strong enough for the next person or system."
+      }
+    ],
+    "relatedUrls": [
+      "/integrations/google-drive/",
+      "/documents/receipts/",
+      "/solutions/accountants/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "google-drive-invoices",
+    "name": "Invoices to Google Drive",
+    "targetKeyword": "scan invoices to Google Drive",
+    "pageTitle": "How to Scan Invoices to Google Drive",
+    "pageMetaDescription": "Scan invoices to Google Drive with OCR, cleanup, and mobile PDF export so invoice numbers, totals, line items, and terms stay readable in the next workflow.",
+    "pageH1": "How to Scan Invoices to Google Drive",
+    "intro": "Capture invoices into searchable PDFs and route them into Google Drive so invoice numbers, totals, line items, and terms stay readable when the file leaves your phone.",
+    "heroBullets": [
+      "Preserve invoice numbers, totals, line items, and terms before the PDF reaches Google Drive",
+      "Use one clean export path instead of juggling photos, rescans, and manual uploads",
+      "Keep invoices ready for the next reviewer, archive, or delivery step"
+    ],
+    "keyProblems": [
+      "Payment workflows slow down when invoice totals or identifiers are hard to read",
+      "Scans often stay stuck in personal camera rolls instead of team folders",
+      "A weak scan creates avoidable follow-up from finance or clients"
+    ],
+    "recommendedFeatures": [
+      "Ecosystem Integration",
+      "Instant OCR",
+      "Batch Mode"
+    ],
+    "workflowSteps": [
+      "Capture the full invoices set in one pass so nothing is missed",
+      "Enhance the scan and use OCR so invoice numbers, totals, line items, and terms remain easy to find",
+      "Export the finished PDF into shared Google Drive folders without a second cleanup step"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Keep the approval trail moving",
+        "body": "Invoice searches usually come from people trying to keep accounts payable or customer billing from stalling on poor scan quality."
+      },
+      {
+        "heading": "Why Google Drive fits this handoff",
+        "body": "This workflow matters because the scan is not the finish line. Google Drive is where the file gets reviewed, stored, or delivered next, so the exported PDF needs to arrive clean and complete."
+      },
+      {
+        "heading": "Avoid the rescan loop",
+        "body": "People searching for this page are usually trying to avoid a second pass. A better invoices workflow means capturing once, exporting once, and letting Google Drive handle the next step."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I scan invoices to Google Drive on my phone?",
+        "answer": "Yes. ScanDocPro can capture the pages, clean them up, and export a readable PDF that is easier to move into Google Drive than a stack of raw photos."
+      },
+      {
+        "question": "What matters most when scanning invoices to Google Drive?",
+        "answer": "The important part is preserving invoice numbers, totals, line items, and terms, keeping the packet organized, and making sure the exported PDF is strong enough for the next person or system."
+      }
+    ],
+    "relatedUrls": [
+      "/integrations/google-drive/",
+      "/documents/invoices/",
+      "/solutions/small-business-owners/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "google-drive-contracts",
+    "name": "Contracts to Google Drive",
+    "targetKeyword": "scan contracts to Google Drive",
+    "pageTitle": "How to Scan Contracts to Google Drive",
+    "pageMetaDescription": "Scan contracts to Google Drive with OCR, cleanup, and mobile PDF export so signatures, clause text, and page order stay readable in the next workflow.",
+    "pageH1": "How to Scan Contracts to Google Drive",
+    "intro": "Capture contracts into searchable PDFs and route them into Google Drive so signatures, clause text, and page order stay readable when the file leaves your phone.",
+    "heroBullets": [
+      "Preserve signatures, clause text, and page order before the PDF reaches Google Drive",
+      "Use one clean export path instead of juggling photos, rescans, and manual uploads",
+      "Keep contracts ready for the next reviewer, archive, or delivery step"
+    ],
+    "keyProblems": [
+      "Signed pages lose value when signatures or initials are unclear",
+      "Scans often stay stuck in personal camera rolls instead of team folders",
+      "Legal and operations teams need a cleaner handoff than ad hoc photos"
+    ],
+    "recommendedFeatures": [
+      "Ecosystem Integration",
+      "Batch Mode",
+      "E-Sign & Annotate"
+    ],
+    "workflowSteps": [
+      "Capture the full contracts set in one pass so nothing is missed",
+      "Enhance the scan and use OCR so signatures, clause text, and page order remain easy to find",
+      "Export the finished PDF into shared Google Drive folders without a second cleanup step"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Protect signed detail",
+        "body": "Contract scans are judged on legibility, signature clarity, and whether the packet looks trustworthy enough to move forward."
+      },
+      {
+        "heading": "Why Google Drive fits this handoff",
+        "body": "This workflow matters because the scan is not the finish line. Google Drive is where the file gets reviewed, stored, or delivered next, so the exported PDF needs to arrive clean and complete."
+      },
+      {
+        "heading": "Avoid the rescan loop",
+        "body": "People searching for this page are usually trying to avoid a second pass. A better contracts workflow means capturing once, exporting once, and letting Google Drive handle the next step."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I scan contracts to Google Drive on my phone?",
+        "answer": "Yes. ScanDocPro can capture the pages, clean them up, and export a readable PDF that is easier to move into Google Drive than a stack of raw photos."
+      },
+      {
+        "question": "What matters most when scanning contracts to Google Drive?",
+        "answer": "The important part is preserving signatures, clause text, and page order, keeping the packet organized, and making sure the exported PDF is strong enough for the next person or system."
+      }
+    ],
+    "relatedUrls": [
+      "/integrations/google-drive/",
+      "/documents/contracts/",
+      "/solutions/lawyers/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "dropbox-receipts",
+    "name": "Receipts to Dropbox",
+    "targetKeyword": "scan receipts to Dropbox",
+    "pageTitle": "How to Scan Receipts to Dropbox",
+    "pageMetaDescription": "Scan receipts to Dropbox with OCR, cleanup, and mobile PDF export so vendor names, totals, and dates stay readable in the next workflow.",
+    "pageH1": "How to Scan Receipts to Dropbox",
+    "intro": "Capture receipts into searchable PDFs and route them into Dropbox so vendor names, totals, and dates stay readable when the file leaves your phone.",
+    "heroBullets": [
+      "Preserve vendor names, totals, and dates before the PDF reaches Dropbox",
+      "Use one clean export path instead of juggling photos, rescans, and manual uploads",
+      "Keep receipts ready for the next reviewer, archive, or delivery step"
+    ],
+    "keyProblems": [
+      "Faded print becomes harder to review after upload or delivery",
+      "Dropbox folders fill up quickly with inconsistent scan quality from mobile teams",
+      "Finance teams need searchable PDFs instead of photo clutter"
+    ],
+    "recommendedFeatures": [
+      "Ecosystem Integration",
+      "Instant OCR",
+      "AI-Enhanced Scanning"
+    ],
+    "workflowSteps": [
+      "Capture the full receipts set in one pass so nothing is missed",
+      "Enhance the scan and use OCR so vendor names, totals, and dates remain easy to find",
+      "Export the finished PDF into Dropbox folders and shared client workspaces without a second cleanup step"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Preserve expense proof",
+        "body": "Receipt workflows depend on capturing small print before it fades and then bundling multiple slips into one usable PDF."
+      },
+      {
+        "heading": "Why Dropbox fits this handoff",
+        "body": "This workflow matters because the scan is not the finish line. Dropbox is where the file gets reviewed, stored, or delivered next, so the exported PDF needs to arrive clean and complete."
+      },
+      {
+        "heading": "Avoid the rescan loop",
+        "body": "People searching for this page are usually trying to avoid a second pass. A better receipts workflow means capturing once, exporting once, and letting Dropbox handle the next step."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I scan receipts to Dropbox on my phone?",
+        "answer": "Yes. ScanDocPro can capture the pages, clean them up, and export a readable PDF that is easier to move into Dropbox than a stack of raw photos."
+      },
+      {
+        "question": "What matters most when scanning receipts to Dropbox?",
+        "answer": "The important part is preserving vendor names, totals, and dates, keeping the packet organized, and making sure the exported PDF is strong enough for the next person or system."
+      }
+    ],
+    "relatedUrls": [
+      "/integrations/dropbox/",
+      "/documents/receipts/",
+      "/solutions/accountants/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "dropbox-contracts",
+    "name": "Contracts to Dropbox",
+    "targetKeyword": "scan contracts to Dropbox",
+    "pageTitle": "How to Scan Contracts to Dropbox",
+    "pageMetaDescription": "Scan contracts to Dropbox with OCR, cleanup, and mobile PDF export so signatures, clause text, and page order stay readable in the next workflow.",
+    "pageH1": "How to Scan Contracts to Dropbox",
+    "intro": "Capture contracts into searchable PDFs and route them into Dropbox so signatures, clause text, and page order stay readable when the file leaves your phone.",
+    "heroBullets": [
+      "Preserve signatures, clause text, and page order before the PDF reaches Dropbox",
+      "Use one clean export path instead of juggling photos, rescans, and manual uploads",
+      "Keep contracts ready for the next reviewer, archive, or delivery step"
+    ],
+    "keyProblems": [
+      "Signed pages lose value when signatures or initials are unclear",
+      "Dropbox folders fill up quickly with inconsistent scan quality from mobile teams",
+      "Legal and operations teams need a cleaner handoff than ad hoc photos"
+    ],
+    "recommendedFeatures": [
+      "Ecosystem Integration",
+      "Batch Mode",
+      "E-Sign & Annotate"
+    ],
+    "workflowSteps": [
+      "Capture the full contracts set in one pass so nothing is missed",
+      "Enhance the scan and use OCR so signatures, clause text, and page order remain easy to find",
+      "Export the finished PDF into Dropbox folders and shared client workspaces without a second cleanup step"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Protect signed detail",
+        "body": "Contract scans are judged on legibility, signature clarity, and whether the packet looks trustworthy enough to move forward."
+      },
+      {
+        "heading": "Why Dropbox fits this handoff",
+        "body": "This workflow matters because the scan is not the finish line. Dropbox is where the file gets reviewed, stored, or delivered next, so the exported PDF needs to arrive clean and complete."
+      },
+      {
+        "heading": "Avoid the rescan loop",
+        "body": "People searching for this page are usually trying to avoid a second pass. A better contracts workflow means capturing once, exporting once, and letting Dropbox handle the next step."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I scan contracts to Dropbox on my phone?",
+        "answer": "Yes. ScanDocPro can capture the pages, clean them up, and export a readable PDF that is easier to move into Dropbox than a stack of raw photos."
+      },
+      {
+        "question": "What matters most when scanning contracts to Dropbox?",
+        "answer": "The important part is preserving signatures, clause text, and page order, keeping the packet organized, and making sure the exported PDF is strong enough for the next person or system."
+      }
+    ],
+    "relatedUrls": [
+      "/integrations/dropbox/",
+      "/documents/contracts/",
+      "/solutions/real-estate-agents/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "dropbox-medical-records",
+    "name": "Medical Records to Dropbox",
+    "targetKeyword": "scan medical records to Dropbox",
+    "pageTitle": "How to Scan Medical Records to Dropbox",
+    "pageMetaDescription": "Scan medical records to Dropbox with OCR, cleanup, and mobile PDF export so patient information, provider details, and chronological order stay readable in the next workflow.",
+    "pageH1": "How to Scan Medical Records to Dropbox",
+    "intro": "Capture medical records into searchable PDFs and route them into Dropbox so patient information, provider details, and chronological order stay readable when the file leaves your phone.",
+    "heroBullets": [
+      "Preserve patient information, provider details, and chronological order before the PDF reaches Dropbox",
+      "Use one clean export path instead of juggling photos, rescans, and manual uploads",
+      "Keep medical records ready for the next reviewer, archive, or delivery step"
+    ],
+    "keyProblems": [
+      "Record packets are long and often copied multiple times before they are shared",
+      "Dropbox folders fill up quickly with inconsistent scan quality from mobile teams",
+      "Teams need one organized PDF instead of a stack of images"
+    ],
+    "recommendedFeatures": [
+      "Ecosystem Integration",
+      "Batch Mode",
+      "AI-Enhanced Scanning"
+    ],
+    "workflowSteps": [
+      "Capture the full medical records set in one pass so nothing is missed",
+      "Enhance the scan and use OCR so patient information, provider details, and chronological order remain easy to find",
+      "Export the finished PDF into Dropbox folders and shared client workspaces without a second cleanup step"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Respect packet integrity",
+        "body": "Medical-record workflows are about organization and readability under pressure. The page should emphasize preserving detail across a multi-page packet."
+      },
+      {
+        "heading": "Why Dropbox fits this handoff",
+        "body": "This workflow matters because the scan is not the finish line. Dropbox is where the file gets reviewed, stored, or delivered next, so the exported PDF needs to arrive clean and complete."
+      },
+      {
+        "heading": "Avoid the rescan loop",
+        "body": "People searching for this page are usually trying to avoid a second pass. A better medical records workflow means capturing once, exporting once, and letting Dropbox handle the next step."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I scan medical records to Dropbox on my phone?",
+        "answer": "Yes. ScanDocPro can capture the pages, clean them up, and export a readable PDF that is easier to move into Dropbox than a stack of raw photos."
+      },
+      {
+        "question": "What matters most when scanning medical records to Dropbox?",
+        "answer": "The important part is preserving patient information, provider details, and chronological order, keeping the packet organized, and making sure the exported PDF is strong enough for the next person or system."
+      }
+    ],
+    "relatedUrls": [
+      "/integrations/dropbox/",
+      "/documents/medical-records/",
+      "/solutions/healthcare-admins/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "email-invoices",
+    "name": "Invoices to Email",
+    "targetKeyword": "scan invoices to email",
+    "pageTitle": "How to Scan Invoices to Email",
+    "pageMetaDescription": "Scan invoices to email with OCR, cleanup, and mobile PDF export so invoice numbers, totals, line items, and terms stay readable in the next workflow.",
+    "pageH1": "How to Scan Invoices to Email",
+    "intro": "Capture invoices into searchable PDFs and route them into email so invoice numbers, totals, line items, and terms stay readable when the file leaves your phone.",
+    "heroBullets": [
+      "Preserve invoice numbers, totals, line items, and terms before the PDF reaches Email",
+      "Use one clean export path instead of juggling photos, rescans, and manual uploads",
+      "Keep invoices ready for the next reviewer, archive, or delivery step"
+    ],
+    "keyProblems": [
+      "Payment workflows slow down when invoice totals or identifiers are hard to read",
+      "Email recipients judge the document immediately, so sloppy scans create friction fast",
+      "A weak scan creates avoidable follow-up from finance or clients"
+    ],
+    "recommendedFeatures": [
+      "Ecosystem Integration",
+      "Instant OCR",
+      "Batch Mode"
+    ],
+    "workflowSteps": [
+      "Capture the full invoices set in one pass so nothing is missed",
+      "Enhance the scan and use OCR so invoice numbers, totals, line items, and terms remain easy to find",
+      "Export the finished PDF into an email-ready PDF attachment without a second cleanup step"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Keep the approval trail moving",
+        "body": "Invoice searches usually come from people trying to keep accounts payable or customer billing from stalling on poor scan quality."
+      },
+      {
+        "heading": "Why Email fits this handoff",
+        "body": "This workflow matters because the scan is not the finish line. Email is where the file gets reviewed, stored, or delivered next, so the exported PDF needs to arrive clean and complete."
+      },
+      {
+        "heading": "Avoid the rescan loop",
+        "body": "People searching for this page are usually trying to avoid a second pass. A better invoices workflow means capturing once, exporting once, and letting Email handle the next step."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I scan invoices to email on my phone?",
+        "answer": "Yes. ScanDocPro can capture the pages, clean them up, and export a readable PDF that is easier to move into email than a stack of raw photos."
+      },
+      {
+        "question": "What matters most when scanning invoices to email?",
+        "answer": "The important part is preserving invoice numbers, totals, line items, and terms, keeping the packet organized, and making sure the exported PDF is strong enough for the next person or system."
+      }
+    ],
+    "relatedUrls": [
+      "/integrations/email/",
+      "/documents/invoices/",
+      "/solutions/small-business-owners/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "email-certificates",
+    "name": "Certificates to Email",
+    "targetKeyword": "scan certificates to email",
+    "pageTitle": "How to Scan Certificates to Email",
+    "pageMetaDescription": "Scan certificates to email with OCR, cleanup, and mobile PDF export so names, seals, borders, and credential details stay readable in the next workflow.",
+    "pageH1": "How to Scan Certificates to Email",
+    "intro": "Capture certificates into searchable PDFs and route them into email so names, seals, borders, and credential details stay readable when the file leaves your phone.",
+    "heroBullets": [
+      "Preserve names, seals, borders, and credential details before the PDF reaches Email",
+      "Use one clean export path instead of juggling photos, rescans, and manual uploads",
+      "Keep certificates ready for the next reviewer, archive, or delivery step"
+    ],
+    "keyProblems": [
+      "Certificates look unprofessional when borders or seals are clipped",
+      "Email recipients judge the document immediately, so sloppy scans create friction fast",
+      "Recipients want a polished attachment they can review quickly"
+    ],
+    "recommendedFeatures": [
+      "Ecosystem Integration",
+      "AI-Enhanced Scanning",
+      "Batch Mode"
+    ],
+    "workflowSteps": [
+      "Capture the full certificates set in one pass so nothing is missed",
+      "Enhance the scan and use OCR so names, seals, borders, and credential details remain easy to find",
+      "Export the finished PDF into an email-ready PDF attachment without a second cleanup step"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Preserve official presentation",
+        "body": "Certificate pages work when they speak to presentation quality, not just digitization. Users want a clean PDF that still looks official at first glance."
+      },
+      {
+        "heading": "Why Email fits this handoff",
+        "body": "This workflow matters because the scan is not the finish line. Email is where the file gets reviewed, stored, or delivered next, so the exported PDF needs to arrive clean and complete."
+      },
+      {
+        "heading": "Avoid the rescan loop",
+        "body": "People searching for this page are usually trying to avoid a second pass. A better certificates workflow means capturing once, exporting once, and letting Email handle the next step."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I scan certificates to email on my phone?",
+        "answer": "Yes. ScanDocPro can capture the pages, clean them up, and export a readable PDF that is easier to move into email than a stack of raw photos."
+      },
+      {
+        "question": "What matters most when scanning certificates to email?",
+        "answer": "The important part is preserving names, seals, borders, and credential details, keeping the packet organized, and making sure the exported PDF is strong enough for the next person or system."
+      }
+    ],
+    "relatedUrls": [
+      "/integrations/email/",
+      "/documents/certificates/",
+      "/solutions/educators/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "email-business-cards",
+    "name": "Business Cards to Email",
+    "targetKeyword": "scan business cards to email",
+    "pageTitle": "How to Scan Business Cards to Email",
+    "pageMetaDescription": "Scan business cards to email with OCR, cleanup, and mobile PDF export so names, titles, phone numbers, and email addresses stay readable in the next workflow.",
+    "pageH1": "How to Scan Business Cards to Email",
+    "intro": "Capture business cards into searchable PDFs and route them into email so names, titles, phone numbers, and email addresses stay readable when the file leaves your phone.",
+    "heroBullets": [
+      "Preserve names, titles, phone numbers, and email addresses before the PDF reaches Email",
+      "Use one clean export path instead of juggling photos, rescans, and manual uploads",
+      "Keep business cards ready for the next reviewer, archive, or delivery step"
+    ],
+    "keyProblems": [
+      "Contact details are easy to lose when cards stay in pockets or desk piles",
+      "Email recipients judge the document immediately, so sloppy scans create friction fast",
+      "People often need to forward the captured contact quickly"
+    ],
+    "recommendedFeatures": [
+      "Ecosystem Integration",
+      "Instant OCR",
+      "AI-Enhanced Scanning"
+    ],
+    "workflowSteps": [
+      "Capture the full business cards set in one pass so nothing is missed",
+      "Enhance the scan and use OCR so names, titles, phone numbers, and email addresses remain easy to find",
+      "Export the finished PDF into an email-ready PDF attachment without a second cleanup step"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Turn contacts into something usable",
+        "body": "Business-card intent is about turning a small paper object into readable contact information that can actually be shared or filed."
+      },
+      {
+        "heading": "Why Email fits this handoff",
+        "body": "This workflow matters because the scan is not the finish line. Email is where the file gets reviewed, stored, or delivered next, so the exported PDF needs to arrive clean and complete."
+      },
+      {
+        "heading": "Avoid the rescan loop",
+        "body": "People searching for this page are usually trying to avoid a second pass. A better business cards workflow means capturing once, exporting once, and letting Email handle the next step."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I scan business cards to email on my phone?",
+        "answer": "Yes. ScanDocPro can capture the pages, clean them up, and export a readable PDF that is easier to move into email than a stack of raw photos."
+      },
+      {
+        "question": "What matters most when scanning business cards to email?",
+        "answer": "The important part is preserving names, titles, phone numbers, and email addresses, keeping the packet organized, and making sure the exported PDF is strong enough for the next person or system."
+      }
+    ],
+    "relatedUrls": [
+      "/integrations/email/",
+      "/documents/business-cards/",
+      "/solutions/consultants/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "sendfaxpro-contracts",
+    "name": "Contracts to SendFaxPro",
+    "targetKeyword": "scan contracts to SendFaxPro",
+    "pageTitle": "How to Scan Contracts to SendFaxPro",
+    "pageMetaDescription": "Scan contracts to SendFaxPro with OCR, cleanup, and mobile PDF export so signatures, clause text, and page order stay readable in the next workflow.",
+    "pageH1": "How to Scan Contracts to SendFaxPro",
+    "intro": "Capture contracts into searchable PDFs and route them into SendFaxPro so signatures, clause text, and page order stay readable when the file leaves your phone.",
+    "heroBullets": [
+      "Preserve signatures, clause text, and page order before the PDF reaches SendFaxPro",
+      "Use one clean export path instead of juggling photos, rescans, and manual uploads",
+      "Keep contracts ready for the next reviewer, archive, or delivery step"
+    ],
+    "keyProblems": [
+      "Signed pages lose value when signatures or initials are unclear",
+      "Legacy offices still require fax delivery even after the scan is captured",
+      "Legal and operations teams need a cleaner handoff than ad hoc photos"
+    ],
+    "recommendedFeatures": [
+      "Ecosystem Integration",
+      "Batch Mode",
+      "E-Sign & Annotate"
+    ],
+    "workflowSteps": [
+      "Capture the full contracts set in one pass so nothing is missed",
+      "Enhance the scan and use OCR so signatures, clause text, and page order remain easy to find",
+      "Export the finished PDF into a SendFaxPro delivery workflow without a second cleanup step"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Protect signed detail",
+        "body": "Contract scans are judged on legibility, signature clarity, and whether the packet looks trustworthy enough to move forward."
+      },
+      {
+        "heading": "Why SendFaxPro fits this handoff",
+        "body": "This workflow matters because the scan is not the finish line. SendFaxPro is where the file gets reviewed, stored, or delivered next, so the exported PDF needs to arrive clean and complete."
+      },
+      {
+        "heading": "Avoid the rescan loop",
+        "body": "People searching for this page are usually trying to avoid a second pass. A better contracts workflow means capturing once, exporting once, and letting SendFaxPro handle the next step."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I scan contracts to SendFaxPro on my phone?",
+        "answer": "Yes. ScanDocPro can capture the pages, clean them up, and export a readable PDF that is easier to move into SendFaxPro than a stack of raw photos."
+      },
+      {
+        "question": "What matters most when scanning contracts to SendFaxPro?",
+        "answer": "The important part is preserving signatures, clause text, and page order, keeping the packet organized, and making sure the exported PDF is strong enough for the next person or system."
+      }
+    ],
+    "relatedUrls": [
+      "/integrations/sendfaxpro/",
+      "/documents/contracts/",
+      "/solutions/lawyers/"
+    ],
+    "schemaType": "HowTo"
+  },
+  {
+    "slug": "sendfaxpro-insurance-forms",
+    "name": "Insurance Forms to SendFaxPro",
+    "targetKeyword": "scan insurance forms to SendFaxPro",
+    "pageTitle": "How to Scan Insurance Forms to SendFaxPro",
+    "pageMetaDescription": "Scan insurance forms to SendFaxPro with OCR, cleanup, and mobile PDF export so policy details, signatures, and supporting fields stay readable in the next workflow.",
+    "pageH1": "How to Scan Insurance Forms to SendFaxPro",
+    "intro": "Capture insurance forms into searchable PDFs and route them into SendFaxPro so policy details, signatures, and supporting fields stay readable when the file leaves your phone.",
+    "heroBullets": [
+      "Preserve policy details, signatures, and supporting fields before the PDF reaches SendFaxPro",
+      "Use one clean export path instead of juggling photos, rescans, and manual uploads",
+      "Keep insurance forms ready for the next reviewer, archive, or delivery step"
+    ],
+    "keyProblems": [
+      "Insurance packets often mix forms, signatures, and supporting pages",
+      "Legacy offices still require fax delivery even after the scan is captured",
+      "Weak contrast and small fields make rework common"
+    ],
+    "recommendedFeatures": [
+      "Ecosystem Integration",
+      "Batch Mode",
+      "E-Sign & Annotate"
+    ],
+    "workflowSteps": [
+      "Capture the full insurance forms set in one pass so nothing is missed",
+      "Enhance the scan and use OCR so policy details, signatures, and supporting fields remain easy to find",
+      "Export the finished PDF into a SendFaxPro delivery workflow without a second cleanup step"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Prepare regulated paperwork carefully",
+        "body": "Insurance-form pages should highlight clean fields, page order, and a smoother handoff into the office system that still receives the packet."
+      },
+      {
+        "heading": "Why SendFaxPro fits this handoff",
+        "body": "This workflow matters because the scan is not the finish line. SendFaxPro is where the file gets reviewed, stored, or delivered next, so the exported PDF needs to arrive clean and complete."
+      },
+      {
+        "heading": "Avoid the rescan loop",
+        "body": "People searching for this page are usually trying to avoid a second pass. A better insurance forms workflow means capturing once, exporting once, and letting SendFaxPro handle the next step."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I scan insurance forms to SendFaxPro on my phone?",
+        "answer": "Yes. ScanDocPro can capture the pages, clean them up, and export a readable PDF that is easier to move into SendFaxPro than a stack of raw photos."
+      },
+      {
+        "question": "What matters most when scanning insurance forms to SendFaxPro?",
+        "answer": "The important part is preserving policy details, signatures, and supporting fields, keeping the packet organized, and making sure the exported PDF is strong enough for the next person or system."
+      }
+    ],
+    "relatedUrls": [
+      "/integrations/sendfaxpro/",
+      "/documents/insurance-forms/",
+      "/solutions/insurance-agents/"
+    ],
+    "schemaType": "HowTo"
+  }
+]

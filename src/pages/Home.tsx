@@ -61,6 +61,18 @@ const popularWorkflows = [
     description: 'Turn invoices into searchable PDFs with totals, dates, and vendor details intact.',
   },
   {
+    icon: Share2,
+    title: 'Scan Documents to Google Drive',
+    href: '/integrations/google-drive/',
+    description: 'Capture receipts, contracts, and invoices, then route clean PDFs into shared Drive folders.',
+  },
+  {
+    icon: Share2,
+    title: 'Scan Contracts to SendFaxPro',
+    href: '/integrations/sendfaxpro-contracts/',
+    description: 'Prepare signed agreements on mobile and hand them off to a formal fax workflow without rescanning.',
+  },
+  {
     icon: BookOpen,
     title: 'Scanner App for Students',
     href: '/solutions/students/',
@@ -77,6 +89,7 @@ const popularWorkflows = [
 const hubIcons = {
   documents: FileText,
   solutions: Briefcase,
+  integrations: Share2,
   compare: Scale,
 } as const;
 
@@ -220,11 +233,11 @@ export function Home() {
               Explore <GradientText>Search-Ready Workflows</GradientText>
             </h2>
             <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Browse ScanDocPro by document type, role, or competitor evaluation so you land on the workflow that matches the job at hand.
+              Browse ScanDocPro by document type, role, delivery destination, or competitor evaluation so you land on the workflow that matches the job at hand.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4 lg:gap-8">
             {programmaticHubs.map((hub) => {
               const Icon = hubIcons[hub.family];
 

@@ -542,5 +542,141 @@
         "your documents do not need much cleanup, organization, or downstream workflow support"
       ]
     }
+  },
+  {
+    "slug": "scanner-pro-alternative",
+    "competitorName": "Scanner Pro",
+    "competitorCategory": "premium mobile scanner app for polished personal and professional scans",
+    "targetKeyword": "Scanner Pro alternative",
+    "intro": "Help evaluators understand when ScanDocPro is the better fit for OCR-heavy, packet-heavy, and delivery-sensitive workflows compared with Scanner Pro.",
+    "heroBullets": [
+      "Compare scan polish with workflow continuity after the capture step",
+      "Show where ScanDocPro fits better for document packets and send-ready output",
+      "Keep the page credible for searchers already familiar with scanner apps"
+    ],
+    "keyProblems": [
+      "Comparison searchers want a practical reason to switch, not generic app praise",
+      "They care about whether the scan can move cleanly into the rest of the workflow",
+      "Feature lists alone are not enough for high-intent alternative searches"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Batch Mode",
+      "Ecosystem Integration"
+    ],
+    "workflowSteps": [
+      "Capture the full document packet on mobile with cleanup enabled",
+      "Use OCR and batching to turn the scan into a stronger working PDF",
+      "Route the finished document into cloud, email, or SendFaxPro delivery as needed"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Win on next-step workflow fit",
+        "body": "This page should focus on what happens after the capture looks good. ScanDocPro has a stronger story when the scan needs to be filed, shared, or formally delivered without another cleanup pass."
+      },
+      {
+        "heading": "Respect polished-scan expectations",
+        "body": "Scanner Pro users already expect clean-looking output. The differentiation should come from OCR-heavy packet workflows and stronger handoff paths rather than empty visual claims."
+      },
+      {
+        "heading": "Keep the comparison balanced",
+        "body": "Alternative pages work best when they explain fit honestly. Some users may still prefer Scanner Pro for lighter everyday scanning while ScanDocPro fits document-heavy teams better."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who is likely to search for a Scanner Pro alternative?",
+        "answer": "Usually people who already know mobile scanning well and are evaluating whether they need a workflow with stronger OCR, packet building, or delivery continuity."
+      },
+      {
+        "question": "What makes this page useful?",
+        "answer": "It helps evaluators understand when scan quality alone is not enough and when the rest of the document workflow starts to matter more."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/contracts/",
+      "/integrations/google-drive/",
+      "/solutions/small-business-owners/"
+    ],
+    "schemaType": "FAQPage",
+    "comparison": {
+      "chooseScanDocProWhen": [
+        "you need stronger OCR, batching, and workflow continuity after the scan is captured",
+        "your documents often move into shared folders, email, or formal delivery next",
+        "you care more about packet handling than one-off everyday scans"
+      ],
+      "chooseCompetitorWhen": [
+        "you mainly want a polished general scanner for lighter personal or office use",
+        "your workflow ends at capture more often than it continues into downstream delivery"
+      ]
+    }
+  },
+  {
+    "slug": "notebloc-alternative",
+    "competitorName": "Notebloc",
+    "competitorCategory": "lightweight scanner app often associated with classroom and note capture",
+    "targetKeyword": "Notebloc alternative",
+    "intro": "Position ScanDocPro as a stronger option when searchers need scanner workflows that go beyond note capture into OCR, packet building, and document delivery.",
+    "heroBullets": [
+      "Compare note-friendly scanning with heavier document workflow needs",
+      "Show where ScanDocPro fits better for receipts, forms, contracts, and admin packets",
+      "Keep the tone practical for searchers already evaluating alternatives"
+    ],
+    "keyProblems": [
+      "Some searchers start from note scanning and later need broader document handling",
+      "They want a page that explains workflow fit clearly without overselling",
+      "The strongest differentiation comes from packet quality and handoff options"
+    ],
+    "recommendedFeatures": [
+      "Instant OCR",
+      "Batch Mode",
+      "AI-Enhanced Scanning"
+    ],
+    "workflowSteps": [
+      "Capture the full set of notes, forms, or paperwork on mobile",
+      "Clean the pages and use OCR so the packet is easier to review later",
+      "Export a stronger PDF for archive, sharing, or downstream delivery"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Explain the step up from note capture",
+        "body": "This page should focus on the moment when a note-focused scanner is no longer enough because the work now includes forms, receipts, signed pages, or client-facing paperwork."
+      },
+      {
+        "heading": "Differentiate on business readiness",
+        "body": "ScanDocPro should be framed as a better fit when the scan has to survive finance, operations, compliance, or another external review instead of staying a personal reference image."
+      },
+      {
+        "heading": "Bring delivery into the story",
+        "body": "The page becomes more useful when it explains what happens after the scan is captured. That is where ScanDocPro's cloud, email, and SendFaxPro workflow paths add practical value."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why launch a Notebloc alternative page?",
+        "answer": "Because it captures evaluators who may have started with a note-oriented scanner and are now looking for a workflow that handles broader business paperwork."
+      },
+      {
+        "question": "What should this page avoid?",
+        "answer": "Avoid treating note capture as unimportant. The page should explain when that lighter use case fits and when a more document-heavy workflow becomes the better choice."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/handwritten-notes/",
+      "/integrations/email/",
+      "/solutions/students/"
+    ],
+    "schemaType": "FAQPage",
+    "comparison": {
+      "chooseScanDocProWhen": [
+        "you need OCR, batching, and stronger document cleanup for business or admin paperwork",
+        "your workflow often ends with sending, filing, or formally delivering the PDF",
+        "you want a scanner that handles more than notes and one-page study material"
+      ],
+      "chooseCompetitorWhen": [
+        "you mainly want a lighter scanner focused on notes, study material, or quick personal capture",
+        "your workflow does not require much packet organization or downstream delivery"
+      ]
+    }
   }
 ]

@@ -1,0 +1,178 @@
+[
+  {
+    "pageType": "destination",
+    "slug": "google-drive",
+    "integration": "google-drive",
+    "targetKeyword": "scan documents to Google Drive",
+    "relatedUrls": [
+      "/integrations/google-drive-receipts/",
+      "/integrations/google-drive-invoices/",
+      "/documents/invoices/"
+    ]
+  },
+  {
+    "pageType": "destination",
+    "slug": "dropbox",
+    "integration": "dropbox",
+    "targetKeyword": "scan documents to Dropbox",
+    "relatedUrls": [
+      "/integrations/dropbox-receipts/",
+      "/integrations/dropbox-medical-records/",
+      "/documents/medical-records/"
+    ]
+  },
+  {
+    "pageType": "destination",
+    "slug": "email",
+    "integration": "email",
+    "targetKeyword": "scan documents to email",
+    "relatedUrls": [
+      "/integrations/email-invoices/",
+      "/integrations/email-certificates/",
+      "/solutions/small-business-owners/"
+    ]
+  },
+  {
+    "pageType": "destination",
+    "slug": "sendfaxpro",
+    "integration": "sendfaxpro",
+    "targetKeyword": "scan documents to SendFaxPro",
+    "relatedUrls": [
+      "/integrations/sendfaxpro-contracts/",
+      "/integrations/sendfaxpro-insurance-forms/",
+      "/documents/contracts/"
+    ]
+  },
+  {
+    "pageType": "workflow",
+    "slug": "google-drive-receipts",
+    "integration": "google-drive",
+    "document": "receipts",
+    "targetKeyword": "scan receipts to Google Drive",
+    "relatedUrls": [
+      "/integrations/google-drive/",
+      "/documents/receipts/",
+      "/solutions/accountants/"
+    ]
+  },
+  {
+    "pageType": "workflow",
+    "slug": "google-drive-invoices",
+    "integration": "google-drive",
+    "document": "invoices",
+    "targetKeyword": "scan invoices to Google Drive",
+    "relatedUrls": [
+      "/integrations/google-drive/",
+      "/documents/invoices/",
+      "/solutions/small-business-owners/"
+    ]
+  },
+  {
+    "pageType": "workflow",
+    "slug": "google-drive-contracts",
+    "integration": "google-drive",
+    "document": "contracts",
+    "targetKeyword": "scan contracts to Google Drive",
+    "relatedUrls": [
+      "/integrations/google-drive/",
+      "/documents/contracts/",
+      "/solutions/lawyers/"
+    ]
+  },
+  {
+    "pageType": "workflow",
+    "slug": "dropbox-receipts",
+    "integration": "dropbox",
+    "document": "receipts",
+    "targetKeyword": "scan receipts to Dropbox",
+    "relatedUrls": [
+      "/integrations/dropbox/",
+      "/documents/receipts/",
+      "/solutions/accountants/"
+    ]
+  },
+  {
+    "pageType": "workflow",
+    "slug": "dropbox-contracts",
+    "integration": "dropbox",
+    "document": "contracts",
+    "targetKeyword": "scan contracts to Dropbox",
+    "relatedUrls": [
+      "/integrations/dropbox/",
+      "/documents/contracts/",
+      "/solutions/real-estate-agents/"
+    ]
+  },
+  {
+    "pageType": "workflow",
+    "slug": "dropbox-medical-records",
+    "integration": "dropbox",
+    "document": "medical-records",
+    "targetKeyword": "scan medical records to Dropbox",
+    "relatedUrls": [
+      "/integrations/dropbox/",
+      "/documents/medical-records/",
+      "/solutions/healthcare-admins/"
+    ]
+  },
+  {
+    "pageType": "workflow",
+    "slug": "email-invoices",
+    "integration": "email",
+    "document": "invoices",
+    "targetKeyword": "scan invoices to email",
+    "relatedUrls": [
+      "/integrations/email/",
+      "/documents/invoices/",
+      "/solutions/small-business-owners/"
+    ]
+  },
+  {
+    "pageType": "workflow",
+    "slug": "email-certificates",
+    "integration": "email",
+    "document": "certificates",
+    "targetKeyword": "scan certificates to email",
+    "relatedUrls": [
+      "/integrations/email/",
+      "/documents/certificates/",
+      "/solutions/educators/"
+    ]
+  },
+  {
+    "pageType": "workflow",
+    "slug": "email-business-cards",
+    "integration": "email",
+    "document": "business-cards",
+    "targetKeyword": "scan business cards to email",
+    "relatedUrls": [
+      "/integrations/email/",
+      "/documents/business-cards/",
+      "/solutions/consultants/"
+    ]
+  },
+  {
+    "pageType": "workflow",
+    "slug": "sendfaxpro-contracts",
+    "integration": "sendfaxpro",
+    "document": "contracts",
+    "targetKeyword": "scan contracts to SendFaxPro",
+    "relatedUrls": [
+      "/integrations/sendfaxpro/",
+      "/documents/contracts/",
+      "/solutions/lawyers/"
+    ]
+  },
+  {
+    "pageType": "workflow",
+    "slug": "sendfaxpro-insurance-forms",
+    "integration": "sendfaxpro",
+    "document": "insurance-forms",
+    "targetKeyword": "scan insurance forms to SendFaxPro",
+    "relatedUrls": [
+      "/integrations/sendfaxpro/",
+      "/documents/insurance-forms/",
+      "/solutions/insurance-agents/"
+    ]
+  }
+]
