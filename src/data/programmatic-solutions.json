@@ -51,7 +51,8 @@
     "relatedUrls": [
       "/documents/lecture-notes/",
       "/documents/handwritten-notes/",
-      "/documents/whiteboards/"
+      "/documents/whiteboards/",
+      "/tools/images-to-pdf/"
     ],
     "schemaType": "FAQPage"
   },
@@ -107,7 +108,8 @@
     "relatedUrls": [
       "/documents/contracts/",
       "/documents/invoices/",
-      "/documents/expense-reports/"
+      "/documents/expense-reports/",
+      "/tools/merge-pdf/"
     ],
     "schemaType": "FAQPage"
   },
@@ -164,7 +166,10 @@
       "/documents/receipts/",
       "/documents/tax-documents/",
       "/documents/bank-statements/",
-      "/integrations/google-drive-invoices/"
+      "/integrations/google-drive-invoices/",
+      "/tools/merge-pdf/",
+      "/documents/w9-forms/",
+      "/documents/checks/"
     ],
     "schemaType": "FAQPage"
   },
@@ -277,7 +282,8 @@
       "/documents/contracts/",
       "/documents/leases/",
       "/documents/certificates/",
-      "/integrations/sendfaxpro-contracts/"
+      "/integrations/sendfaxpro-contracts/",
+      "/tools/merge-pdf/"
     ],
     "schemaType": "FAQPage"
   },
@@ -389,7 +395,8 @@
     "relatedUrls": [
       "/documents/business-cards/",
       "/documents/invoices/",
-      "/documents/contracts/"
+      "/documents/contracts/",
+      "/tools/jpg-to-pdf/"
     ],
     "schemaType": "FAQPage"
   },
@@ -558,7 +565,10 @@
       "/documents/invoices/",
       "/documents/receipts/",
       "/documents/tax-documents/",
-      "/integrations/email-invoices/"
+      "/integrations/email-invoices/",
+      "/tools/merge-pdf/",
+      "/documents/checks/",
+      "/documents/w9-forms/"
     ],
     "schemaType": "FAQPage"
   },

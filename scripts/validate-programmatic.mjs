@@ -5,15 +5,17 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const supportedFamilies = new Set(['documents', 'solutions', 'compare', 'integrations']);
+const supportedFamilies = new Set(['documents', 'solutions', 'compare', 'integrations', 'tools']);
 const supportedSchemaTypes = new Set(['FAQPage', 'HowTo', 'WebPage']);
+const supportedToolEngines = new Set(['images-to-pdf', 'heic-to-pdf', 'merge-pdf']);
 
 const files = {
   hubs: path.join(__dirname, '..', 'src', 'data', 'programmatic-hubs.json'),
   documents: path.join(__dirname, '..', 'src', 'data', 'programmatic-documents.json'),
   solutions: path.join(__dirname, '..', 'src', 'data', 'programmatic-solutions.json'),
   compare: path.join(__dirname, '..', 'src', 'data', 'programmatic-compare.json'),
-  integrations: path.join(__dirname, '..', 'src', 'data', 'programmatic-integrations.json')
+  integrations: path.join(__dirname, '..', 'src', 'data', 'programmatic-integrations.json'),
+  tools: path.join(__dirname, '..', 'src', 'data', 'programmatic-tools.json')
 };
 
 function readJson(filePath) {
@@ -41,7 +43,8 @@ function main() {
     documents: readJson(files.documents),
     solutions: readJson(files.solutions),
     compare: readJson(files.compare),
-    integrations: readJson(files.integrations)
+    integrations: readJson(files.integrations),
+    tools: readJson(files.tools)
   };
 
   const allUrls = new Set(['/', '/blog/', '/privacy/', '/terms/']);
@@ -78,6 +81,19 @@ function main() {
       assert(validateArray(page.faq, 2), `${family}/${page.slug} needs 2 faq items`, errors);
       assert(validateArray(page.relatedUrls, 1), `${family}/${page.slug} missing relatedUrls`, errors);
       assert(supportedSchemaTypes.has(page.schemaType), `${family}/${page.slug} has unsupported schemaType ${page.schemaType}`, errors);
+
+      if (family === 'tools') {
+        assert(page.tool && typeof page.tool === 'object', `tools/${page.slug} missing tool metadata`, errors);
+        if (page.tool) {
+          assert(supportedToolEngines.has(page.tool.engine), `tools/${page.slug} has unsupported tool.engine ${page.tool.engine}`, errors);
+          assert(isNonEmptyString(page.tool.toolHeading), `tools/${page.slug} missing tool.toolHeading`, errors);
+          assert(isNonEmptyString(page.tool.toolSubheading), `tools/${page.slug} missing tool.toolSubheading`, errors);
+          assert(isNonEmptyString(page.tool.inputAccept), `tools/${page.slug} missing tool.inputAccept`, errors);
+          assert(isNonEmptyString(page.tool.outputExtension), `tools/${page.slug} missing tool.outputExtension`, errors);
+          assert(isNonEmptyString(page.tool.outputMime), `tools/${page.slug} missing tool.outputMime`, errors);
+          assert(typeof page.tool.maxFileMb === 'number' && page.tool.maxFileMb > 0, `tools/${page.slug} needs positive tool.maxFileMb`, errors);
+        }
+      }
 
       const existingKeyword = keywords.get(page.targetKeyword.toLowerCase());
       assert(!existingKeyword, `Duplicate targetKeyword "${page.targetKeyword}" on ${family}/${page.slug} and ${existingKeyword}`, errors);

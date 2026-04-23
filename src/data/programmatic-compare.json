@@ -52,7 +52,11 @@
     "relatedUrls": [
       "/documents/contracts/",
       "/documents/receipts/",
-      "/solutions/freelancers/"
+      "/solutions/freelancers/",
+      "/tools/merge-pdf/",
+      "/tools/heic-to-pdf/",
+      "/compare/microsoft-lens-alternative/",
+      "/compare/scanner-pro-alternative/"
     ],
     "schemaType": "FAQPage",
     "comparison": {
@@ -120,7 +124,11 @@
     "relatedUrls": [
       "/documents/invoices/",
       "/documents/receipts/",
-      "/solutions/small-business-owners/"
+      "/solutions/small-business-owners/",
+      "/tools/jpg-to-pdf/",
+      "/tools/merge-pdf/",
+      "/compare/tiny-scanner-alternative/",
+      "/compare/turboscan-alternative/"
     ],
     "schemaType": "FAQPage",
     "comparison": {
@@ -188,7 +196,11 @@
     "relatedUrls": [
       "/documents/contracts/",
       "/documents/tax-documents/",
-      "/solutions/accountants/"
+      "/solutions/accountants/",
+      "/tools/merge-pdf/",
+      "/tools/images-to-pdf/",
+      "/compare/swiftscan-alternative/",
+      "/compare/iscanner-alternative/"
     ],
     "schemaType": "FAQPage",
     "comparison": {
@@ -256,7 +268,11 @@
     "relatedUrls": [
       "/documents/whiteboards/",
       "/documents/contracts/",
-      "/solutions/logistics-teams/"
+      "/solutions/logistics-teams/",
+      "/tools/images-to-pdf/",
+      "/tools/scan-to-pdf/",
+      "/compare/adobe-scan-alternative/",
+      "/compare/notebloc-alternative/"
     ],
     "schemaType": "FAQPage",
     "comparison": {
@@ -324,7 +340,11 @@
     "relatedUrls": [
       "/documents/insurance-forms/",
       "/documents/receipts/",
-      "/solutions/small-business-owners/"
+      "/solutions/small-business-owners/",
+      "/tools/jpg-to-pdf/",
+      "/tools/merge-pdf/",
+      "/compare/swiftscan-alternative/",
+      "/compare/camscanner-alternative/"
     ],
     "schemaType": "FAQPage",
     "comparison": {
@@ -392,7 +412,11 @@
     "relatedUrls": [
       "/documents/receipts/",
       "/documents/contracts/",
-      "/solutions/freelancers/"
+      "/solutions/freelancers/",
+      "/tools/jpg-to-pdf/",
+      "/tools/merge-pdf/",
+      "/compare/camscanner-alternative/",
+      "/compare/tiny-scanner-alternative/"
     ],
     "schemaType": "FAQPage",
     "comparison": {
@@ -460,7 +484,11 @@
     "relatedUrls": [
       "/documents/invoices/",
       "/documents/insurance-forms/",
-      "/solutions/consultants/"
+      "/solutions/consultants/",
+      "/tools/merge-pdf/",
+      "/tools/images-to-pdf/",
+      "/compare/iscanner-alternative/",
+      "/compare/genius-scan-alternative/"
     ],
     "schemaType": "FAQPage",
     "comparison": {
@@ -528,7 +556,11 @@
     "relatedUrls": [
       "/documents/contracts/",
       "/documents/receipts/",
-      "/solutions/small-business-owners/"
+      "/solutions/small-business-owners/",
+      "/tools/jpg-to-pdf/",
+      "/tools/images-to-pdf/",
+      "/compare/camscanner-alternative/",
+      "/compare/turboscan-alternative/"
     ],
     "schemaType": "FAQPage",
     "comparison": {
@@ -596,7 +628,11 @@
     "relatedUrls": [
       "/documents/contracts/",
       "/integrations/google-drive/",
-      "/solutions/small-business-owners/"
+      "/solutions/small-business-owners/",
+      "/tools/heic-to-pdf/",
+      "/tools/merge-pdf/",
+      "/compare/adobe-scan-alternative/",
+      "/compare/genius-scan-alternative/"
     ],
     "schemaType": "FAQPage",
     "comparison": {
@@ -664,7 +700,11 @@
     "relatedUrls": [
       "/documents/handwritten-notes/",
       "/integrations/email/",
-      "/solutions/students/"
+      "/solutions/students/",
+      "/tools/images-to-pdf/",
+      "/tools/scan-to-pdf/",
+      "/compare/microsoft-lens-alternative/",
+      "/compare/tiny-scanner-alternative/"
     ],
     "schemaType": "FAQPage",
     "comparison": {

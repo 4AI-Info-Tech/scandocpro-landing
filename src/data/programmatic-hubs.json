@@ -146,5 +146,46 @@
       "solutions",
       "compare"
     ]
+  },
+  {
+    "family": "tools",
+    "url": "/tools/",
+    "title": "Free PDF and Image Tools | ScanDocPro",
+    "metaDescription": "Free browser-based tools for converting, merging, and cleaning up documents. JPG to PDF, PNG to PDF, and more—privacy-first utilities from the ScanDocPro team.",
+    "h1": "Free Document Tools That Run in Your Browser",
+    "intro": "These tools cover the small document conversions people search for every day, built by the ScanDocPro team and designed to run locally so your files stay on your device.",
+    "targetKeyword": "free pdf tools",
+    "heroBullets": [
+      "Browser-based utilities that do not upload your files to a server",
+      "Built for the conversions people actually search for: JPG to PDF, images to PDF, and more",
+      "A natural path from quick one-off fixes to the full ScanDocPro scanning workflow"
+    ],
+    "sectionTitle": "Quick conversion tools",
+    "sectionDescription": "Each tool solves one focused conversion problem. Pick the one that matches what you need right now.",
+    "faq": [
+      {
+        "question": "Are these tools actually free?",
+        "answer": "Yes. Every tool runs in your browser, adds no watermark, and does not require an account."
+      },
+      {
+        "question": "Do you upload my files to convert them?",
+        "answer": "No. Conversions run locally using the ScanDocPro web runtime. Your files stay on your device."
+      }
+    ],
+    "featuredUrls": [
+      "/tools/jpg-to-pdf/",
+      "/tools/heic-to-pdf/",
+      "/tools/images-to-pdf/",
+      "/tools/merge-pdf/",
+      "/tools/scan-to-pdf/",
+      "/tools/photo-to-pdf/",
+      "/tools/png-to-pdf/",
+      "/tools/screenshot-to-pdf/",
+      "/tools/webp-to-pdf/"
+    ],
+    "relatedFamilies": [
+      "documents",
+      "integrations"
+    ]
   }
 ]

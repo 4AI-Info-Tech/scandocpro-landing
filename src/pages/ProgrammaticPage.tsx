@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { SEO } from '@/components/SEO';
 import { GradientText } from '@/components/GradientText';
+import { ToolRunner } from '@/components/ToolRunner';
 import {
   getProgrammaticEntryByUrl,
   getProgrammaticFamilyLabel,
@@ -103,55 +104,59 @@ export function ProgrammaticPage({ family }: ProgrammaticPageProps) {
               </div>
             </div>
 
-            <div className="rounded-3xl bg-gray-900 p-8 text-white shadow-xl dark:bg-black">
-              <h2 className="text-2xl font-bold">Move from scan to delivery</h2>
-              <p className="mt-4 text-gray-300">
-                ScanDocPro is built for the first half of the workflow: capture, cleanup, OCR, and packet building. When the document still needs formal delivery, the SendFaxPro bundle keeps the handoff simple.
-              </p>
-              <div className="mt-8 flex flex-col gap-4">
-                <a
-                  href={page.cta.primaryHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => {
-                    trackProgrammaticEvent('programmatic_primary_cta_click', {
-                      family,
-                      slug: page.slug,
-                      target_keyword: page.targetKeyword,
-                      cta_type: 'primary',
-                      destination_url: page.cta.primaryHref,
-                    });
-                  }}
-                  className="inline-flex items-center justify-center rounded-xl bg-accent-500 px-6 py-3 font-semibold text-gray-950 transition-colors hover:bg-accent-400"
-                >
-                  {page.cta.primaryLabel}
-                </a>
-                <a
-                  href={page.cta.secondaryHref}
-                  onClick={() => {
-                    trackProgrammaticEvent('programmatic_secondary_cta_click', {
-                      family,
-                      slug: page.slug,
-                      target_keyword: page.targetKeyword,
-                      cta_type: 'secondary',
-                      destination_url: page.cta.secondaryHref,
-                    });
-                  }}
-                  className="inline-flex items-center justify-center rounded-xl border border-white/15 px-6 py-3 font-semibold text-white transition-colors hover:border-white/30 hover:bg-white/5"
-                >
-                  {page.cta.secondaryLabel}
-                </a>
-              </div>
-              <div className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
-                <div className="flex items-center gap-3">
-                  <Shield className="h-5 w-5 text-accent-400" />
-                  <span className="font-semibold">Privacy-first workflow</span>
-                </div>
-                <p className="mt-3 text-sm text-gray-300">
-                  These pages emphasize readable, send-ready documents without relying on generic photo capture or fragile paper records.
+            {page.tool ? (
+              <ToolRunner slug={page.slug} tool={page.tool} />
+            ) : (
+              <div className="rounded-3xl bg-gray-900 p-8 text-white shadow-xl dark:bg-black">
+                <h2 className="text-2xl font-bold">Move from scan to delivery</h2>
+                <p className="mt-4 text-gray-300">
+                  ScanDocPro is built for the first half of the workflow: capture, cleanup, OCR, and packet building. When the document still needs formal delivery, the SendFaxPro bundle keeps the handoff simple.
                 </p>
+                <div className="mt-8 flex flex-col gap-4">
+                  <a
+                    href={page.cta.primaryHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => {
+                      trackProgrammaticEvent('programmatic_primary_cta_click', {
+                        family,
+                        slug: page.slug,
+                        target_keyword: page.targetKeyword,
+                        cta_type: 'primary',
+                        destination_url: page.cta.primaryHref,
+                      });
+                    }}
+                    className="inline-flex items-center justify-center rounded-xl bg-accent-500 px-6 py-3 font-semibold text-gray-950 transition-colors hover:bg-accent-400"
+                  >
+                    {page.cta.primaryLabel}
+                  </a>
+                  <a
+                    href={page.cta.secondaryHref}
+                    onClick={() => {
+                      trackProgrammaticEvent('programmatic_secondary_cta_click', {
+                        family,
+                        slug: page.slug,
+                        target_keyword: page.targetKeyword,
+                        cta_type: 'secondary',
+                        destination_url: page.cta.secondaryHref,
+                      });
+                    }}
+                    className="inline-flex items-center justify-center rounded-xl border border-white/15 px-6 py-3 font-semibold text-white transition-colors hover:border-white/30 hover:bg-white/5"
+                  >
+                    {page.cta.secondaryLabel}
+                  </a>
+                </div>
+                <div className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+                  <div className="flex items-center gap-3">
+                    <Shield className="h-5 w-5 text-accent-400" />
+                    <span className="font-semibold">Privacy-first workflow</span>
+                  </div>
+                  <p className="mt-3 text-sm text-gray-300">
+                    These pages emphasize readable, send-ready documents without relying on generic photo capture or fragile paper records.
+                  </p>
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </div>
       </section>

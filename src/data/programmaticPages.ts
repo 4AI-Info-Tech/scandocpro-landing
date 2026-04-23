@@ -3,6 +3,7 @@ import documentSource from '@/data/programmatic-documents.json';
 import solutionSource from '@/data/programmatic-solutions.json';
 import compareSource from '@/data/programmatic-compare.json';
 import integrationSource from '@/data/programmatic-integrations.json';
+import toolSource from '@/data/programmatic-tools.json';
 import type {
   ProgrammaticComparisonDetails,
   ProgrammaticFamily,
@@ -27,6 +28,7 @@ const FAMILY_LABELS: Record<ProgrammaticFamily, string> = {
   solutions: 'Solutions',
   compare: 'Compare',
   integrations: 'Integrations',
+  tools: 'Tools',
 };
 
 const FAMILY_INTENTS: Record<ProgrammaticFamily, ProgrammaticPage['searchIntent']> = {
@@ -34,6 +36,7 @@ const FAMILY_INTENTS: Record<ProgrammaticFamily, ProgrammaticPage['searchIntent'
   solutions: 'role-based',
   compare: 'comparison',
   integrations: 'integration',
+  tools: 'conversion-tool',
 };
 
 const hubs = hubSource as ProgrammaticHubSource[];
@@ -41,6 +44,7 @@ const documents = documentSource as ProgrammaticPageSource[];
 const solutions = solutionSource as ProgrammaticPageSource[];
 const comparisons = compareSource as ProgrammaticPageSource[];
 const integrations = integrationSource as ProgrammaticPageSource[];
+const tools = toolSource as ProgrammaticPageSource[];
 
 function normalizeComparison(source: ProgrammaticPageSource): ProgrammaticComparisonDetails | undefined {
   if (!source.comparison || !source.competitorName || !source.competitorCategory) {
@@ -72,6 +76,10 @@ function buildPageTitle(family: ProgrammaticFamily, source: ProgrammaticPageSour
     return `Scan Documents to ${source.name}`;
   }
 
+  if (family === 'tools') {
+    return `${source.name} Converter`;
+  }
+
   return `${source.competitorName ?? source.name} Alternative for OCR and Batch Scanning`;
 }
 
@@ -92,6 +100,10 @@ function buildMetaDescription(family: ProgrammaticFamily, source: ProgrammaticPa
     return `Scan documents into clean PDFs and route them to ${source.name} with OCR, cleanup, batching, and workflow-friendly mobile export.`;
   }
 
+  if (family === 'tools') {
+    return `Free ${source.name.toLowerCase()} converter that runs in your browser. Built by the ScanDocPro team with no upload and no sign-in required.`;
+  }
+
   return `Compare ScanDocPro with ${source.competitorName} for OCR, cleanup, batch scanning, and send-ready document workflows.`;
 }
 
@@ -110,6 +122,10 @@ function buildH1(family: ProgrammaticFamily, source: ProgrammaticPageSource): st
 
   if (family === 'integrations') {
     return `Scan Documents to ${source.name}`;
+  }
+
+  if (family === 'tools') {
+    return `Convert ${source.name} in Your Browser`;
   }
 
   return `${source.competitorName} Alternative for OCR and Batch Scanning`;
@@ -143,6 +159,7 @@ function normalizePage(family: ProgrammaticFamily, source: ProgrammaticPageSourc
     },
     schemaType: source.schemaType as ProgrammaticSchemaType,
     comparison: normalizeComparison(source),
+    tool: source.tool,
   };
 }
 
@@ -165,6 +182,7 @@ export const programmaticPages = [
   ...solutions.map((entry) => normalizePage('solutions', entry)),
   ...comparisons.map((entry) => normalizePage('compare', entry)),
   ...integrations.map((entry) => normalizePage('integrations', entry)),
+  ...tools.map((entry) => normalizePage('tools', entry)),
 ];
 
 const hubMap = new Map(programmaticHubs.map((hub) => [hub.family, hub]));

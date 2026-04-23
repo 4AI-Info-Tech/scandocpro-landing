@@ -1,7 +1,7 @@
-import { 
+import {
   Zap, Type, ScanLine, Layers, PenTool, Share2,
   Briefcase, BookOpen, Home as HomeIcon, Check, Shield,
-  FileText, Camera, Send, Scale, ArrowRight
+  FileText, Camera, Send, Scale, ArrowRight, Wrench
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { SEO } from '@/components/SEO';
@@ -91,6 +91,7 @@ const hubIcons = {
   solutions: Briefcase,
   integrations: Share2,
   compare: Scale,
+  tools: Wrench,
 } as const;
 
 export function Home() {
@@ -238,7 +239,7 @@ export function Home() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4 lg:gap-8">
-            {programmaticHubs.map((hub) => {
+            {programmaticHubs.filter((hub) => hub.family !== 'tools').map((hub) => {
               const Icon = hubIcons[hub.family];
 
               return (

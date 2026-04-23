@@ -28,6 +28,8 @@ export function AppShell() {
             <Route path="/compare/:slug" element={<ProgrammaticPage family="compare" />} />
             <Route path="/integrations" element={<ProgrammaticHub family="integrations" />} />
             <Route path="/integrations/:slug" element={<ProgrammaticPage family="integrations" />} />
+            <Route path="/tools" element={<ProgrammaticHub family="tools" />} />
+            <Route path="/tools/:slug" element={<ProgrammaticPage family="tools" />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
           </Routes>

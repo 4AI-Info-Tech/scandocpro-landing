@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, CheckCircle2, FileText, Layers, Scale, Share2, Shield } from 'lucide-react';
+import { ArrowRight, CheckCircle2, FileText, Layers, Scale, Share2, Shield, Wrench } from 'lucide-react';
 import { useEffect } from 'react';
 import { SEO } from '@/components/SEO';
 import { GradientText } from '@/components/GradientText';
@@ -22,6 +22,7 @@ const relatedFamilyIcons = {
   solutions: Layers,
   integrations: Share2,
   compare: Scale,
+  tools: Wrench,
 } satisfies Record<ProgrammaticFamily, typeof FileText>;
 
 export function ProgrammaticHub({ family }: ProgrammaticHubProps) {

@@ -33,11 +33,25 @@ export interface UseCase {
   description: string;
 }
 
-export type ProgrammaticFamily = 'documents' | 'solutions' | 'compare' | 'integrations';
+export type ProgrammaticFamily = 'documents' | 'solutions' | 'compare' | 'integrations' | 'tools';
 
-export type ProgrammaticSearchIntent = 'workflow' | 'role-based' | 'comparison' | 'integration';
+export type ProgrammaticSearchIntent = 'workflow' | 'role-based' | 'comparison' | 'integration' | 'conversion-tool';
 
 export type ProgrammaticSchemaType = 'FAQPage' | 'HowTo' | 'WebPage';
+
+export type ProgrammaticToolEngine = 'images-to-pdf' | 'heic-to-pdf' | 'merge-pdf';
+
+export interface ProgrammaticToolMeta {
+  engine: ProgrammaticToolEngine;
+  toolHeading: string;
+  toolSubheading: string;
+  inputAccept: string;
+  inputLabel: string;
+  outputExtension: string;
+  outputMime: string;
+  maxFileMb: number;
+  multiple: boolean;
+}
 
 export interface ProgrammaticFAQItem {
   question: string;
@@ -85,6 +99,7 @@ export interface ProgrammaticPageSource {
   competitorName?: string;
   competitorCategory?: string;
   comparison?: ProgrammaticComparisonSource;
+  tool?: ProgrammaticToolMeta;
 }
 
 export interface ProgrammaticPage {
@@ -107,6 +122,7 @@ export interface ProgrammaticPage {
   cta: ProgrammaticCTA;
   schemaType: ProgrammaticSchemaType;
   comparison?: ProgrammaticComparisonDetails;
+  tool?: ProgrammaticToolMeta;
 }
 
 export interface ProgrammaticHubSource {

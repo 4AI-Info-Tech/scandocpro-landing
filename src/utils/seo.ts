@@ -183,6 +183,29 @@ function buildHowToSchema(page: ProgrammaticPage): Record<string, unknown> {
   };
 }
 
+function buildToolApplicationSchema(page: ProgrammaticPage): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: page.title,
+    description: page.metaDescription,
+    url: buildAbsoluteUrl(page.url),
+    applicationCategory: 'UtilitiesApplication',
+    operatingSystem: 'Any (browser)',
+    browserRequirements: 'Requires JavaScript. Modern browser.',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: siteConfig.companyName,
+      url: siteConfig.siteUrl,
+    },
+  };
+}
+
 function buildWebPageSchema(path: string, name: string, description: string): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
@@ -315,6 +338,10 @@ export function getProgrammaticPageSEO(page: ProgrammaticPage): SEOProps {
 
   if (page.schemaType === 'HowTo') {
     schema.push(buildHowToSchema(page));
+  }
+
+  if (page.family === 'tools') {
+    schema.push(buildToolApplicationSchema(page));
   }
 
   if (page.faq.length > 0) {

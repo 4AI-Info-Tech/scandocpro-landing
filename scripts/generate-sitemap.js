@@ -12,6 +12,7 @@ const PROGRAMMATIC_DOCUMENTS_PATH = path.join(__dirname, '..', 'src', 'data', 'p
 const PROGRAMMATIC_SOLUTIONS_PATH = path.join(__dirname, '..', 'src', 'data', 'programmatic-solutions.json');
 const PROGRAMMATIC_COMPARE_PATH = path.join(__dirname, '..', 'src', 'data', 'programmatic-compare.json');
 const PROGRAMMATIC_INTEGRATIONS_PATH = path.join(__dirname, '..', 'src', 'data', 'programmatic-integrations.json');
+const PROGRAMMATIC_TOOLS_PATH = path.join(__dirname, '..', 'src', 'data', 'programmatic-tools.json');
 
 const staticRoutes = [
   { url: '/', priority: 1.0, changefreq: 'weekly' },
@@ -47,6 +48,7 @@ function getProgrammaticRoutes() {
   const solutions = readJsonFile(PROGRAMMATIC_SOLUTIONS_PATH);
   const comparisons = readJsonFile(PROGRAMMATIC_COMPARE_PATH);
   const integrations = readJsonFile(PROGRAMMATIC_INTEGRATIONS_PATH);
+  const tools = readJsonFile(PROGRAMMATIC_TOOLS_PATH);
 
   return [
     ...hubs.map((hub) => ({
@@ -76,6 +78,12 @@ function getProgrammaticRoutes() {
     ...integrations.map((page) => ({
       url: `/integrations/${page.slug}/`,
       priority: 0.8,
+      changefreq: 'monthly',
+      lastmod: TODAY,
+    })),
+    ...tools.map((page) => ({
+      url: `/tools/${page.slug}/`,
+      priority: 0.85,
       changefreq: 'monthly',
       lastmod: TODAY,
     })),

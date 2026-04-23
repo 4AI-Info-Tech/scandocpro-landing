@@ -7,6 +7,7 @@
     "relatedUrls": [
       "/integrations/google-drive-receipts/",
       "/integrations/google-drive-invoices/",
+      "/integrations/google-drive-contracts/",
       "/documents/invoices/"
     ]
   },
@@ -18,6 +19,7 @@
     "relatedUrls": [
       "/integrations/dropbox-receipts/",
       "/integrations/dropbox-medical-records/",
+      "/integrations/dropbox-contracts/",
       "/documents/medical-records/"
     ]
   },
@@ -29,6 +31,7 @@
     "relatedUrls": [
       "/integrations/email-invoices/",
       "/integrations/email-certificates/",
+      "/integrations/email-business-cards/",
       "/solutions/small-business-owners/"
     ]
   },

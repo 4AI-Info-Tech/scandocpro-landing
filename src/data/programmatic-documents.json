@@ -52,7 +52,8 @@
       "/documents/expense-reports/",
       "/documents/tax-documents/",
       "/solutions/accountants/",
-      "/integrations/google-drive-receipts/"
+      "/integrations/google-drive-receipts/",
+      "/tools/jpg-to-pdf/"
     ],
     "schemaType": "HowTo"
   },
@@ -278,7 +279,8 @@
     "relatedUrls": [
       "/documents/receipts/",
       "/documents/invoices/",
-      "/solutions/freelancers/"
+      "/solutions/freelancers/",
+      "/tools/images-to-pdf/"
     ],
     "schemaType": "HowTo"
   },
@@ -446,7 +448,8 @@
     "relatedUrls": [
       "/documents/whiteboards/",
       "/solutions/field-sales/",
-      "/solutions/consultants/"
+      "/solutions/consultants/",
+      "/tools/jpg-to-pdf/"
     ],
     "schemaType": "HowTo"
   },
@@ -502,7 +505,8 @@
     "relatedUrls": [
       "/documents/lecture-notes/",
       "/documents/whiteboards/",
-      "/solutions/students/"
+      "/solutions/students/",
+      "/tools/images-to-pdf/"
     ],
     "schemaType": "HowTo"
   },
@@ -558,7 +562,8 @@
     "relatedUrls": [
       "/documents/handwritten-notes/",
       "/documents/whiteboards/",
-      "/solutions/students/"
+      "/solutions/students/",
+      "/tools/images-to-pdf/"
     ],
     "schemaType": "HowTo"
   },
@@ -614,7 +619,8 @@
     "relatedUrls": [
       "/documents/lecture-notes/",
       "/documents/handwritten-notes/",
-      "/solutions/educators/"
+      "/solutions/educators/",
+      "/tools/jpg-to-pdf/"
     ],
     "schemaType": "HowTo"
   },
@@ -1177,7 +1183,8 @@
     "relatedUrls": [
       "/documents/tax-documents/",
       "/documents/invoices/",
-      "/solutions/small-business-owners/"
+      "/solutions/small-business-owners/",
+      "/tools/merge-pdf/"
     ],
     "schemaType": "HowTo"
   },

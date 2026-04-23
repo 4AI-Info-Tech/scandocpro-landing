@@ -54,6 +54,7 @@
     "relatedUrls": [
       "/integrations/google-drive-receipts/",
       "/integrations/google-drive-invoices/",
+      "/integrations/google-drive-contracts/",
       "/documents/invoices/"
     ],
     "schemaType": "WebPage"
@@ -113,6 +114,7 @@
     "relatedUrls": [
       "/integrations/dropbox-receipts/",
       "/integrations/dropbox-medical-records/",
+      "/integrations/dropbox-contracts/",
       "/documents/medical-records/"
     ],
     "schemaType": "WebPage"
@@ -172,6 +174,7 @@
     "relatedUrls": [
       "/integrations/email-invoices/",
       "/integrations/email-certificates/",
+      "/integrations/email-business-cards/",
       "/solutions/small-business-owners/"
     ],
     "schemaType": "WebPage"

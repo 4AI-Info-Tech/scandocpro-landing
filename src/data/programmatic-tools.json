@@ -1,0 +1,629 @@
+[
+  {
+    "slug": "jpg-to-pdf",
+    "name": "JPG to PDF",
+    "targetKeyword": "jpg to pdf",
+    "pageTitle": "JPG to PDF Converter | ScanDocPro",
+    "pageMetaDescription": "Convert JPG, JPEG, PNG, or WebP images into a single clean PDF in your browser. Free, private, and made by the team behind ScanDocPro.",
+    "pageH1": "Convert JPG to PDF in Your Browser",
+    "intro": "Drop one or more JPG, JPEG, PNG, or WebP files and get a single PDF back in seconds. Everything runs locally in your browser, so your images never leave your device.",
+    "heroBullets": [
+      "Combine multiple images into one PDF in the order you drop them",
+      "Auto-fit each page so the image keeps its aspect ratio",
+      "Runs entirely in your browser with no upload, no sign-in, and no watermark"
+    ],
+    "keyProblems": [
+      "Email and filing systems expect a single PDF, not a folder of loose JPGs",
+      "Online converters often upload your images to a server you do not control",
+      "Phone photos of documents rarely look presentable without a PDF wrapper"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Batch Mode"
+    ],
+    "workflowSteps": [
+      "Drop your JPG, JPEG, PNG, or WebP files into the converter on this page",
+      "Drag them into the order you want them to appear in the final PDF",
+      "Click Convert to PDF and download a single combined file"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Why convert JPG to PDF in the first place",
+        "body": "A PDF is what most workplaces, schools, and government offices actually accept. A loose JPG can be rejected, resized by email clients, or lose its orientation. Wrapping the same image inside a PDF keeps it presentable and keeps the original pixels intact."
+      },
+      {
+        "heading": "Why this converter runs in your browser",
+        "body": "Most JPG-to-PDF sites upload your file to their server, convert it there, and send it back. That is an unnecessary privacy risk when the same work can happen on your own device. This tool uses the ScanDocPro web runtime, which renders the PDF locally and never transmits your images."
+      },
+      {
+        "heading": "When you should use the ScanDocPro app instead",
+        "body": "This converter is great for images you already have. If you are capturing paper documents with your phone camera, the ScanDocPro mobile app will do a better job: it auto-detects edges, removes shadows, runs OCR, and exports a far cleaner PDF than a raw photo ever will."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is this JPG to PDF converter free?",
+        "answer": "Yes. It is free, runs in your browser, and does not add watermarks or require sign-in."
+      },
+      {
+        "question": "Do you store my images on a server?",
+        "answer": "No. The conversion happens on your device using the ScanDocPro web runtime. Your images are never uploaded."
+      }
+    ],
+    "relatedUrls": [
+      "/documents/receipts/",
+      "/integrations/email/",
+      "/tools/png-to-pdf/",
+      "/tools/images-to-pdf/"
+    ],
+    "schemaType": "HowTo",
+    "tool": {
+      "engine": "images-to-pdf",
+      "toolHeading": "JPG to PDF",
+      "toolSubheading": "Drop JPG, JPEG, PNG, or WebP files. We combine them into a single PDF on your device.",
+      "inputAccept": "image/jpeg,image/png,image/webp",
+      "inputLabel": "Choose images or drop them here",
+      "outputExtension": "pdf",
+      "outputMime": "application/pdf",
+      "maxFileMb": 25,
+      "multiple": true
+    }
+  },
+  {
+    "slug": "png-to-pdf",
+    "name": "PNG to PDF",
+    "targetKeyword": "png to pdf",
+    "pageTitle": "PNG to PDF Converter | ScanDocPro",
+    "pageMetaDescription": "Convert PNG screenshots and transparent images into a single PDF in your browser. Free, private, and preserves the original image quality.",
+    "pageH1": "Convert PNG to PDF Without Upload",
+    "intro": "Turn one or more PNG files, screenshots, or design exports into a single PDF. Conversion happens on your device, so your screenshots and work files never leave the browser.",
+    "heroBullets": [
+      "Great for screenshots, UI mockups, whiteboards, and saved web pages",
+      "Keeps each PNG at full resolution and stacks them in drop order",
+      "No upload, no sign-in, no watermark — you stay in control of your files"
+    ],
+    "keyProblems": [
+      "PNG screenshots are awkward to share as individual files across email and chat",
+      "Document portals, support tickets, and grading systems usually want one PDF",
+      "Most online converters flatten screenshots with heavy compression"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Batch Mode"
+    ],
+    "workflowSteps": [
+      "Select the PNG files you want to combine, or drop a folder's worth in at once",
+      "Drag to reorder if you need the screenshots to appear in a specific sequence",
+      "Click Convert to PDF and save the combined file to your device"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Why screenshots belong in PDFs",
+        "body": "Screenshots are the easiest way to document bugs, show work, or save a reference, but they do not travel well as loose files. One PDF keeps the sequence obvious, survives email forwarding, and prints cleanly when someone needs a hard copy."
+      },
+      {
+        "heading": "Quality kept, size controlled",
+        "body": "PNGs are often chosen because they are sharp and lossless. This converter re-encodes each page with high-quality JPEG inside the PDF, which keeps the visual detail most readers care about while avoiding the bloated file sizes that pure PNG PDFs tend to create."
+      },
+      {
+        "heading": "Pair screenshots with real scanned documents",
+        "body": "If you are building a packet that mixes screenshots with scanned paperwork, capture the paper side with ScanDocPro first so the scanned pages match the polish of your PNGs before both go into the same PDF workflow."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Will my transparent PNG stay transparent inside the PDF?",
+        "answer": "Transparent areas will appear on a white page background, which is how PDFs are typically rendered. The underlying PNG is otherwise preserved visually."
+      },
+      {
+        "question": "Is there a limit on how many PNGs I can combine?",
+        "answer": "There is no hard page limit, but very large batches can slow down your browser. For large jobs, consider running them in smaller groups."
+      }
+    ],
+    "relatedUrls": [
+      "/tools/jpg-to-pdf/",
+      "/tools/images-to-pdf/",
+      "/documents/lecture-notes/"
+    ],
+    "schemaType": "HowTo",
+    "tool": {
+      "engine": "images-to-pdf",
+      "toolHeading": "PNG to PDF",
+      "toolSubheading": "Drop PNG screenshots or exports. We stack them into a single PDF on your device.",
+      "inputAccept": "image/png",
+      "inputLabel": "Choose PNG files or drop them here",
+      "outputExtension": "pdf",
+      "outputMime": "application/pdf",
+      "maxFileMb": 25,
+      "multiple": true
+    }
+  },
+  {
+    "slug": "webp-to-pdf",
+    "name": "WebP to PDF",
+    "targetKeyword": "webp to pdf",
+    "pageTitle": "WebP to PDF Converter | ScanDocPro",
+    "pageMetaDescription": "Turn modern WebP images into a clean PDF in your browser. Works offline after the page loads, no upload, and no account required.",
+    "pageH1": "Convert WebP to PDF in Your Browser",
+    "intro": "Modern sites export images in WebP for smaller file sizes, but most document tools still expect PDF. Drop your WebP files here and get a single PDF back without leaving your browser.",
+    "heroBullets": [
+      "Handles WebP exports from browsers, design tools, and messaging apps",
+      "Combines several WebP files into one PDF in the order you pick",
+      "Runs on your device — handy when you are working on a slow connection"
+    ],
+    "keyProblems": [
+      "Many apps and portals still reject WebP files outright",
+      "Converting through server-based tools is slow and raises privacy concerns",
+      "Saved WebP images on mobile are awkward to email in bulk"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Batch Mode"
+    ],
+    "workflowSteps": [
+      "Select one or more WebP files from your device",
+      "Reorder them if you want the PDF pages to follow a specific sequence",
+      "Click Convert to PDF and download the combined file"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Why WebP-to-PDF exists at all",
+        "body": "WebP is a fast format for the web but a clumsy format for document workflows. Most archiving tools, ticketing systems, and office suites still expect PDF or JPEG. Converting WebP to PDF bridges the gap without forcing you to rescreenshot everything."
+      },
+      {
+        "heading": "Local conversion keeps metadata private",
+        "body": "WebP files saved from browsers often carry metadata you might not want on a public server. Because this converter runs entirely in your browser, none of that metadata is exposed to a third-party service."
+      },
+      {
+        "heading": "When your scan is a photo, not a WebP",
+        "body": "If the original document is paper, scan it with ScanDocPro instead of photographing it. You will get edge detection, cleanup, and OCR automatically — useful if the WebP you are converting was really just a photo of a document."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do all browsers support WebP decoding?",
+        "answer": "Modern Chrome, Edge, Firefox, and Safari all decode WebP natively. If your browser cannot decode a specific file, the converter will show an error for that file."
+      },
+      {
+        "question": "Can I mix WebP and JPG in one batch?",
+        "answer": "Use the Images to PDF tool when you need to combine multiple image formats in a single PDF."
+      }
+    ],
+    "relatedUrls": [
+      "/tools/jpg-to-pdf/",
+      "/tools/images-to-pdf/"
+    ],
+    "schemaType": "HowTo",
+    "tool": {
+      "engine": "images-to-pdf",
+      "toolHeading": "WebP to PDF",
+      "toolSubheading": "Drop WebP files. We combine them into a single PDF on your device.",
+      "inputAccept": "image/webp",
+      "inputLabel": "Choose WebP files or drop them here",
+      "outputExtension": "pdf",
+      "outputMime": "application/pdf",
+      "maxFileMb": 25,
+      "multiple": true
+    }
+  },
+  {
+    "slug": "images-to-pdf",
+    "name": "Images to PDF",
+    "targetKeyword": "convert images to pdf",
+    "pageTitle": "Combine Images into One PDF | ScanDocPro",
+    "pageMetaDescription": "Merge JPG, PNG, and WebP images into a single PDF on your device. Drag to reorder, set the sequence, and download. No uploads or accounts required.",
+    "pageH1": "Combine Images into One PDF",
+    "intro": "When you have a mix of image formats from different sources, this tool collects them into one ordered PDF. Drop, reorder, convert, done.",
+    "heroBullets": [
+      "Accepts JPG, JPEG, PNG, and WebP together in a single batch",
+      "Reorder files before conversion so the final PDF reads in the right sequence",
+      "Runs locally — handy for assembling packets on airplane Wi-Fi or shared machines"
+    ],
+    "keyProblems": [
+      "Screenshots, photos, and exports usually arrive as a messy mix of formats",
+      "Manually opening each image and printing to PDF is slow and error-prone",
+      "Server-based bulk converters rarely let you control the final page order"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "Ecosystem Integration"
+    ],
+    "workflowSteps": [
+      "Select or drop a batch of JPG, PNG, or WebP images",
+      "Drag the entries to set the page order for the final PDF",
+      "Convert to PDF, review the download, and share it wherever you need"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Mixed formats are the normal case, not the exception",
+        "body": "Most people building an image packet are mixing screenshots, phone photos, and exports from design tools. This tool treats that as the default workflow rather than forcing you to normalize formats first."
+      },
+      {
+        "heading": "Ordering matters more than conversion",
+        "body": "The real value of an images-to-PDF tool is not compression or file handling — it is giving you a clean way to set the final page order. Dragging entries into sequence before conversion is how a raw image dump becomes a readable document."
+      },
+      {
+        "heading": "When paper documents are in the mix",
+        "body": "If part of your packet started as paper, use ScanDocPro on mobile to capture those pages cleanly, then bring the exported images here and combine them with the rest. You get one PDF that mixes born-digital screenshots with properly scanned paperwork."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Which image formats are supported?",
+        "answer": "JPG, JPEG, PNG, and WebP. For HEIC images from iPhones, convert them to JPG or PNG first using your photo library export options."
+      },
+      {
+        "question": "Is there a page limit?",
+        "answer": "There is no hard limit, but very large batches depend on your browser's available memory. If a large batch stalls, split it into smaller groups."
+      }
+    ],
+    "relatedUrls": [
+      "/tools/jpg-to-pdf/",
+      "/tools/png-to-pdf/",
+      "/tools/webp-to-pdf/",
+      "/tools/heic-to-pdf/",
+      "/tools/screenshot-to-pdf/",
+      "/tools/photo-to-pdf/",
+      "/tools/scan-to-pdf/",
+      "/tools/merge-pdf/",
+      "/documents/expense-reports/"
+    ],
+    "schemaType": "HowTo",
+    "tool": {
+      "engine": "images-to-pdf",
+      "toolHeading": "Images to PDF",
+      "toolSubheading": "Drop JPG, PNG, or WebP files. Reorder them, then combine into one PDF on your device.",
+      "inputAccept": "image/jpeg,image/png,image/webp",
+      "inputLabel": "Choose images or drop them here",
+      "outputExtension": "pdf",
+      "outputMime": "application/pdf",
+      "maxFileMb": 25,
+      "multiple": true
+    }
+  },
+  {
+    "slug": "heic-to-pdf",
+    "name": "HEIC to PDF",
+    "targetKeyword": "heic to pdf",
+    "pageTitle": "HEIC to PDF Converter | ScanDocPro",
+    "pageMetaDescription": "Convert iPhone HEIC photos into a shareable PDF in your browser. Free, private, and works even when the other side of the email cannot open HEIC.",
+    "pageH1": "Convert HEIC to PDF Without Leaving the Browser",
+    "intro": "iPhones capture photos in HEIC for efficiency, but most email recipients, document portals, and Windows machines still cannot open them. Drop your HEIC files here and get a single PDF back, processed entirely on your device.",
+    "heroBullets": [
+      "Decodes HEIC and HEIF in the browser, no iCloud or Apple device required",
+      "Combines several HEIC shots into one PDF in the order you pick",
+      "Especially handy for sharing iPhone photos with people on Windows or Android"
+    ],
+    "keyProblems": [
+      "HEIC is the default on recent iPhones but is still blocked by many services",
+      "Forwarding HEIC files by email often leaves the recipient unable to open them",
+      "Forcing a format change through your photo library adds steps and quality loss"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Batch Mode"
+    ],
+    "workflowSteps": [
+      "Pick the HEIC photos from your device or drag them straight from the Files app",
+      "Reorder them if the final PDF should follow a specific sequence",
+      "Click Convert to PDF and share the file with anyone, regardless of their device"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Why HEIC keeps causing friction",
+        "body": "HEIC is a great format for storing photos on iPhones, but it is still inconsistently supported across browsers, email services, and business software. Sending a PDF sidesteps the whole format discussion."
+      },
+      {
+        "heading": "Local decoding keeps your photos private",
+        "body": "Many HEIC-to-PDF services upload your photos to a server for decoding. This converter decodes HEIC directly in your browser, so your images never leave your device — relevant when the photos show ID documents, receipts, or personal details."
+      },
+      {
+        "heading": "When to scan with ScanDocPro instead",
+        "body": "If what you really need is a scanned document — a receipt, invoice, contract, or form — open ScanDocPro on your iPhone and scan it directly. You get cleaner edges, better OCR, and a cleaner final PDF than converting a raw HEIC photo."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do I need special software to convert HEIC on Windows?",
+        "answer": "No. This converter decodes HEIC entirely in your browser, so it works the same way on Windows, macOS, Linux, and Chromebooks."
+      },
+      {
+        "question": "Will the photo quality drop when I convert HEIC to PDF?",
+        "answer": "The converter decodes HEIC to high-quality JPEG before assembling the PDF, so visual quality is preserved for almost all practical purposes."
+      }
+    ],
+    "relatedUrls": [
+      "/tools/jpg-to-pdf/",
+      "/tools/images-to-pdf/",
+      "/documents/receipts/"
+    ],
+    "schemaType": "HowTo",
+    "tool": {
+      "engine": "heic-to-pdf",
+      "toolHeading": "HEIC to PDF",
+      "toolSubheading": "Drop iPhone HEIC or HEIF photos. We decode and combine them into a single PDF on your device.",
+      "inputAccept": ".heic,.heif,image/heic,image/heif",
+      "inputLabel": "Choose HEIC files or drop them here",
+      "outputExtension": "pdf",
+      "outputMime": "application/pdf",
+      "maxFileMb": 40,
+      "multiple": true
+    }
+  },
+  {
+    "slug": "merge-pdf",
+    "name": "Merge PDF",
+    "targetKeyword": "merge pdf",
+    "pageTitle": "Merge PDF Files in Your Browser | ScanDocPro",
+    "pageMetaDescription": "Combine two or more PDF files into a single document on your device. Free, private, and no watermarks from the ScanDocPro team.",
+    "pageH1": "Merge PDF Files Without Uploading",
+    "intro": "Combine multiple PDFs into one clean document. Everything happens in your browser, so contracts, statements, and scans never leave your device during the merge.",
+    "heroBullets": [
+      "Combine two or more PDFs into one document in the order you pick",
+      "Keeps original pages intact with no re-encoding or quality loss",
+      "Ideal for merging scanned paperwork with born-digital PDFs"
+    ],
+    "keyProblems": [
+      "Packets of scans and statements often arrive as several loose PDFs",
+      "Most online merge tools upload sensitive documents to third-party servers",
+      "Reviewing and sending multiple PDFs slows down approvals and filing"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "Ecosystem Integration"
+    ],
+    "workflowSteps": [
+      "Select two or more PDF files or drop them onto the merge tool",
+      "Drag to reorder so the final document flows in the right sequence",
+      "Click Merge PDFs and download the combined file"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Why merging locally matters",
+        "body": "The files most people merge are exactly the files they should not be uploading: contracts, bank statements, medical records, and signed paperwork. A browser-based merge keeps everything on your device so the merge does not become an extra privacy surface."
+      },
+      {
+        "heading": "Scanned pages and digital PDFs together",
+        "body": "Real packets rarely look uniform. Scans from ScanDocPro, statements from a bank portal, and generated exports from a CRM all end up in the same bundle. This tool respects their original quality and page size instead of flattening everything to one layout."
+      },
+      {
+        "heading": "Use with ScanDocPro for the scanned half",
+        "body": "If some pages in the packet started as paper, scan them with ScanDocPro first so the scanned PDF is clean, straight, and OCR-ready. Then merge it with the born-digital PDFs here for a polished final document."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is the merge lossless?",
+        "answer": "Yes. The tool copies pages directly from each PDF into the new document without re-encoding, so content and quality are preserved."
+      },
+      {
+        "question": "Can I merge password-protected PDFs?",
+        "answer": "The tool will try to open protected files in lenient mode. If a file still fails, remove the password with Preview or Adobe Acrobat first, then come back here to merge."
+      }
+    ],
+    "relatedUrls": [
+      "/tools/images-to-pdf/",
+      "/documents/expense-reports/",
+      "/documents/contracts/"
+    ],
+    "schemaType": "HowTo",
+    "tool": {
+      "engine": "merge-pdf",
+      "toolHeading": "Merge PDF",
+      "toolSubheading": "Drop two or more PDF files. Reorder them, then merge into one document on your device.",
+      "inputAccept": ".pdf,application/pdf",
+      "inputLabel": "Choose PDF files or drop them here",
+      "outputExtension": "pdf",
+      "outputMime": "application/pdf",
+      "maxFileMb": 50,
+      "multiple": true
+    }
+  },
+  {
+    "slug": "scan-to-pdf",
+    "name": "Scan to PDF",
+    "targetKeyword": "scan to pdf",
+    "pageTitle": "Scan to PDF: Turn Document Photos Into a Clean PDF | ScanDocPro",
+    "pageMetaDescription": "Upload photos of paper documents and get a combined PDF in your browser. Free, private, and paired with a real mobile scanner when you need sharper output.",
+    "pageH1": "Scan to PDF Without Installing Anything",
+    "intro": "If you have photos of paper documents on your phone or laptop, you can turn them into a single PDF here without installing a scanner app. For best results on paper originals, use ScanDocPro on mobile, but this page is the quick-path option.",
+    "heroBullets": [
+      "Upload photos of paper documents and combine them into one PDF",
+      "Works on any device with a modern browser — no app download required",
+      "Links through to the ScanDocPro mobile app when you need real edge detection and OCR"
+    ],
+    "keyProblems": [
+      "Shared computers and work laptops rarely come with a proper scanning tool",
+      "Public library and hotel scanners are awkward for quick one-off jobs",
+      "Photo-to-PDF apps on desktop often demand sign-ups before giving you the file"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Batch Mode"
+    ],
+    "workflowSteps": [
+      "Take clear photos of each page under flat, even lighting",
+      "Upload the photos here in the order they should appear",
+      "Click Convert to PDF, download the file, and share it wherever you need"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "When a browser scan is enough",
+        "body": "Not every scanning job deserves a dedicated app. A quick photo of a form, a signed page, or a single invoice can go straight through this tool without installing anything. This page exists for exactly those moments."
+      },
+      {
+        "heading": "When to use the real scanner instead",
+        "body": "If the source is a pile of paper, bad lighting, or anything that needs OCR, install ScanDocPro on your phone. Edge detection, perspective correction, and text recognition will produce a cleaner PDF than a raw photo can."
+      },
+      {
+        "heading": "Combining photo scans with other files",
+        "body": "Once the raw photos are here, the output PDF can flow into the Merge PDF tool to combine with other documents, or into your cloud folder and email workflow without leaving the browser."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is this the same as a real document scanner?",
+        "answer": "No. A dedicated scanner app like ScanDocPro cleans up edges, flattens perspective, and runs OCR. This tool just combines existing photos into a PDF."
+      },
+      {
+        "question": "Do my photos get uploaded to your servers?",
+        "answer": "No. All conversion happens on your device in the browser. The photos are never transmitted."
+      }
+    ],
+    "relatedUrls": [
+      "/tools/photo-to-pdf/",
+      "/tools/jpg-to-pdf/",
+      "/documents/receipts/"
+    ],
+    "schemaType": "HowTo",
+    "tool": {
+      "engine": "images-to-pdf",
+      "toolHeading": "Scan to PDF",
+      "toolSubheading": "Upload photos of your pages. We combine them into one PDF on your device.",
+      "inputAccept": "image/jpeg,image/png,image/webp",
+      "inputLabel": "Choose photos of your pages or drop them here",
+      "outputExtension": "pdf",
+      "outputMime": "application/pdf",
+      "maxFileMb": 30,
+      "multiple": true
+    }
+  },
+  {
+    "slug": "photo-to-pdf",
+    "name": "Photo to PDF",
+    "targetKeyword": "photo to pdf",
+    "pageTitle": "Photo to PDF Converter | ScanDocPro",
+    "pageMetaDescription": "Turn phone photos into a clean, sharable PDF in your browser. Free, private, and ready for email, portals, or archiving.",
+    "pageH1": "Turn Phone Photos Into a PDF",
+    "intro": "Most phones fill up with photos that should really be documents — IDs, receipts, signs, handwritten notes, proof of purchase. Drop those photos here and get a single PDF you can actually attach to an email or upload to a portal.",
+    "heroBullets": [
+      "Turns a burst of phone photos into one ordered PDF in seconds",
+      "Fits each photo to a full page without cropping what matters",
+      "Great for receipts, IDs, proofs of purchase, and quick documentation"
+    ],
+    "keyProblems": [
+      "Camera-roll photos rarely travel well through email or forms",
+      "Sending five separate images looks sloppy and gets split across messages",
+      "Most portals expect a single PDF attachment, not an album"
+    ],
+    "recommendedFeatures": [
+      "AI-Enhanced Scanning",
+      "Ecosystem Integration"
+    ],
+    "workflowSteps": [
+      "Open the photos you want to combine from your phone or computer",
+      "Drop them here in the order you want them to appear",
+      "Click Convert to PDF and save or share the combined file"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Why phone photos become PDFs",
+        "body": "Photos capture the moment, but documents are what move work forward. Wrapping phone photos in a PDF gives them a proper filename, page order, and a format every business process understands."
+      },
+      {
+        "heading": "Keeping context together",
+        "body": "A sequence of photos — front and back of an ID, a page spread, before and after shots — makes more sense as one PDF than as scattered attachments. The order you drop them in becomes the story the PDF tells."
+      },
+      {
+        "heading": "When a photo is not enough",
+        "body": "For formal documents that need OCR or signature-ready clarity, capture them through the ScanDocPro app. You get edge detection, cleanup, and text recognition — all of which raw phone photos lack."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is there a difference between photo-to-PDF and JPG-to-PDF?",
+        "answer": "The underlying conversion is similar, but this page is framed for phone workflows while the JPG page is framed around file formats. Either tool works for either use case."
+      },
+      {
+        "question": "Can I rotate a photo before converting?",
+        "answer": "Not in this tool directly. Rotate the photo in your phone's gallery first, then drop the corrected version here."
+      }
+    ],
+    "relatedUrls": [
+      "/tools/scan-to-pdf/",
+      "/tools/images-to-pdf/",
+      "/documents/business-cards/"
+    ],
+    "schemaType": "HowTo",
+    "tool": {
+      "engine": "images-to-pdf",
+      "toolHeading": "Photo to PDF",
+      "toolSubheading": "Drop phone photos or screenshots. We combine them into one PDF on your device.",
+      "inputAccept": "image/jpeg,image/png,image/webp",
+      "inputLabel": "Choose photos or drop them here",
+      "outputExtension": "pdf",
+      "outputMime": "application/pdf",
+      "maxFileMb": 30,
+      "multiple": true
+    }
+  },
+  {
+    "slug": "screenshot-to-pdf",
+    "name": "Screenshot to PDF",
+    "targetKeyword": "screenshot to pdf",
+    "pageTitle": "Screenshot to PDF Converter | ScanDocPro",
+    "pageMetaDescription": "Combine screenshots into a single PDF in your browser. Perfect for bug reports, tutorials, ticket evidence, and portal uploads.",
+    "pageH1": "Turn Screenshots Into One PDF",
+    "intro": "Screenshots are how most people document issues, share walkthroughs, and capture receipts inside apps. Drop a folder's worth here and get a single PDF that keeps the sequence — and can actually be attached to a ticket or email.",
+    "heroBullets": [
+      "Works with iPhone, Android, macOS, and Windows screenshots",
+      "Keeps your sequence so bug reports and walkthroughs stay readable",
+      "Runs locally, which matters when the screenshots show internal tools"
+    ],
+    "keyProblems": [
+      "Ticketing systems, finance portals, and HR tools usually want a single PDF",
+      "Sharing 10 loose screenshots in a chat makes the story hard to follow",
+      "Server-based converters ask you to upload exactly the screenshots you should not"
+    ],
+    "recommendedFeatures": [
+      "Batch Mode",
+      "Ecosystem Integration"
+    ],
+    "workflowSteps": [
+      "Collect the screenshots you want to combine from your device",
+      "Drop them onto this tool and drag to set the walkthrough order",
+      "Click Convert to PDF and download a single file ready to share"
+    ],
+    "uniqueContentBlocks": [
+      {
+        "heading": "Screenshots are documentation",
+        "body": "A screenshot is evidence — of a bug, a setting, a confirmation, or a policy. Wrapping them in a PDF gives that evidence a stable form that survives forwarding, compression, and being dragged into a ticket."
+      },
+      {
+        "heading": "Protecting what is on your screen",
+        "body": "Internal dashboards, draft documents, and work screens often end up in screenshots by accident. Local conversion means you are not uploading those surfaces to a third-party service just to get a PDF."
+      },
+      {
+        "heading": "Pair with scanned paperwork",
+        "body": "For mixed packets — screenshots plus a scanned contract, form, or receipt — capture the paper side with ScanDocPro, combine the PDFs with the Merge PDF tool, and send one coherent document."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do you strip screenshot metadata?",
+        "answer": "The conversion embeds a flattened image of each screenshot inside a PDF, so most app-specific metadata does not carry through. Verify this yourself if you are handling sensitive captures."
+      },
+      {
+        "question": "Is there a hard limit on screenshots per PDF?",
+        "answer": "There is no fixed limit, but very large batches depend on your browser's memory. If a batch stalls, split it into smaller groups."
+      }
+    ],
+    "relatedUrls": [
+      "/tools/png-to-pdf/",
+      "/tools/images-to-pdf/",
+      "/tools/merge-pdf/"
+    ],
+    "schemaType": "HowTo",
+    "tool": {
+      "engine": "images-to-pdf",
+      "toolHeading": "Screenshot to PDF",
+      "toolSubheading": "Drop your screenshots. We stack them into one PDF on your device.",
+      "inputAccept": "image/png,image/jpeg,image/webp",
+      "inputLabel": "Choose screenshots or drop them here",
+      "outputExtension": "pdf",
+      "outputMime": "application/pdf",
+      "maxFileMb": 25,
+      "multiple": true
+    }
+  }
+]
